@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 font-sans transition-colors duration-150 ease-linear;
+  }
+  
+  .dark body {
+    @apply bg-slate-900 text-slate-50;
+  }
+}
+
+@layer components {
+  .venturi-card {
+    @apply border border-slate-600 bg-white dark:bg-slate-800 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-150 ease-linear;
+  }
+  
+  .venturi-btn {
+    @apply px-4 py-2 bg-venturi-cyan text-white font-medium rounded hover:bg-opacity-90 transition-opacity duration-150 ease-linear focus:outline-none focus:ring-2 focus:ring-venturi-cyan focus:ring-opacity-50;
+  }
+}

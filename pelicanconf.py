@@ -4,6 +4,8 @@ SITEURL = ''
 
 PATH = 'content'
 
+THEME = 'theme/venturi'
+
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'en'

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}{{ article.title }} - {{ SITENAME }}{% endblock title %}
+
+{% block content %}
+<article class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <header class="mb-10 pb-8 border-b border-slate-200 dark:border-slate-800">
+        <h1 class="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4">{{ article.title }}</h1>
+        <div class="flex items-center text-sm text-slate-500 font-mono">
+            <time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+            {% if article.category %}
+            <span class="mx-2">•</span>
+            <a href="{{ SITEURL }}/{{ article.category.url }}" class="text-venturi-cyan hover:underline">{{ article.category }}</a>
+            {% endif %}
+        </div>
+    </header>
+    
+    <div class="prose prose-slate dark:prose-invert prose-a:text-venturi-cyan hover:prose-a:text-cyan-600 dark:hover:prose-a:text-cyan-400 prose-code:font-mono prose-pre:bg-slate-900 dark:prose-pre:bg-slate-950 max-w-none">
+        {{ article.content }}
+    </div>
+</article>
+{% endblock content %}

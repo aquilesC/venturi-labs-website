@@ -1,0 +1,116 @@
+{
+  "brand": {
+    "name": "Venturi Labs",
+    "essence": "Venturi Labs sits at the intersection of academic rigor and industrial execution. The visual identity must communicate Precision, Modularity, and Compounding Efficiency.",
+    "vibe": "Modern, high-end European deep tech studio. Not a flashy consumer SaaS, nor a dusty legacy academic portal.",
+    "design_philosophy": "Rooted in Dutch design principles—pragmatic, minimalist, grid-oriented, and ruthlessly functional. Every visual element must serve a purpose."
+  },
+  "logo_and_iconography": {
+    "primary_logo": {
+      "description": "Geometric, interlocking 'V'.",
+      "symbolism": "Symbolizes the coming together of disparate academic parts into a stable, commercial whole. Interlocking blocks represent the compounding architecture; the cyan junction represents the point of valorisation."
+    },
+    "iconography_style": {
+      "style": "Linear, monoweight, schematic.",
+      "guidelines": "Avoid filled or 'bubbly' icons. Should look drafted in CAD or drawn on an optical table layout. Use sharp 90-degree angles and precise curves."
+    }
+  },
+  "color_palette": {
+    "foundation_hardware": [
+      {
+        "name": "Slate 900",
+        "hex": "#0f172a",
+        "usage": "Primary text and dark-mode backgrounds. Represents deep, anodized aluminum black."
+      },
+      {
+        "name": "Slate 600",
+        "hex": "#475569",
+        "usage": "Secondary text and subtle borders. Represents gunmetal gray."
+      },
+      {
+        "name": "Slate 50",
+        "hex": "#f8fafc",
+        "usage": "Primary light background. Represents clean room white."
+      }
+    ],
+    "primary_accent": [
+      {
+        "name": "Venturi Cyan",
+        "hex": "#06B6D4",
+        "usage": "Primary call-to-action buttons, active states, and highlighting key data points. Represents precision optics, clean UI/UX, and scientific accuracy."
+      }
+    ],
+    "structural_accents": [
+      {
+        "name": "Architecture Indigo",
+        "hex": "#4F46E5",
+        "usage": "Categorizing website sections related to the software core, Python data flows, and telemetry."
+      },
+      {
+        "name": "Ecosystem Emerald",
+        "hex": "#10B981",
+        "usage": "Categorizing website sections related to regional development, job creation, and sustainable funding."
+      }
+    ]
+  },
+  "typography": {
+    "primary": {
+      "typefaces": ["Inter", "Roboto"],
+      "usage": "Headings & Body text.",
+      "description": "Highly legible, geometric sans-serif fonts that look exceptional on digital screens and technical dashboards. Communicates transparency and modern efficiency."
+    },
+    "secondary": {
+      "typefaces": ["JetBrains Mono", "Fira Code"],
+      "usage": "Technical Data & Code.",
+      "description": "Monospaced fonts for displaying numbers, technical specifications (DAQ frequencies, BOM costs), and UI elements mimicking the internal PyQt interface. Signals deep software and data analysis capability."
+    }
+  },
+  "imagery_direction": {
+    "avoid": "Generic business stock photos (e.g., people in suits shaking hands, generic test tubes).",
+    "themes": [
+      {
+        "name": "Macro-Engineering",
+        "description": "Extreme close-ups of complex geometries, high-resolution shots of custom PCB traces, raw machined aluminum housings, and intense localized light of spark ablation processes."
+      },
+      {
+        "name": "The 'Science Breadboard'",
+        "description": "Precise alignment of optical components on a breadboard or the clean layout of a microfluidic chip."
+      },
+      {
+        "name": "UI/UX as Art",
+        "description": "Abstract, high-contrast snippets of the Venturi Software Core. Clean data visualization graphs and sleek PyQt dashboard interfaces used as background textures."
+      }
+    ],
+    "treatment": "Slightly desaturated, cool-toned grade to match the Slate/Cyan palette, ensuring hardware looks premium and industrial."
+  },
+  "ui_ux_principles": [
+    {
+      "principle": "The 'Dashboard' Aesthetic",
+      "description": "The website should feel slightly like an instrument control panel. Use subtle containment borders, distinct modular cards for different concepts, and crisp hover states."
+    },
+    {
+      "principle": "Dark Mode Ready",
+      "description": "Offer a sleek, Slate-900 dark mode to cater to academics and engineers who work in dark labs or use dark-themed IDEs."
+    },
+    {
+      "principle": "Data-Driven Micro-interactions",
+      "description": "Animations should be snappy and linear (e.g., 150ms ease-out), mimicking the zero-latency feel of a well-optimized DAQ system. Avoid slow, bouncy, 'creative' animations."
+    }
+  ],
+  "tone_of_voice": {
+    "traits": [
+      {
+        "trait": "Confident but Understated",
+        "description": "Let the efficiency of the platform do the talking."
+      },
+      {
+        "trait": "Highly Specific",
+        "description": "Use exact terminology. E.g., 'we build the PyQt UI, DAQ drivers, and physical enclosures' instead of 'we build tech'."
+      },
+      {
+        "trait": "Peer-to-Peer",
+        "description": "Address PIs and engineers as equals. Read like a whitepaper written by an engineer who understands both laser alignment and university TTO frameworks."
+      }
+    ]
+  }
+}

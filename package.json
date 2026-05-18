@@ -1,0 +1,25 @@
+{
+  "name": "venturi-labs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./theme/venturi/static/css/input.css -o ./theme/venturi/static/css/main.css --minify",
+    "watch:css": "tailwindcss -i ./theme/venturi/static/css/input.css -o ./theme/venturi/static/css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aquilesC/venturi-labs-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aquilesC/venturi-labs-website/issues"
+  },
+  "homepage": "https://github.com/aquilesC/venturi-labs-website#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}
