@@ -4,6 +4,9 @@ SITEURL = ''
 
 PATH = 'content'
 
+# Serve pages at /slug/ instead of /pages/slug.html
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = '{slug}/index.html'
 THEME = 'theme/venturi'
 
 TIMEZONE = 'Europe/Paris'

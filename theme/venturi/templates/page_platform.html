@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="pt-24 pb-16 border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl">
+            <span class="inline-block px-3 py-1 mb-4 text-xs font-mono font-medium tracking-wider text-ecosystem-emerald uppercase bg-emerald-100/50 dark:bg-emerald-900/30 rounded border border-emerald-200 dark:border-emerald-800">Engineering Blueprint</span>
+            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-6">
+                Overcoming Support Debt and the Platform Tax.
+            </h1>
+            <p class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed mb-8">
+                Building custom instruments from scratch for every niche market is economically unviable. We solve this by leveraging an 80% reusable, industrial-grade architecture, allowing us to focus engineering effort on the 20% that makes your technology unique.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Software Section (Code Editor Style) -->
+<section class="py-20 bg-slate-900 border-b border-slate-800 text-slate-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="mb-12">
+            <h2 class="text-2xl font-bold text-white mb-4">Software Architecture</h2>
+            <div class="w-20 h-1 bg-venturi-cyan"></div>
+        </div>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <p class="mb-6 leading-relaxed">
+                    Our software foundation is built on a robust Python and PyQt core, designed specifically for high-throughput, latency-sensitive scientific applications. We eschew bloated web technologies for local execution when direct hardware communication is paramount.
+                </p>
+                <ul class="space-y-6 mt-8">
+                    <li class="pl-4 border-l-2 border-venturi-cyan">
+                        <span class="font-mono text-venturi-cyan font-bold block mb-1">Hardware_Abstraction_Layer()</span>
+                        <span class="text-sm">Decouples the UI and business logic from specific hardware drivers. Swap out a National Instruments DAQ for an open-source Arduino controller without changing a single line of frontend code.</span>
+                    </li>
+                    <li class="pl-4 border-l-2 border-architecture-indigo">
+                        <span class="font-mono text-architecture-indigo font-bold block mb-1">@Plugin_Architecture</span>
+                        <span class="text-sm">A dynamically loaded module system that allows custom analysis scripts, plotting tools, and third-party integrations to be injected at runtime without recompiling the core application.</span>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Editor Mockup -->
+            <div class="rounded-lg border border-slate-700 bg-[#0f111a] shadow-2xl overflow-hidden">
+                <div class="flex items-center px-4 py-2 border-b border-slate-800 bg-[#151722]">
+                    <div class="flex space-x-2">
+                        <div class="w-3 h-3 rounded-full bg-red-500/20 border border-red-500/50"></div>
+                        <div class="w-3 h-3 rounded-full bg-yellow-500/20 border border-yellow-500/50"></div>
+                        <div class="w-3 h-3 rounded-full bg-green-500/20 border border-green-500/50"></div>
+                    </div>
+                    <div class="ml-4 text-xs font-mono text-slate-500">core_architecture.py</div>
+                </div>
+                <div class="p-6 font-mono text-sm overflow-x-auto text-slate-300">
+                    <div class="text-slate-500 mb-2"># Initializing the Venturi Core</div>
+                    <div><span class="text-pink-400">from</span> venturi.core <span class="text-pink-400">import</span> Application, PluginManager</div>
+                    <div><span class="text-pink-400">from</span> venturi.hardware <span class="text-pink-400">import</span> HardwareAbstractionLayer</div>
+                    <br>
+                    <div><span class="text-blue-400">class</span> <span class="text-yellow-300">Instrument</span>(Application):</div>
+                    <div class="pl-4"><span class="text-blue-400">def</span> <span class="text-yellow-200">__init__</span>(self):</div>
+                    <div class="pl-8">self.hal = HardwareAbstractionLayer.load_config(<span class="text-green-300">"instrument.yaml"</span>)</div>
+                    <div class="pl-8">self.plugins = PluginManager(directory=<span class="text-green-300">"./plugins"</span>)</div>
+                    <br>
+                    <div class="pl-4"><span class="text-purple-400">@Plugin_Architecture.hook</span></div>
+                    <div class="pl-4"><span class="text-blue-400">def</span> <span class="text-yellow-200">process_stream</span>(self, data):</div>
+                    <div class="pl-8"><span class="text-pink-400">return</span> self.plugins.execute(<span class="text-green-300">"data_filter"</span>, data)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Hardware Section -->
+<section class="py-20 border-b border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-12">Hardware Integration</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 p-8 rounded hover:border-venturi-cyan transition-colors">
+                <div class="w-10 h-10 mb-4 text-venturi-cyan">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path></svg>
+                </div>
+                <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-3">Standardizing the Enclosure</h3>
+                <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+                    We utilize a family of pre-engineered, modular aluminum enclosures. This eliminates custom machining delays and provides immediate thermal management, EMI shielding, and professional aesthetics.
+                </p>
+            </div>
+            
+            <div class="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 p-8 rounded hover:border-venturi-cyan transition-colors">
+                <div class="w-10 h-10 mb-4 text-venturi-cyan">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                </div>
+                <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-3">Universal DAQ Routing</h3>
+                <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+                    Custom-designed interconnect backplanes standardize how signals route from specialized sensors to commercial Data Acquisition units, drastically reducing cable clutter and signal noise.
+                </p>
+            </div>
+
+            <div class="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 p-8 rounded hover:border-venturi-cyan transition-colors">
+                <div class="w-10 h-10 mb-4 text-venturi-cyan">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path></svg>
+                </div>
+                <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-3">The "Science Breadboard"</h3>
+                <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+                    Optical tables and fluidic manifolds are mounted on standard-pitch internal plates, allowing us to drop your exact lab setup into our ruggedized chassis with minimal mechanical redesign.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Telemetry Section -->
+<section class="py-20 bg-white dark:bg-slate-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="order-2 lg:order-1 border border-slate-200 dark:border-slate-700 p-8 rounded-lg bg-slate-50 dark:bg-slate-800/50">
+                <div class="font-mono text-xs text-slate-500 mb-4">SYSTEM_STATUS_LOG</div>
+                <div class="space-y-3 font-mono text-sm">
+                    <div class="flex justify-between border-b border-slate-200 dark:border-slate-700 pb-2">
+                        <span class="text-slate-600 dark:text-slate-400">CPU_TEMP</span>
+                        <span class="text-venturi-cyan">42.5°C</span>
+                    </div>
+                    <div class="flex justify-between border-b border-slate-200 dark:border-slate-700 pb-2">
+                        <span class="text-slate-600 dark:text-slate-400">DAQ_BUFFER_UTIL</span>
+                        <span class="text-ecosystem-emerald">14%</span>
+                    </div>
+                    <div class="flex justify-between border-b border-slate-200 dark:border-slate-700 pb-2">
+                        <span class="text-slate-600 dark:text-slate-400">OPTICAL_ALIGN_ERR</span>
+                        <span class="text-yellow-500">0.02μm (WARN)</span>
+                    </div>
+                    <div class="flex justify-between pt-2">
+                        <span class="text-slate-600 dark:text-slate-400">TELEMETRY_LINK</span>
+                        <span class="text-architecture-indigo font-bold">ESTABLISHED</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="order-1 lg:order-2">
+                <h2 class="text-3xl font-bold text-slate-900 dark:text-white mb-6">Telemetry & Diagnostics</h2>
+                <h3 class="text-xl font-semibold text-venturi-cyan mb-3">The "Flight Recorder"</h3>
+                <p class="text-slate-600 dark:text-slate-300 mb-6 leading-relaxed">
+                    Niche scientific instruments are often deployed in remote labs or harsh environments. Our architecture includes a persistent "Flight Recorder" module that logs high-frequency state data, hardware faults, and user actions.
+                </p>
+                <h3 class="text-xl font-semibold text-venturi-cyan mb-3">Remote Tunnels</h3>
+                <p class="text-slate-600 dark:text-slate-300 leading-relaxed">
+                    When a field failure occurs, our engineering team can establish a secure, remote diagnostic tunnel directly to the instrument's core. We can inspect the DAQ buffers, re-calibrate hardware offsets, and push over-the-air (OTA) firmware patches without dispatching a technician.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}
