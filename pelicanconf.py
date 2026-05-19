@@ -1,6 +1,9 @@
 AUTHOR = 'Aquiles'
 SITENAME = 'Venturi Labs'
-SITEURL = ''
+SITEURL = 'https://venturi-labs.eu'
+
+DIRECT_TEMPLATES = ['index', 'sitemap']
+SITEMAP_SAVE_AS = 'sitemap.xml'
 
 PATH = 'content'
 

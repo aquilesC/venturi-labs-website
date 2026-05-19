@@ -5,6 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
     
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="{% block description %}{{ article.summary|striptags|e if article else page.summary|striptags|e if page else 'Venturi Labs transforms niche academic lab inventions into professional, commercially available instruments.' }}{% endblock description %}" />
+    <meta name="keywords" content="{% block keywords %}{{ article.tags|join(', ')|e if article and article.tags else page.tags|e if page and page.tags else 'Deep Tech, Commercialization, TTO, Principal Investigators, Lab Instruments' }}{% endblock keywords %}" />
+    <link rel="canonical" href="{{ SITEURL }}/{% block canonical %}{{ article.url if article else page.url if page else '' }}{% endblock canonical %}" />
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="{% block og_title %}{{ article.title|striptags|e if article else page.title|striptags|e if page else SITENAME }}{% endblock %}" />
+    <meta property="og:description" content="{% block og_description %}{{ article.summary|striptags|e if article else page.summary|striptags|e if page else 'Venturi Labs transforms niche academic lab inventions into professional, commercially available instruments.' }}{% endblock %}" />
+    <meta property="og:url" content="{{ SITEURL }}/{% block og_url %}{{ article.url if article else page.url if page else '' }}{% endblock %}" />
+    <meta property="og:type" content="{% block og_type %}{{ 'article' if article else 'website' }}{% endblock %}" />
+    <meta property="og:image" content="{{ SITEURL }}/{% block og_image %}{{ article.image if article and article.image else page.image if page and page.image else 'theme/venturi_logo.jpg' }}{% endblock %}" />
+    <meta property="og:site_name" content="{{ SITENAME }}" />
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{% block tw_title %}{{ article.title|striptags|e if article else page.title|striptags|e if page else SITENAME }}{% endblock %}" />
+    <meta name="twitter:description" content="{% block tw_description %}{{ article.summary|striptags|e if article else page.summary|striptags|e if page else 'Venturi Labs transforms niche academic lab inventions into professional, commercially available instruments.' }}{% endblock %}" />
+    <meta name="twitter:image" content="{{ SITEURL }}/{% block tw_image %}{{ article.image if article and article.image else page.image if page and page.image else 'theme/venturi_logo.jpg' }}{% endblock %}" />
+    
     <!-- Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚙️</text></svg>">
     
@@ -63,13 +82,35 @@
                     {% endif %}
                 </nav>
                 
-                <!-- Dark Mode Toggle -->
-                <div class="flex items-center">
+                <!-- Mobile Menu Button & Dark Mode Toggle -->
+                <div class="flex items-center gap-2">
                     <button id="theme-toggle" type="button" class="text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 focus:outline-none focus:ring-4 focus:ring-slate-200 dark:focus:ring-slate-700 rounded-lg text-sm p-2.5">
                         <svg id="theme-toggle-dark-icon" class="w-5 h-5 hidden dark:block" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
                         <svg id="theme-toggle-light-icon" class="w-5 h-5 block dark:hidden" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
                     </button>
+                    <!-- Mobile Menu Button -->
+                    <button id="mobile-menu-button" type="button" class="md:hidden text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 focus:outline-none focus:ring-4 focus:ring-slate-200 dark:focus:ring-slate-700 rounded-lg text-sm p-2.5">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
                 </div>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden pb-4">
+                <nav class="flex flex-col space-y-2">
+                    {% if DISPLAY_PAGES_ON_MENU %}
+                        {% for p in pages %}
+                            <a href="{{ SITEURL }}/{{ p.url }}" class="text-slate-600 hover:text-venturi-cyan dark:text-slate-300 dark:hover:text-venturi-cyan transition-colors px-3 py-2 text-base font-medium">{{ p.title }}</a>
+                        {% endfor %}
+                    {% endif %}
+                    {% if MENUITEMS %}
+                        {% for title, link in MENUITEMS %}
+                            <a href="{{ link }}" class="text-slate-600 hover:text-venturi-cyan dark:text-slate-300 dark:hover:text-venturi-cyan transition-colors px-3 py-2 text-base font-medium">{{ title }}</a>
+                        {% endfor %}
+                    {% endif %}
+                </nav>
             </div>
         </div>
     </header>

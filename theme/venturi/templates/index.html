@@ -1,126 +1,166 @@
 {% extends "base.html" %}
 
 {% block content %}
-<!-- Hero Section -->
-<section class="relative pt-24 pb-32 md:pt-32 md:pb-40 border-b border-slate-200 dark:border-slate-800 overflow-hidden">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-        <div class="max-w-4xl">
-            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-6">
-                Building the <span class="text-venturi-cyan">Deep Tech Product Engine.</span>
-            </h1>
-            <p class="text-lg md:text-xl text-slate-600 dark:text-slate-300 mb-10 font-mono">
-                Bridging the scientific impact gap by transforming niche, trans-disciplinary lab inventions into professional, commercially available tools.
-            </p>
-            <div class="flex flex-col sm:flex-row gap-4">
-                <a href="{{ SITEURL }}/contact" class="px-6 py-3 bg-venturi-cyan text-white font-medium rounded hover:bg-cyan-600 transition-colors text-center shadow-lg shadow-cyan-500/30">Partner with Us</a>
-                <a href="{{ SITEURL }}/platform" class="px-6 py-3 border border-slate-300 dark:border-slate-700 rounded text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors font-medium text-center">Explore the Platform</a>
-            </div>
+<!-- Section 1: The Hero -->
+<section class="relative pt-32 pb-32 border-b border-slate-200 dark:border-slate-800 flex flex-col items-center text-center">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-6 font-sans">
+            Building the <span class="text-venturi-cyan">Deep Tech Product Engine.</span>
+        </h1>
+        <p class="text-lg md:text-xl text-slate-600 dark:text-slate-300 mb-10 font-sans max-w-3xl mx-auto leading-relaxed">
+            We bridge the scientific impact gap by transforming niche, trans-disciplinary lab inventions into professional, CE-marked instruments. No startup required.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <a href="{{ SITEURL }}/contact" class="px-6 py-3 bg-venturi-cyan text-white font-medium rounded hover:bg-cyan-600 transition-colors w-full sm:w-auto">
+                Partner with Venturi
+            </a>
+            <a href="{{ SITEURL }}/platform" class="px-6 py-3 border border-slate-300 dark:border-slate-700 rounded text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors font-medium w-full sm:w-auto">
+                Explore the Architecture
+            </a>
         </div>
     </div>
 </section>
 
-<!-- The Thesis Section -->
-<section class="border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-start">
-            <div class="border border-slate-200 dark:border-slate-800 p-8 rounded bg-slate-50 dark:bg-slate-800/50">
-                <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-6">The Missing Middle</h2>
-                <div class="space-y-6">
-                    <div>
-                        <h3 class="text-lg font-semibold text-slate-800 dark:text-slate-200 mb-2 border-l-4 border-red-500 pl-3">The "Startup Trap"</h3>
-                        <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
-                            Venture capital demands massive Total Addressable Markets (TAMs) and hyper-growth. Many brilliant lab tools are incredibly valuable to a niche subset of researchers or industries, but simply do not fit the VC model. They are abandoned because they aren't "unicorns."
-                        </p>
-                    </div>
-                    <div>
-                        <h3 class="text-lg font-semibold text-slate-800 dark:text-slate-200 mb-2 border-l-4 border-red-500 pl-3">The "Bench Trap"</h3>
-                        <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
-                            Complex, custom-built tools often die when the postdoc or PhD student who built them graduates. The IP remains stranded in the university, lacking the professional software UI, hardware polish, and support required for external adoption.
-                        </p>
-                    </div>
-                </div>
+<!-- Section 2: The Problem -->
+<section class="border-b border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+            <div class="lg:col-span-12 max-w-3xl mb-4">
+                <h2 class="text-3xl font-bold text-slate-900 dark:text-white mb-6">The Missing Middle of Commercialization</h2>
+                <p class="text-slate-600 dark:text-slate-300 text-lg leading-relaxed">
+                    The current deep tech commercialization model is fractured. Academic research produces highly valuable specialized tools, but they face a binary, often doomed, choice:
+                </p>
             </div>
             
-            <div class="lg:pl-8">
-                <h2 class="text-3xl font-bold text-slate-900 dark:text-white mb-6">The Venturi Solution</h2>
-                <p class="text-slate-600 dark:text-slate-300 mb-6 leading-relaxed">
-                    We act as a centralized product studio designed specifically for the long tail of deep tech IP. We don't force inventions into the VC model. 
-                </p>
-                <p class="text-slate-600 dark:text-slate-300 mb-8 leading-relaxed">
-                    Instead, we license promising lab prototypes and deploy our proprietary architecture to rapidly professionalize them. By standardizing the software stack and hardware integration, we drastically lower the cost of bringing these specialized tools to market.
-                </p>
-                <ul class="space-y-4 font-mono text-sm text-slate-700 dark:text-slate-300">
-                    <li class="flex items-center gap-3">
-                        <div class="w-6 h-6 rounded bg-cyan-100 dark:bg-cyan-900/30 flex items-center justify-center text-venturi-cyan flex-shrink-0">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                        </div>
-                        Professional Engineering
-                    </li>
-                    <li class="flex items-center gap-3">
-                        <div class="w-6 h-6 rounded bg-cyan-100 dark:bg-cyan-900/30 flex items-center justify-center text-venturi-cyan flex-shrink-0">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                        </div>
-                        Rapid Valorisation
-                    </li>
-                    <li class="flex items-center gap-3">
-                        <div class="w-6 h-6 rounded bg-cyan-100 dark:bg-cyan-900/30 flex items-center justify-center text-venturi-cyan flex-shrink-0">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                        </div>
-                        Sustainable Revenue Sharing
-                    </li>
-                </ul>
+            <div class="lg:col-span-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Left Box -->
+                <div class="border border-slate-200 dark:border-slate-700 p-8 rounded bg-white dark:bg-slate-800">
+                    <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-4">The Startup Trap</h3>
+                    <p class="text-slate-600 dark:text-slate-400 leading-relaxed text-sm">
+                        TTOs attempt to spin off a new company, requiring VC funding and a CEO search for specialized instruments that might only sell 20–50 units a year globally. The economics rarely work.
+                    </p>
+                </div>
+                
+                <!-- Right Box -->
+                <div class="border border-slate-200 dark:border-slate-700 p-8 rounded bg-white dark:bg-slate-800">
+                    <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-4">The Bench Trap</h3>
+                    <p class="text-slate-600 dark:text-slate-400 leading-relaxed text-sm">
+                        To avoid the friction of a spin-off, the tool lives only in a published paper, ultimately dying on the academic bench when the postdoc who built it graduates.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Audience Routing Cards -->
-<section class="bg-slate-50 dark:bg-slate-900/50 py-20 border-b border-slate-200 dark:border-slate-800">
+<!-- Section 3: The Visualization -->
+<section class="bg-slate-900 py-24 border-b border-slate-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+                <h2 class="text-3xl font-bold text-white mb-6">Centralization &amp; Modularity</h2>
+                <p class="text-slate-300 text-lg leading-relaxed mb-8">
+                    Venturi Labs operates as a centralized product studio. We use a compounding software and hardware architecture to make low-volume production highly profitable.
+                </p>
+            </div>
+            
+            <!-- SVG Schematic -->
+            <div class="border border-slate-700 bg-slate-900/50 p-6 md:p-8 rounded flex justify-center w-full">
+                <svg viewBox="0 0 500 440" class="w-full h-auto font-mono" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Grid background -->
+                    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+                        <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#334155" stroke-width="0.5" stroke-opacity="0.3"/>
+                    </pattern>
+                    <rect width="100%" height="100%" fill="url(#grid)" />
+                    
+                    <!-- Layer 1: Novel Science (Top) -->
+                    <g transform="translate(40, 40)">
+                        <rect x="0" y="0" width="420" height="100" fill="none" stroke="#06B6D4" stroke-width="2" />
+                        <text x="20" y="30" fill="#06B6D4" font-size="14" font-weight="bold" font-family="'JetBrains Mono', monospace">20% Novel Science</text>
+                        <!-- Sub-labels for Novel Science -->
+                        <g font-size="12" fill="#06B6D4" font-family="'JetBrains Mono', monospace">
+                            <text x="20" y="55">├─ Custom Optical Paths</text>
+                            <text x="20" y="70">├─ Specific Fluidics</text>
+                            <text x="20" y="85">└─ Proprietary Algorithms</text>
+                        </g>
+                    </g>
+                    
+                    <!-- Connections -->
+                    <path d="M 250 140 L 250 170" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4,4" />
+                    
+                    <!-- Layer 2: Venturi Core (Middle) -->
+                    <g transform="translate(40, 170)">
+                        <rect x="0" y="0" width="420" height="100" fill="none" stroke="#94a3b8" stroke-width="2" />
+                        <text x="20" y="30" fill="#94a3b8" font-size="14" font-weight="bold" font-family="'JetBrains Mono', monospace">80% Venturi Core</text>
+                        <!-- Sub-labels for Venturi Core -->
+                        <g font-size="12" fill="#94a3b8" font-family="'JetBrains Mono', monospace">
+                            <text x="20" y="55">├─ Hardware Abstraction Layer (HAL)</text>
+                            <text x="20" y="70">├─ PyQt Component Library</text>
+                            <text x="20" y="85">└─ Universal DAQ Backplane</text>
+                        </g>
+                    </g>
+                    
+                    <!-- Connections -->
+                    <path d="M 250 270 L 250 300" fill="none" stroke="#475569" stroke-width="2" stroke-dasharray="4,4" />
+                    
+                    <!-- Layer 3: Shared Supply Chain (Bottom) -->
+                    <g transform="translate(40, 300)">
+                        <rect x="0" y="0" width="420" height="100" fill="none" stroke="#475569" stroke-width="2" />
+                        <text x="20" y="30" fill="#475569" font-size="14" font-weight="bold" font-family="'JetBrains Mono', monospace">Shared Supply Chain</text>
+                        <!-- Sub-labels for Supply Chain -->
+                        <g font-size="12" fill="#475569" font-family="'JetBrains Mono', monospace">
+                            <text x="20" y="55">├─ Automated Telemetry</text>
+                            <text x="20" y="70">├─ Modular Enclosures</text>
+                            <text x="20" y="85">└─ CE-Marking Framework</text>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section 4: Audience Gateways -->
+<section class="bg-slate-50 dark:bg-slate-900 py-24 border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             
             <!-- Card 1 -->
-            <a href="{{ SITEURL }}/universities" class="block border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-800 rounded p-6 hover:border-venturi-cyan transition-colors group">
-                <div class="mb-5">
-                    <span class="inline-block px-2 py-1 bg-slate-100 dark:bg-slate-700/50 text-xs font-mono text-slate-600 dark:text-slate-400 rounded border border-slate-200 dark:border-slate-700">01</span>
-                </div>
-                <h3 class="text-xl font-semibold text-slate-900 dark:text-white mb-3 group-hover:text-venturi-cyan transition-colors">For Tech Transfer Offices</h3>
-                <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
-                    Monetize the long tail of IP. Turn stranded patents and lab-bound prototypes into commercial assets without the risk of starting a new company.
+            <a href="{{ SITEURL }}/universities" class="group block p-8 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded hover:border-venturi-cyan transition-all duration-150 ease-out hover:-translate-y-1 shadow-sm hover:shadow-md">
+                <div class="mb-4 text-xs font-mono text-venturi-cyan tracking-wide">// VALORISATION-AS-A-SERVICE</div>
+                <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3 group-hover:text-venturi-cyan transition-colors">For Tech Transfer Offices (TTOs)</h3>
+                <p class="text-slate-600 dark:text-slate-400 text-sm mb-8 leading-relaxed">
+                    Monetize the long tail of your IP portfolio. We act as the guaranteed execution engine for your valorisation mandates, licensing IP and triggering asset carve-outs without forcing PIs to become CEOs.
                 </p>
-                <div class="mt-6 flex items-center text-venturi-cyan text-sm font-medium">
-                    Learn more <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                <div class="flex items-center text-venturi-cyan font-mono text-sm font-semibold">
+                    Enter Gateway <svg class="w-4 h-4 ml-2 group-hover:translate-x-1.5 transition-transform duration-150 ease-out" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                 </div>
             </a>
-
+            
             <!-- Card 2 -->
-            <a href="{{ SITEURL }}/researchers" class="block border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-800 rounded p-6 hover:border-venturi-cyan transition-colors group">
-                <div class="mb-5">
-                    <span class="inline-block px-2 py-1 bg-slate-100 dark:bg-slate-700/50 text-xs font-mono text-slate-600 dark:text-slate-400 rounded border border-slate-200 dark:border-slate-700">02</span>
-                </div>
-                <h3 class="text-xl font-semibold text-slate-900 dark:text-white mb-3 group-hover:text-venturi-cyan transition-colors">For Principal Investigators</h3>
-                <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
-                    Valorisation without leaving academia. Let our engineering team handle the UI, firmware, and sales while you focus on the core science.
+            <a href="{{ SITEURL }}/researchers" class="group block p-8 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded hover:border-venturi-cyan transition-all duration-150 ease-out hover:-translate-y-1 shadow-sm hover:shadow-md">
+                <div class="mb-4 text-xs font-mono text-venturi-cyan tracking-wide">// SCIENTIST, NOT A CEO</div>
+                <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3 group-hover:text-venturi-cyan transition-colors">For Principal Investigators</h3>
+                <p class="text-slate-600 dark:text-slate-400 text-sm mb-8 leading-relaxed">
+                    Secure grant funding with our commercialization letters of support, provide a deep tech career launchpad for your postdocs, and get Serial #001 of your professionalized instrument back in your lab.
                 </p>
-                <div class="mt-6 flex items-center text-venturi-cyan text-sm font-medium">
-                    Learn more <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                <div class="flex items-center text-venturi-cyan font-mono text-sm font-semibold">
+                    Enter Gateway <svg class="w-4 h-4 ml-2 group-hover:translate-x-1.5 transition-transform duration-150 ease-out" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                 </div>
             </a>
-
+            
             <!-- Card 3 -->
-            <a href="{{ SITEURL }}/platform" class="block border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-800 rounded p-6 hover:border-venturi-cyan transition-colors group">
-                <div class="mb-5">
-                    <span class="inline-block px-2 py-1 bg-slate-100 dark:bg-slate-700/50 text-xs font-mono text-slate-600 dark:text-slate-400 rounded border border-slate-200 dark:border-slate-700">03</span>
-                </div>
-                <h3 class="text-xl font-semibold text-slate-900 dark:text-white mb-3 group-hover:text-venturi-cyan transition-colors">The Compounding Platform</h3>
-                <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
-                    Explore our 80% reusable hardware/software architecture that drastically accelerates development timelines and reduces R&D costs.
+            <a href="{{ SITEURL }}/platform" class="group block p-8 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded hover:border-venturi-cyan transition-all duration-150 ease-out hover:-translate-y-1 shadow-sm hover:shadow-md">
+                <div class="mb-4 text-xs font-mono text-venturi-cyan tracking-wide">// ERADICATING SUPPORT DEBT</div>
+                <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-3 group-hover:text-venturi-cyan transition-colors">The Engineering Platform</h3>
+                <p class="text-slate-600 dark:text-slate-400 text-sm mb-8 leading-relaxed">
+                    Explore our object-oriented Python architecture, unified Hardware Abstraction Layer, and "Flight Recorder" telemetry. See how we drop time-to-market from 9 months to 4 months.
                 </p>
-                <div class="mt-6 flex items-center text-venturi-cyan text-sm font-medium">
-                    Learn more <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                <div class="flex items-center text-venturi-cyan font-mono text-sm font-semibold">
+                    Enter Gateway <svg class="w-4 h-4 ml-2 group-hover:translate-x-1.5 transition-transform duration-150 ease-out" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                 </div>
             </a>
-
+            
         </div>
     </div>
 </section>

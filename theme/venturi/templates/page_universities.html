@@ -1,68 +1,203 @@
 {% extends "base.html" %}
 
 {% block content %}
-<section class="pt-24 pb-16 border-b border-slate-200 dark:border-slate-800">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- SECTION 1: THE HERO -->
+<section class="relative pt-32 pb-24 border-b border-slate-200 dark:border-slate-800 overflow-hidden bg-slate-50 dark:bg-slate-900">
+    <!-- Subtle technical background pattern -->
+    <div class="absolute inset-0 opacity-[0.03] dark:opacity-[0.05]" style="background-image: radial-gradient(circle at 2px 2px, currentColor 1px, transparent 0); background-size: 32px 32px;"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="max-w-3xl">
-            <span class="inline-block px-3 py-1 mb-4 text-xs font-mono font-medium tracking-wider text-venturi-cyan uppercase bg-cyan-100/50 dark:bg-cyan-900/30 rounded border border-cyan-200 dark:border-cyan-800">For Tech Transfer Offices</span>
-            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-6">
+            <div class="font-mono text-ecosystem-emerald dark:text-[#10B981] font-semibold tracking-wide mb-6">
+                // TTO PARTNERSHIPS
+            </div>
+            <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-6 font-sans">
                 Valorisation-as-a-Service.
             </h1>
-            <p class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-                Monetize the long tail of IP without the risk of starting a new company. We partner with TTOs to transform stranded patents into commercial assets.
+            <p class="text-xl text-slate-600 dark:text-slate-300 leading-relaxed mb-10">
+                We partner with Tech Transfer Offices to monetize the "long tail" of deep tech instrumentation IP. Achieve your societal impact KPIs without forcing your top researchers to abandon academia for a startup.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="/contact" class="inline-flex justify-center items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-venturi-cyan hover:bg-[#059eb9] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-venturi-cyan transition-colors">
+                    Schedule a Portfolio Review
+                </a>
+                <a href="#licensing" class="inline-flex justify-center items-center px-6 py-3 border border-slate-300 dark:border-slate-700 text-base font-medium rounded-md text-slate-700 dark:text-slate-300 bg-transparent hover:bg-slate-100 dark:hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-500 transition-colors">
+                    View the Licensing Framework
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 2: THE DILEMMA (THE MISSING MIDDLE) -->
+<section class="py-24 bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-6">The Commercialization Bottleneck</h2>
+            <p class="text-lg text-slate-600 dark:text-slate-400">
+                TTOs are mandated to maximize the commercial impact of academic research. However, the traditional commercialization playbook is binary and flawed for niche hardware:
             </p>
         </div>
-    </div>
-</section>
-
-<section class="py-20 border-b border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-12">The Workflow</h2>
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
-            <!-- Step 1 -->
-            <div class="border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-800 p-6 rounded relative hover:border-venturi-cyan transition-colors">
-                <div class="text-venturi-cyan font-mono text-xl mb-4 font-bold">01.</div>
-                <h3 class="text-lg font-semibold text-slate-900 dark:text-white mb-2">Pre-Award Grant Collaboration</h3>
-                <p class="text-sm text-slate-600 dark:text-slate-400">Aligning with NWO/Horizon requirements to ensure valorisation pathways are clear from day one.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Left Box -->
+            <div class="border border-slate-200 dark:border-slate-800 p-8 rounded-lg bg-slate-50 dark:bg-slate-900">
+                <div class="font-mono text-red-500 text-sm font-bold tracking-wider mb-4">// HIGH FRICTION</div>
+                <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-4">The VC-Backed Spin-off</h3>
+                <p class="text-slate-600 dark:text-slate-400 leading-relaxed">
+                    High-risk, requires a dedicated CEO search, and demands a massive Total Addressable Market (TAM). Niche instruments that only sell 20-50 units a year are fundamentally incompatible with venture capital.
+                </p>
             </div>
-            <!-- Step 2 -->
-            <div class="border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-800 p-6 rounded relative hover:border-venturi-cyan transition-colors">
-                <div class="text-venturi-cyan font-mono text-xl mb-4 font-bold">02.</div>
-                <h3 class="text-lg font-semibold text-slate-900 dark:text-white mb-2">Seamless Licensing</h3>
-                <p class="text-sm text-slate-600 dark:text-slate-400">Leveraging standardized agreements like the 4TU framework for rapid, frictionless IP transfer.</p>
-            </div>
-            <!-- Step 3 -->
-            <div class="border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-800 p-6 rounded relative hover:border-venturi-cyan transition-colors">
-                <div class="text-venturi-cyan font-mono text-xl mb-4 font-bold">03.</div>
-                <h3 class="text-lg font-semibold text-slate-900 dark:text-white mb-2">Productization Sprint</h3>
-                <p class="text-sm text-slate-600 dark:text-slate-400">Our engineering team deploys the Venturi architecture to build professional software and hardware.</p>
-            </div>
-            <!-- Step 4 -->
-            <div class="border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-800 p-6 rounded relative hover:border-venturi-cyan transition-colors">
-                <div class="text-venturi-cyan font-mono text-xl mb-4 font-bold">04.</div>
-                <h3 class="text-lg font-semibold text-slate-900 dark:text-white mb-2">Commercial Launch & Asset Sale</h3>
-                <p class="text-sm text-slate-600 dark:text-slate-400">Bringing the tool to market and executing strategic asset sales to industry leaders.</p>
+            
+            <!-- Right Box -->
+            <div class="border border-slate-200 dark:border-slate-800 p-8 rounded-lg bg-slate-50 dark:bg-slate-900">
+                <div class="font-mono text-slate-500 dark:text-slate-400 text-sm font-bold tracking-wider mb-4">// ABANDONED IP</div>
+                <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-4">The Status Quo</h3>
+                <p class="text-slate-600 dark:text-slate-400 leading-relaxed">
+                    The invention remains a "Patent & Pray" asset, or it simply dies on the bench when the lead researcher or postdoc who built the prototype graduates and leaves the lab.
+                </p>
             </div>
         </div>
     </div>
 </section>
 
-<section class="py-20 bg-white dark:bg-slate-900">
+<!-- SECTION 3: THE WORKFLOW VISUALIZATION -->
+<section id="licensing" class="py-24 bg-slate-900 text-slate-300 border-b border-slate-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-12">Key Performance Indicators</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="border-l-4 border-venturi-cyan pl-6 py-2">
-                <div class="font-mono text-3xl font-bold text-slate-900 dark:text-white mb-2">Zero</div>
-                <div class="text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wide">PI Friction</div>
+        <div class="max-w-3xl mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">The Venturi Partnership Pipeline</h2>
+            <p class="text-lg text-slate-400">
+                We do not incubate startups; we build and commercialize products. Here is how we turn your "un-fundable" IP into commercial assets.
+            </p>
+        </div>
+        
+        <!-- SVG Visualization -->
+        <div class="w-full overflow-x-auto pb-8">
+            <div class="min-w-[800px] flex justify-center">
+                <svg width="800" height="260" viewBox="0 0 1000 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Base horizontal connecting line -->
+                    <path d="M 125 100 L 875 100" stroke="#334155" stroke-width="2" />
+                    
+                    <!-- Dashed line connecting Step 1 and Step 2 -->
+                    <path d="M 125 100 L 375 100" stroke="#94A3B8" stroke-width="2" stroke-dasharray="6 6" />
+                    
+                    <!-- PCB Traces Style Connections (Angles) -->
+                    <!-- Step 1 to icon -->
+                    <path d="M 125 100 L 125 80" stroke="#94A3B8" stroke-width="2" />
+                    <!-- Step 2 to icon -->
+                    <path d="M 375 100 L 375 80" stroke="#94A3B8" stroke-width="2" />
+                    <!-- Step 3 to icon -->
+                    <path d="M 625 100 L 625 80" stroke="#06B6D4" stroke-width="2" />
+                    <path d="M 375 100 L 625 100" stroke="#06B6D4" stroke-width="2" opacity="0.5" />
+                    <!-- Step 4 to icon -->
+                    <path d="M 875 100 L 875 80" stroke="#10B981" stroke-width="2" />
+                    <path d="M 625 100 L 875 100" stroke="#10B981" stroke-width="2" opacity="0.5" />
+                    
+                    <!-- Nodes / Points -->
+                    <circle cx="125" cy="100" r="4" fill="#94A3B8" />
+                    <circle cx="375" cy="100" r="4" fill="#94A3B8" />
+                    <circle cx="625" cy="100" r="5" fill="#06B6D4" />
+                    <circle cx="875" cy="100" r="5" fill="#10B981" />
+
+                    <!-- Step 1 Node -->
+                    <g transform="translate(101, 32)">
+                        <rect x="0" y="0" width="48" height="48" rx="8" fill="#1E293B" stroke="#475569" stroke-width="1.5" />
+                        <!-- Document / Grant Icon -->
+                        <path d="M16 14H32M16 20H32M16 26H24" stroke="#94A3B8" stroke-width="2" stroke-linecap="square" />
+                        <rect x="10" y="8" width="28" height="32" rx="2" stroke="#94A3B8" stroke-width="2" fill="none" />
+                    </g>
+                    <text x="125" y="140" text-anchor="middle" fill="#F8FAFC" font-family="sans-serif" font-weight="bold" font-size="14">Pre-Award Grant Collaboration</text>
+                    <text x="125" y="160" text-anchor="middle" fill="#94A3B8" font-family="sans-serif" font-size="12">Letters of support for</text>
+                    <text x="125" y="176" text-anchor="middle" fill="#94A3B8" font-family="sans-serif" font-size="12">NWO/Horizon Europe.</text>
+                    
+                    <!-- Step 2 Node -->
+                    <g transform="translate(351, 32)">
+                        <rect x="0" y="0" width="48" height="48" rx="8" fill="#1E293B" stroke="#475569" stroke-width="1.5" />
+                        <!-- Handshake / Contract Icon -->
+                        <path d="M14 24L20 30L34 16" stroke="#94A3B8" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter" fill="none" />
+                        <path d="M10 32H38" stroke="#94A3B8" stroke-width="2" stroke-linecap="square" />
+                    </g>
+                    <text x="375" y="140" text-anchor="middle" fill="#F8FAFC" font-family="sans-serif" font-weight="bold" font-size="14">Seamless Licensing</text>
+                    <text x="375" y="160" text-anchor="middle" fill="#94A3B8" font-family="sans-serif" font-size="12">Utilizing standard 4TU</text>
+                    <text x="375" y="176" text-anchor="middle" fill="#94A3B8" font-family="sans-serif" font-size="12">frameworks.</text>
+                    
+                    <!-- Step 3 Node (Cyan) -->
+                    <g transform="translate(601, 32)">
+                        <rect x="0" y="0" width="48" height="48" rx="8" fill="#082F49" stroke="#06B6D4" stroke-width="1.5" />
+                        <!-- Gears / Engineering Icon -->
+                        <circle cx="24" cy="24" r="6" stroke="#06B6D4" stroke-width="2" fill="none" />
+                        <path d="M24 14V16M24 32V34M14 24H16M32 24H34M16.9289 16.9289L18.3431 18.3431M29.6569 29.6569L31.0711 31.0711M16.9289 31.0711L18.3431 29.6569M29.6569 16.9289L31.0711 18.3431" stroke="#06B6D4" stroke-width="2" stroke-linecap="square" />
+                    </g>
+                    <text x="625" y="140" text-anchor="middle" fill="#06B6D4" font-family="sans-serif" font-weight="bold" font-size="14">Productization Sprint</text>
+                    <text x="625" y="160" text-anchor="middle" fill="#94A3B8" font-family="sans-serif" font-size="12">Venturi engineering</text>
+                    <text x="625" y="176" text-anchor="middle" fill="#94A3B8" font-family="sans-serif" font-size="12">takes over.</text>
+                    
+                    <!-- Step 4 Node (Emerald) -->
+                    <g transform="translate(851, 32)">
+                        <rect x="0" y="0" width="48" height="48" rx="8" fill="#064E3B" stroke="#10B981" stroke-width="1.5" />
+                        <!-- Chart trending up Icon -->
+                        <path d="M12 32L18 22L24 26L34 14" stroke="#10B981" stroke-width="2" fill="none" stroke-linejoin="miter" />
+                        <path d="M28 14H34V20" stroke="#10B981" stroke-width="2" fill="none" stroke-linejoin="miter" />
+                        <path d="M10 36H38" stroke="#10B981" stroke-width="2" fill="none" />
+                    </g>
+                    <text x="875" y="140" text-anchor="middle" fill="#10B981" font-family="sans-serif" font-weight="bold" font-size="14">Commercial Asset Sale</text>
+                    <text x="875" y="160" text-anchor="middle" fill="#94A3B8" font-family="sans-serif" font-size="12">Carve-out to global distributors</text>
+                    <text x="875" y="176" text-anchor="middle" fill="#94A3B8" font-family="sans-serif" font-size="12">triggers royalty multipliers.</text>
+                </svg>
             </div>
-            <div class="border-l-4 border-architecture-indigo pl-6 py-2">
-                <div class="font-mono text-3xl font-bold text-slate-900 dark:text-white mb-2">Guaranteed</div>
-                <div class="text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wide">Impact KPIs</div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 4: DIRECT BENEFITS TO THE TTO -->
+<section class="py-24 bg-slate-50 dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Card 1 -->
+            <div class="border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 p-8 hover:border-venturi-cyan transition-colors">
+                <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-4">Increase Successful Licenses</h3>
+                <p class="text-slate-600 dark:text-slate-400">
+                    Monetize the highly valuable, transformative scientific instruments that have proven demand among Key Opinion Leaders, but lack the TAM for traditional venture capital.
+                </p>
             </div>
-            <div class="border-l-4 border-ecosystem-emerald pl-6 py-2">
-                <div class="font-mono text-3xl font-bold text-slate-900 dark:text-white mb-2">High-Skill</div>
-                <div class="text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wide">Job Retention</div>
+            
+            <!-- Card 2 -->
+            <div class="border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 p-8 hover:border-venturi-cyan transition-colors">
+                <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-4">Zero PI Friction</h3>
+                <p class="text-slate-600 dark:text-slate-400">
+                    Fulfill your valorisation mandate without forcing your top Principal Investigators to divert their careers to run a fragile startup.
+                </p>
             </div>
+            
+            <!-- Card 3 -->
+            <div class="border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 p-8 hover:border-venturi-cyan transition-colors">
+                <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-4">Guaranteed Impact KPIs</h3>
+                <p class="text-slate-600 dark:text-slate-400">
+                    Ensure grant-funded research directly results in commercially available, CE-marked tools deployed in real-world labs across the globe.
+                </p>
+            </div>
+            
+            <!-- Card 4 -->
+            <div class="border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 p-8 hover:border-venturi-cyan transition-colors">
+                <h3 class="text-xl font-bold text-slate-900 dark:text-white mb-4">Career Pathways</h3>
+                <p class="text-slate-600 dark:text-slate-400">
+                    We frequently hire the graduating PhDs and Postdocs who developed the original tools, providing immediate, high-impact commercial employment within the regional ecosystem.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 5: BOTTOM CTA -->
+<section class="py-24 bg-white dark:bg-slate-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div class="bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg p-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-6">Let's review your "hard-to-place" IP.</h2>
+            <p class="text-lg text-slate-600 dark:text-slate-300 mb-10 max-w-2xl mx-auto">
+                We are currently sourcing candidates for our next productization cycles. Let us review your instrumentation portfolio to identify immediate candidates for the Venturi Engine.
+            </p>
+            <a href="/contact" class="inline-flex justify-center items-center px-8 py-4 border border-transparent text-lg font-medium rounded-md text-white bg-venturi-cyan hover:bg-[#059eb9] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-venturi-cyan transition-colors">
+                Schedule a Portfolio Review
+            </a>
         </div>
     </div>
 </section>
