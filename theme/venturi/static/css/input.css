@@ -20,4 +20,85 @@
   .venturi-btn {
     @apply px-4 py-2 bg-venturi-cyan text-white font-medium rounded hover:bg-opacity-90 transition-opacity duration-150 ease-linear focus:outline-none focus:ring-2 focus:ring-venturi-cyan focus:ring-opacity-50;
   }
+
+  /* Markdown Typography overrides */
+  .venturi-prose {
+    @apply text-slate-700 dark:text-slate-300 font-sans text-base md:text-lg leading-relaxed;
+  }
+  
+  .venturi-prose h1, .venturi-prose h2, .venturi-prose h3, .venturi-prose h4, .venturi-prose h5, .venturi-prose h6 {
+    @apply font-sans font-bold text-slate-900 dark:text-slate-100;
+  }
+  
+  .venturi-prose h1 { @apply text-4xl mt-10 mb-6; }
+  .venturi-prose h2 { @apply text-3xl mt-10 mb-4 border-b border-slate-200 dark:border-slate-700 pb-2; }
+  .venturi-prose h3 { @apply text-2xl mt-8 mb-4; }
+  .venturi-prose h4 { @apply text-xl mt-6 mb-3; }
+  
+  .venturi-prose p { @apply mb-6; }
+  
+  .venturi-prose a {
+    @apply text-venturi-cyan hover:text-cyan-600 dark:hover:text-cyan-400 underline decoration-venturi-cyan/30 hover:decoration-venturi-cyan transition-colors duration-150 ease-linear font-medium;
+  }
+  
+  .venturi-prose strong, .venturi-prose b {
+    @apply font-bold text-slate-900 dark:text-slate-100;
+  }
+  
+  .venturi-prose em, .venturi-prose i {
+    @apply italic text-slate-800 dark:text-slate-200;
+  }
+  
+  .venturi-prose blockquote {
+    @apply border-l-4 border-venturi-cyan bg-slate-50 dark:bg-slate-800/80 px-6 py-4 my-8 italic text-slate-700 dark:text-slate-300 rounded-r-lg shadow-sm border-t border-r border-b border-slate-200 dark:border-slate-700/50;
+  }
+  
+  .venturi-prose ul {
+    @apply list-none my-6 space-y-3 pl-2;
+  }
+  
+  .venturi-prose ul li {
+    @apply relative pl-6;
+  }
+  
+  .venturi-prose ul li::before {
+    content: "■";
+    @apply absolute left-0 text-venturi-cyan text-xs top-1.5;
+  }
+  
+  .venturi-prose ol {
+    @apply list-decimal list-inside my-6 space-y-3 pl-2 marker:text-venturi-cyan marker:font-mono marker:font-bold;
+  }
+  
+  .venturi-prose code {
+    @apply font-mono text-sm bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 px-1.5 py-0.5 rounded border border-slate-200 dark:border-slate-700;
+  }
+  
+  .venturi-prose pre {
+    @apply font-mono text-sm bg-slate-900 text-slate-100 p-5 rounded-lg overflow-x-auto my-8 border border-slate-700 shadow-md;
+  }
+  
+  .venturi-prose pre code {
+    @apply bg-transparent text-slate-100 p-0 border-none rounded-none;
+  }
+  
+  .venturi-prose hr {
+    @apply border-slate-200 dark:border-slate-700 my-10 border-t-2 border-dashed;
+  }
+  
+  .venturi-prose img {
+    @apply rounded-lg border border-slate-200 dark:border-slate-700 my-8 shadow-md w-full object-cover;
+  }
+  
+  .venturi-prose table {
+    @apply w-full text-left border-collapse my-8;
+  }
+  
+  .venturi-prose th {
+    @apply font-bold text-slate-900 dark:text-slate-100 bg-slate-100 dark:bg-slate-800 p-3 border border-slate-200 dark:border-slate-700 font-mono uppercase text-xs tracking-wider;
+  }
+  
+  .venturi-prose td {
+    @apply p-3 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300;
+  }
 }

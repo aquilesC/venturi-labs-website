@@ -21,12 +21,13 @@
 <!-- 2. The Category Filter/Navigation -->
 <section class="py-6 bg-slate-50 border-b border-slate-200 dark:bg-slate-900/50 dark:border-slate-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex flex-wrap items-center gap-4 font-mono text-sm">
+        <div class="flex flex-wrap items-center gap-4 font-mono text-sm" id="audience-filters">
             <span class="text-slate-500 font-bold uppercase tracking-wider mr-2">Filter By Audience:</span>
-            <a href="{{ SITEURL }}/category/researchers.html" class="px-4 py-2 rounded-full border border-slate-300 text-slate-700 hover:border-venturi-cyan hover:text-venturi-cyan transition-colors dark:border-slate-700 dark:text-slate-300 dark:hover:border-cyan-400 dark:hover:text-cyan-400">Researchers</a>
-            <a href="{{ SITEURL }}/category/ttos.html" class="px-4 py-2 rounded-full border border-slate-300 text-slate-700 hover:border-emerald-500 hover:text-emerald-500 transition-colors dark:border-slate-700 dark:text-slate-300 dark:hover:border-emerald-400 dark:hover:text-emerald-400">TTOs</a>
-            <a href="{{ SITEURL }}/category/engineering.html" class="px-4 py-2 rounded-full border border-slate-300 text-slate-700 hover:border-architecture-indigo hover:text-architecture-indigo transition-colors dark:border-slate-700 dark:text-slate-300 dark:hover:border-indigo-400 dark:hover:text-indigo-400">Engineering</a>
-            <a href="{{ SITEURL }}/category/ecosystem.html" class="px-4 py-2 rounded-full border border-slate-300 text-slate-700 hover:border-slate-500 hover:text-slate-900 transition-colors dark:border-slate-700 dark:text-slate-300 dark:hover:border-slate-400 dark:hover:text-white">Ecosystem</a>
+            <button data-filter="all" class="filter-btn px-4 py-2 rounded-full border transition-colors border-venturi-cyan text-venturi-cyan bg-venturi-cyan/10 dark:border-cyan-400 dark:text-cyan-400 dark:bg-cyan-400/10">All</button>
+            <button data-filter="pi" class="filter-btn px-4 py-2 rounded-full border border-slate-300 text-slate-700 hover:border-venturi-cyan hover:text-venturi-cyan transition-colors dark:border-slate-700 dark:text-slate-300 dark:hover:border-cyan-400 dark:hover:text-cyan-400" data-active-class="border-venturi-cyan text-venturi-cyan bg-venturi-cyan/10 dark:border-cyan-400 dark:text-cyan-400 dark:bg-cyan-400/10">Researchers</button>
+            <button data-filter="tto" class="filter-btn px-4 py-2 rounded-full border border-slate-300 text-slate-700 hover:border-emerald-500 hover:text-emerald-500 transition-colors dark:border-slate-700 dark:text-slate-300 dark:hover:border-emerald-400 dark:hover:text-emerald-400" data-active-class="border-emerald-500 text-emerald-500 bg-emerald-500/10 dark:border-emerald-400 dark:text-emerald-400 dark:bg-emerald-400/10">TTOs</button>
+            <button data-filter="engineering" class="filter-btn px-4 py-2 rounded-full border border-slate-300 text-slate-700 hover:border-architecture-indigo hover:text-architecture-indigo transition-colors dark:border-slate-700 dark:text-slate-300 dark:hover:border-indigo-400 dark:hover:text-indigo-400" data-active-class="border-architecture-indigo text-architecture-indigo bg-architecture-indigo/10 dark:border-indigo-400 dark:text-indigo-400 dark:bg-indigo-400/10">Engineering</button>
+            <button data-filter="ecosystem" class="filter-btn px-4 py-2 rounded-full border border-slate-300 text-slate-700 hover:border-slate-500 hover:text-slate-900 transition-colors dark:border-slate-700 dark:text-slate-300 dark:hover:border-slate-400 dark:hover:text-white" data-active-class="border-slate-500 text-slate-900 bg-slate-500/10 dark:border-slate-400 dark:text-white dark:bg-slate-400/10">Ecosystem</button>
         </div>
     </div>
 </section>
@@ -34,9 +35,9 @@
 <!-- 3. The Article Grid -->
 <section class="py-16 bg-slate-50 dark:bg-slate-900/50 min-h-[50vh]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="articles-grid">
             {% for article in articles %}
-            <article class="flex flex-col bg-slate-50 dark:bg-slate-800 rounded-lg border border-slate-200 dark:border-slate-700 overflow-hidden hover:shadow-md transition-shadow">
+            <article class="flex flex-col bg-slate-50 dark:bg-slate-800 rounded-lg border border-slate-200 dark:border-slate-700 overflow-hidden hover:shadow-md transition-shadow" data-cta-target="{{ article.cta_target|lower if article.cta_target else 'none' }}">
                 <div class="p-6 flex flex-col flex-grow">
                     <!-- Top metadata -->
                     <div class="font-mono text-xs uppercase tracking-wider font-bold mb-4
@@ -54,7 +55,7 @@
                     
                     <!-- Summary -->
                     <div class="font-sans text-sm text-slate-600 dark:text-slate-400 mb-6 flex-grow line-clamp-3">
-                        {{ article.summary }}
+                        {{ article.summary | striptags }}
                     </div>
                     
                     <!-- Bottom metadata -->
@@ -71,6 +72,10 @@
                 </div>
             </article>
             {% endfor %}
+        </div>
+        
+        <div id="no-articles-msg" class="hidden text-center py-20 text-slate-500 font-mono">
+            // No articles found in this section.
         </div>
         
         {% if not articles %}

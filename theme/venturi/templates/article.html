@@ -9,7 +9,7 @@
         <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
             <!-- Breadcrumbs -->
             <nav class="mb-8 font-mono text-sm text-slate-500 dark:text-slate-400">
-                <a href="{{ SITEURL }}/resources.html" class="hover:text-venturi-cyan transition-colors">Resources</a> 
+                <a href="{{ SITEURL }}/resources" class="hover:text-venturi-cyan transition-colors">Resources</a> 
                 <span class="mx-2">/</span> 
                 {% if article.category %}
                 <a href="{{ SITEURL }}/{{ article.category.url }}" class="hover:text-venturi-cyan transition-colors">{{ article.category }}</a>
@@ -45,11 +45,7 @@
     <!-- 2. The Content Body -->
     <main class="py-16 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Prose styling with specified overrides -->
-        <article class="prose prose-slate max-w-none dark:prose-invert 
-            prose-headings:font-sans prose-h2:text-slate-800 dark:prose-h2:text-slate-100 prose-h3:text-slate-800 dark:prose-h3:text-slate-100
-            prose-code:font-mono prose-pre:font-mono prose-pre:bg-slate-900 prose-pre:text-slate-100
-            prose-blockquote:border-l-4 prose-blockquote:border-l-venturi-cyan prose-blockquote:italic prose-blockquote:text-slate-700 dark:prose-blockquote:text-slate-300
-            prose-a:text-venturi-cyan hover:prose-a:text-cyan-600 dark:hover:prose-a:text-cyan-400">
+        <article class="venturi-prose max-w-none">
             {{ article.content }}
         </article>
     </main>

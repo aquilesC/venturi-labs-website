@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block title %}Category: {{ category }} - {{ SITENAME }}{% endblock title %}
+
+{% block content %}
+<!-- 1. The Hero -->
+<section class="pt-32 pb-24 bg-slate-900 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl">
+            <span class="inline-block mb-4 font-mono text-sm tracking-wider text-venturi-cyan uppercase">// CATEGORY</span>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white mb-6 font-sans">
+                {{ category }}
+            </h1>
+            <p class="text-lg md:text-xl text-slate-300 leading-relaxed font-sans">
+                Articles, resources, and insights categorized under <strong>{{ category }}</strong>.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- 2. The Article Grid -->
+<section class="py-16 bg-slate-50 dark:bg-slate-900/50 min-h-[50vh]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="mb-12">
+            <a href="{{ SITEURL }}/resources" class="inline-flex items-center text-venturi-cyan hover:text-cyan-600 dark:hover:text-cyan-400 font-mono text-sm transition-colors">
+                <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+                Back to All Resources
+            </a>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {% for article in articles %}
+            <article class="flex flex-col bg-slate-50 dark:bg-slate-800 rounded-lg border border-slate-200 dark:border-slate-700 overflow-hidden hover:shadow-md transition-shadow">
+                <div class="p-6 flex flex-col flex-grow">
+                    <!-- Top metadata -->
+                    <div class="font-mono text-xs uppercase tracking-wider font-bold mb-4
+                        {% if article.category|string == 'Researchers' %}text-venturi-cyan
+                        {% elif article.category|string == 'TTOs' %}text-emerald-500
+                        {% elif article.category|string == 'Engineering' %}text-architecture-indigo
+                        {% else %}text-slate-500{% endif %}">
+                        {{ article.category }}
+                    </div>
+                    
+                    <!-- Title -->
+                    <h2 class="font-sans font-bold text-xl text-slate-900 dark:text-white mb-3 line-clamp-2 hover:underline">
+                        <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+                    </h2>
+                    
+                    <!-- Summary -->
+                    <div class="font-sans text-sm text-slate-600 dark:text-slate-400 mb-6 flex-grow line-clamp-3">
+                        {{ article.summary | striptags }}
+                    </div>
+                    
+                    <!-- Bottom metadata -->
+                    <div class="mt-auto pt-4 border-t border-slate-200 dark:border-slate-700 flex flex-wrap items-center justify-between gap-y-2">
+                        <time class="font-mono text-xs text-slate-500" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+                        {% if article.tags %}
+                        <div class="flex flex-wrap gap-2">
+                            {% for t in article.tags[:2] %}
+                            <a href="{{ SITEURL }}/{{ t.url }}" class="inline-block px-2 py-1 border border-slate-200 dark:border-slate-600 text-slate-500 dark:text-slate-400 hover:border-venturi-cyan hover:text-venturi-cyan transition-colors font-mono text-[10px] rounded-full">#{{ t }}</a>
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+        
+        {% if not articles %}
+        <div class="text-center py-20 text-slate-500 font-mono">
+            // No articles found in this category.
+        </div>
+        {% endif %}
+    </div>
+</section>
+{% endblock content %}

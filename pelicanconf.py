@@ -15,6 +15,10 @@ PATH = 'content'
 # Serve pages at /slug/ instead of /pages/slug.html
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
+
+# Serve articles at /slug/ instead of /slug.html
+ARTICLE_URL = '{slug}/'
+ARTICLE_SAVE_AS = '{slug}/index.html'
 THEME = 'theme/venturi'
 
 TIMEZONE = 'Europe/Paris'
@@ -44,4 +48,4 @@ SOCIAL = (
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+RELATIVE_URLS = True
