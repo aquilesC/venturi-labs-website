@@ -2,8 +2,13 @@ AUTHOR = 'Aquiles'
 SITENAME = 'Venturi Labs'
 SITEURL = 'https://venturi-labs.eu'
 
-DIRECT_TEMPLATES = ['index', 'sitemap']
+DIRECT_TEMPLATES = ['index', 'sitemap', 'resources']
 SITEMAP_SAVE_AS = 'sitemap.xml'
+RESOURCES_SAVE_AS = 'resources/index.html'
+
+MENUITEMS = (
+    ('Resources', '/resources'),
+)
 
 PATH = 'content'
 

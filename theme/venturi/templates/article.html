@@ -3,20 +3,84 @@
 {% block title %}{{ article.title }} - {{ SITENAME }}{% endblock title %}
 
 {% block content %}
-<article class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-    <header class="mb-10 pb-8 border-b border-slate-200 dark:border-slate-800">
-        <h1 class="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4">{{ article.title }}</h1>
-        <div class="flex items-center text-sm text-slate-500 font-mono">
-            <time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
-            {% if article.category %}
-            <span class="mx-2">•</span>
-            <a href="{{ SITEURL }}/{{ article.category.url }}" class="text-venturi-cyan hover:underline">{{ article.category }}</a>
-            {% endif %}
+<div class="bg-slate-50 dark:bg-slate-900 min-h-screen">
+    <!-- 1. The Article Header -->
+    <header class="pt-24 pb-12 bg-white dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Breadcrumbs -->
+            <nav class="mb-8 font-mono text-sm text-slate-500 dark:text-slate-400">
+                <a href="{{ SITEURL }}/resources.html" class="hover:text-venturi-cyan transition-colors">Resources</a> 
+                <span class="mx-2">/</span> 
+                {% if article.category %}
+                <a href="{{ SITEURL }}/{{ article.category.url }}" class="hover:text-venturi-cyan transition-colors">{{ article.category }}</a>
+                <span class="mx-2">/</span>
+                {% endif %}
+                <span class="text-slate-800 dark:text-slate-200 line-clamp-1 inline">{{ article.title }}</span>
+            </nav>
+            
+            <!-- H1 -->
+            <h1 class="font-sans text-4xl md:text-5xl font-bold text-slate-900 dark:text-white mb-6 leading-tight">
+                {{ article.title }}
+            </h1>
+            
+            <!-- Metadata Bar -->
+            <div class="flex flex-wrap items-center font-mono text-sm text-slate-500 dark:text-slate-400 gap-y-2">
+                <time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+                {% if article.author %}
+                <span class="mx-3">•</span>
+                <span>By {{ article.author }}</span>
+                {% endif %}
+                {% if article.tags %}
+                <span class="mx-3">•</span>
+                <div class="flex gap-2">
+                    {% for tag in article.tags %}
+                    <a href="{{ SITEURL }}/{{ tag.url }}" class="hover:text-venturi-cyan">#{{ tag }}</a>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
         </div>
     </header>
-    
-    <div class="prose prose-slate dark:prose-invert prose-a:text-venturi-cyan hover:prose-a:text-cyan-600 dark:hover:prose-a:text-cyan-400 prose-code:font-mono prose-pre:bg-slate-900 dark:prose-pre:bg-slate-950 max-w-none">
-        {{ article.content }}
+
+    <!-- 2. The Content Body -->
+    <main class="py-16 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Prose styling with specified overrides -->
+        <article class="prose prose-slate max-w-none dark:prose-invert 
+            prose-headings:font-sans prose-h2:text-slate-800 dark:prose-h2:text-slate-100 prose-h3:text-slate-800 dark:prose-h3:text-slate-100
+            prose-code:font-mono prose-pre:font-mono prose-pre:bg-slate-900 prose-pre:text-slate-100
+            prose-blockquote:border-l-4 prose-blockquote:border-l-venturi-cyan prose-blockquote:italic prose-blockquote:text-slate-700 dark:prose-blockquote:text-slate-300
+            prose-a:text-venturi-cyan hover:prose-a:text-cyan-600 dark:hover:prose-a:text-cyan-400">
+            {{ article.content }}
+        </article>
+    </main>
+
+    <!-- 3. Dynamic Bottom CTA -->
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pb-24">
+        {% if article.category|string == 'Researchers' %}
+        <div class="bg-slate-800 rounded-lg p-8 border border-slate-700 text-center shadow-lg">
+            <h3 class="text-2xl font-bold text-white mb-4">Discuss Your Next NWO Grant Proposal</h3>
+            <p class="text-slate-300 mb-6">Need a reliable commercialization partner to strengthen the valorisation section of your proposal? Let's talk.</p>
+            <a href="{{ SITEURL }}/researchers" class="inline-block px-6 py-3 bg-venturi-cyan text-slate-900 font-bold rounded hover:bg-cyan-400 transition-colors">Learn More for PIs</a>
+        </div>
+        {% elif article.category|string == 'TTOs' %}
+        <div class="bg-emerald-900/20 rounded-lg p-8 border border-emerald-800/50 text-center shadow-lg">
+            <h3 class="text-2xl font-bold text-emerald-100 mb-4">Portfolio Review for Hard-to-Place IP</h3>
+            <p class="text-emerald-200/80 mb-6">Have un-licensed hardware patents gathering dust? We analyze portfolios for viable productization candidates.</p>
+            <a href="{{ SITEURL }}/universities" class="inline-block px-6 py-3 bg-emerald-500 text-white font-bold rounded hover:bg-emerald-400 transition-colors">See TTO Services</a>
+        </div>
+        {% elif article.category|string == 'Engineering' %}
+        <div class="bg-indigo-900/20 rounded-lg p-8 border border-indigo-800/50 text-center shadow-lg">
+            <h3 class="text-2xl font-bold text-indigo-100 mb-4">Discuss Technical Collaboration</h3>
+            <p class="text-indigo-200/80 mb-6">Are you building custom instrumentation and hitting a scaling wall? Leverage our unified hardware abstraction layers.</p>
+            <a href="{{ SITEURL }}/platform" class="inline-block px-6 py-3 bg-architecture-indigo text-white font-bold rounded hover:bg-indigo-500 transition-colors">Explore Our Platform</a>
+        </div>
+        {% else %}
+        <div class="bg-slate-800 rounded-lg p-8 border border-slate-700 text-center shadow-lg">
+            <h3 class="text-2xl font-bold text-white mb-4">Ready to Accelerate Your Deep Tech?</h3>
+            <p class="text-slate-300 mb-6">Get in touch with Venturi Labs to discuss productization, engineering, and bringing your technology to market.</p>
+            <a href="{{ SITEURL }}/contact" class="inline-block px-6 py-3 border border-slate-600 text-white font-bold rounded hover:bg-slate-700 hover:border-slate-500 transition-colors">Contact Us</a>
+        </div>
+        {% endif %}
     </div>
-</article>
+</div>
 {% endblock content %}
