@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
     
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚙️</text></svg>">
+    
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,7 +61,6 @@
                             <a href="{{ link }}" class="text-slate-600 hover:text-venturi-cyan dark:text-slate-300 dark:hover:text-venturi-cyan transition-colors px-3 py-2 text-sm font-medium">{{ title }}</a>
                         {% endfor %}
                     {% endif %}
-                    <a href="{{ SITEURL }}/archives.html" class="text-slate-600 hover:text-venturi-cyan dark:text-slate-300 dark:hover:text-venturi-cyan transition-colors px-3 py-2 text-sm font-medium">Articles</a>
                 </nav>
                 
                 <!-- Dark Mode Toggle -->
@@ -78,7 +80,7 @@
 
     <footer class="border-t border-slate-200 dark:border-slate-800 py-8 mt-12 bg-white dark:bg-slate-900">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-slate-500 dark:text-slate-400 text-sm">
-            &copy; 2026 {{ SITENAME }}. Built with Precision.
+            &copy; 2026 {{ SITENAME }}. Built with Precision ⚙️ in Amsterdam.
         </div>
     </footer>
     
