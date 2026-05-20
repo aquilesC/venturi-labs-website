@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% set latest_article = articles[0] if articles else none %}
+{% set latest_date = latest_article.modified|strftime('%Y-%m-%d') if latest_article and latest_article.modified else latest_article.date|strftime('%Y-%m-%d') if latest_article and latest_article.date else '2026-05-20' %}
+  <url>
+    <loc>{{ SITEURL }}/</loc>
+    <lastmod>{{ latest_date }}</lastmod>
+  </url>
+  <url>
+    <loc>{{ SITEURL }}/resources/</loc>
+    <lastmod>{{ latest_date }}</lastmod>
+  </url>
 {% for page in pages %}
   <url>
     <loc>{{ SITEURL }}/{{ page.url }}</loc>
-    <lastmod>{{ page.modified|strftime('%Y-%m-%d') if page.modified else page.date|strftime('%Y-%m-%d') if page.date else '2026-05-19' }}</lastmod>
+    <lastmod>{{ page.modified|strftime('%Y-%m-%d') if page.modified else page.date|strftime('%Y-%m-%d') if page.date else latest_date }}</lastmod>
   </url>
 {% endfor %}
 {% for article in articles %}
   <url>
     <loc>{{ SITEURL }}/{{ article.url }}</loc>
-    <lastmod>{{ article.modified|strftime('%Y-%m-%d') if article.modified else article.date|strftime('%Y-%m-%d') if article.date else '2026-05-19' }}</lastmod>
+    <lastmod>{{ article.modified|strftime('%Y-%m-%d') if article.modified else article.date|strftime('%Y-%m-%d') if article.date else latest_date }}</lastmod>
   </url>
 {% endfor %}
 </urlset>
