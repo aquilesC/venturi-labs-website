@@ -8,7 +8,7 @@ When a university Technology Transfer Office identifies a commercially viable pi
 
 The TTO drafts articles of incorporation. The PI is named as a founder, typically alongside one or two postdocs. A licensing agreement is negotiated—often an exclusive, worldwide license in exchange for equity and future royalties. The new entity is then pointed toward the venture capital ecosystem and told to raise a seed round.
 
-For software innovations with massive addressable markets, this playbook can work. For niche scientific hardware that might sell 30–80 units per year, it is a structural trap. The spin-off model imposes an enormous overhead of corporate administration, fundraising, and CEO responsibilities onto researchers whose unique value lies in their scientific and engineering expertise.
+For software innovations with massive addressable markets, this playbook can work. For niche scientific hardware that might sell 30–80 units per year, it is a structural trap. The spin-off model imposes an enormous overhead of corporate administration, fundraising, and CEO responsibilities onto researchers whose unique value lies in their scientific and engineering expertise. (For a deeper analysis of why the VC-backed spin-off model fails niche hardware, see [The Startup Trap]({filename}/startup_trap.md).)
 
 There is a better model. It is called an **asset carve-out**, and it fundamentally changes the economics and risk profile of **university IP licensing for hardware**.
 
@@ -31,7 +31,7 @@ The PI, meanwhile, has been transformed from a world-class optical engineer into
 
 An **asset carve-out** separates the intellectual property from the individual. Instead of licensing the IP to a new, founder-dependent company, the TTO licenses the specific technology—the patent, the know-how, the prototype specifications—directly to an established execution partner.
 
-The critical distinction is structural: the execution partner is not a startup. It is an existing entity with a proven track record in industrializing scientific hardware. It already possesses the commercial infrastructure—the engineering team, the manufacturing supply chain, the software architecture, the regulatory compliance framework—that the spin-off would have to build from zero.
+The critical distinction is structural: the execution partner is not a startup. It is an existing entity with a proven track record in industrializing scientific hardware. It already possesses the commercial infrastructure—the engineering team, the manufacturing supply chain, the software architecture, the regulatory compliance framework—that the spin-off would have to build from zero. This is the operational model we describe in detail in [The Valorisation-as-a-Service Framework]({filename}/valorization-as-a-service.md).
 
 Under an asset carve-out, the TTO negotiates a licensing agreement with the execution partner. The agreement defines:
 
@@ -52,14 +52,14 @@ The TTO receives equity (typically 5–15%) in a new company with no revenue, no
 **Asset carve-out model:**
 The TTO receives a licensing fee and royalties from an established entity that already has the infrastructure to produce and sell the instrument. Revenue begins when "Serial #001" ships—not when the company achieves profitability. The execution risk is fundamentally lower because the licensee is not building corporate infrastructure; it is adding a product line to an existing operation.
 
-Frameworks such as the **4TU.CRIS deal terms** or standard WIPO licensing templates provide well-established precedents for structuring these agreements. The negotiation is faster, the legal costs are lower, and the outcome is more predictable.
+Frameworks such as the **4TU.CRIS deal terms** or standard WIPO licensing templates provide well-established precedents for structuring these agreements. The negotiation is faster, the legal costs are lower, and the outcome is more predictable. For practical guidance on structuring the initial budget within this framework, see [How to Budget an NWO Take-off Grant for Physical Hardware]({filename}/nwo-takeoff-budget.md).
 
 ### Protecting the Researcher
 
 Beyond financial mechanics, the asset carve-out model addresses the most human dimension of tech transfer: it protects the researcher.
 
-The spin-off model asks PIs to assume enormous personal risk. They must leave secure academic positions, sacrifice publishing output during critical career stages, and navigate a startup ecosystem that is structurally hostile to niche hardware. When the spin-off fails—as most do—the PI has lost years of academic productivity and often re-enters the research community with diminished momentum.
+The spin-off model asks PIs to assume enormous personal risk. They must leave secure academic positions, sacrifice publishing output during critical career stages, and navigate a startup ecosystem that is structurally hostile to niche hardware. When the spin-off fails—as most do—the PI has lost years of academic productivity and often re-enters the research community with diminished momentum. We examine this dynamic in depth in [The Hidden Career Cost of the Academic Spin-off]({filename}/career-cost.md).
 
 The carve-out model preserves the PI's academic trajectory. Their invention reaches the market through a professional execution partner. They retain authorship of the underlying science. They can continue to publish, supervise PhD candidates, and pursue their next research breakthrough—all while receiving royalty income from a commercialized product carrying their name.
 
-For TTOs whose mandate is to maximize the impact of academic research, the asset carve-out is not a compromise. It is a structurally superior mechanism for getting niche scientific hardware from the lab bench to the global market.
+For TTOs whose mandate is to maximize the impact of academic research, the asset carve-out is not a compromise. It is a structurally superior mechanism for getting niche scientific hardware from the lab bench to the global market. At the ecosystem level, this model is also critical for [retaining deep tech engineering talent]({filename}/deep-tech-brain-drain.md) that would otherwise leave hardware entirely.

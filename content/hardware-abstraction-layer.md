@@ -8,7 +8,7 @@ In the world of niche scientific instrumentation, every product is supposedly un
 
 This is the expensive fiction that keeps deep tech hardware trapped in the lab.
 
-The reality is that 80% of the software controlling these instruments is structurally identical. Every one of them needs to initialize hardware, acquire data from sensors, present a real-time user interface, log measurements to disk, and manage alarm states. Yet every academic team writes this stack from scratch, hardwired to the specific sensors bolted to their optical breadboard.
+The reality is that 80% of the software controlling these instruments is structurally identical. Every one of them needs to initialize hardware, acquire data from sensors, present a real-time user interface, log measurements to disk, and manage alarm states. Yet every academic team writes this stack from scratch, hardwired to the specific sensors bolted to their optical breadboard. (This is the same "Platform Tax" we dissect in [the science breadboard architecture]({filename}/breadboard.md)—only on the software side.)
 
 We decided to stop doing that. We built a **Hardware Abstraction Layer (HAL)** that sits at the foundation of every instrument we commercialize. Here is why, and how it works.
 
@@ -18,7 +18,7 @@ Walk into any physics lab building a custom instrument and inspect the software 
 
 This architecture works for exactly one configuration of exactly one prototype. The moment anything changes—a sensor supplier discontinues a component, a customer requests a different detector, or a firmware update shifts a register map—the entire software stack must be partially rewritten.
 
-For a lab bench running a single experiment, this is tolerable. For a commercial product that must be maintained across multiple deployed units, with potentially varying hardware revisions and customer-specific configurations, point-to-point coupling is a support catastrophe.
+For a lab bench running a single experiment, this is tolerable. For a commercial product that must be maintained across multiple deployed units, with potentially varying hardware revisions and customer-specific configurations, point-to-point coupling is a support catastrophe. We detail the full scope of this problem—and why [migrating from LabVIEW to Python/PyQt]({filename}/labview-to-python.md) is a prerequisite—in a companion article.
 
 ### What the HAL Actually Does
 
@@ -50,7 +50,7 @@ Our approach to the HAL is rooted in **open-hardware philosophy**. The abstracti
 
 When a new academic prototype enters our commercialization pipeline, the PI's specific scientific payload—the novel optical path, the custom microfluidic cartridge, the unique ablation chamber—needs only a set of HAL-compliant drivers to integrate with our existing infrastructure. The PI retains full visibility into how their hardware interfaces with the system. The driver specifications are documented and accessible.
 
-This transparency accelerates collaboration. Academic teams can prototype their driver implementations during the research phase, using our published interface specifications as a design target. By the time the instrument enters formal productization, the software integration is already 80% complete.
+This transparency accelerates collaboration. Academic teams can prototype their driver implementations during the research phase, using our published interface specifications as a design target. By the time the instrument enters formal productization, the software integration is already 80% complete. On the hardware side, the same modular philosophy applies to [CE-marking compliance]({filename}/ce-marking-checklist.md)—standardized enclosures inherit a pre-validated compliance pedigree, just as the HAL inherits a pre-validated software architecture.
 
 ### The Compounding Architecture Advantage
 

@@ -6,7 +6,7 @@ Date: 2026-06-16
 
 Every academic hardware prototype has a dirty secret: its software stack is a ticking time bomb.
 
-If you have built a novel optical metrology tool or a custom nanoparticle deposition system on an academic bench, there is a near-certainty that it runs on LabVIEW. The graphical wiring paradigm is intuitive for physicists, quick for single-user experiments, and deeply entrenched in university culture. It is also the single largest source of unscalable technical debt when you attempt to cross the chasm from TRL 4 to TRL 8.
+If you have built a novel optical metrology tool or a custom nanoparticle deposition system on an academic bench, there is a near-certainty that it runs on LabVIEW. The graphical wiring paradigm is intuitive for physicists, quick for single-user experiments, and deeply entrenched in university culture. It is also the single largest source of unscalable technical debt when you attempt to cross the chasm from TRL 4 to TRL 8. (For the broader architectural challenge of scaling bench prototypes, see our breakdown of [the science breadboard approach]({filename}/breadboard.md).)
 
 The moment you try to commercialize LabVIEW-driven hardware, you are not selling a scientific instrument. You are selling a support liability.
 
@@ -34,7 +34,7 @@ PyQt, built on the Qt framework, delivers the professional-grade graphical inter
 
 Migrating from LabVIEW is not simply a matter of rewriting VIs in Python. A naive port—translating spaghetti wiring into spaghetti scripting—solves nothing.
 
-The critical architectural decision is implementing a **Hardware Abstraction Layer (HAL)**. The HAL is the software boundary between your application logic and the physical hardware. It defines a standardized interface that your Python/PyQt application communicates with, regardless of the specific sensor, actuator, or DAQ board connected underneath.
+The critical architectural decision is implementing a **Hardware Abstraction Layer (HAL)**. We cover the full technical design in [Why We Built a Hardware Abstraction Layer for Niche Instruments]({filename}/hardware-abstraction-layer.md). In short, the HAL is the software boundary between your application logic and the physical hardware. It defines a standardized interface that your Python/PyQt application communicates with, regardless of the specific sensor, actuator, or DAQ board connected underneath.
 
 With a properly designed HAL, your commercial instrument software becomes genuinely hardware-agnostic. If a supplier discontinues a particular camera module, an engineer writes a single new driver that conforms to the HAL's existing API contract. The user interface, data logging, alarm management, and reporting layers never change.
 
@@ -44,7 +44,7 @@ This is the fundamental difference between academic software and commercial soft
 
 For PIs and engineering teams sitting on a LabVIEW-driven prototype, the migration to Python/PyQt does not have to be a painful rewrite-from-scratch exercise.
 
-The most capital-efficient strategy is to leverage a centralized software architecture that has already solved the foundational problems. A productization partner that maintains a mature Python/PyQt framework with a pre-built HAL, standardized data logging, and modular UI components can absorb the "Novel 20%" of your specific instrument logic into a proven infrastructure.
+The most capital-efficient strategy is to leverage a centralized software architecture that has already solved the foundational problems. A productization partner that maintains a mature Python/PyQt framework with a pre-built HAL, standardized data logging, and modular UI components can absorb the "Novel 20%" of your specific instrument logic into a proven infrastructure. If you are planning to fund this migration through a grant, read our tactical guide on [how to budget an NWO Take-off grant for physical hardware]({filename}/nwo-takeoff-budget.md), and understand the [CE-marking compliance checklist]({filename}/ce-marking-checklist.md) that your standardized architecture will need to satisfy.
 
 Your research team specifies the scientific workflow and sensor requirements. The execution engine integrates those specifications into its existing, commercially hardened software stack. The result is a professional instrument application—version-controlled, unit-tested, and remotely updatable—delivered in weeks rather than months.
 

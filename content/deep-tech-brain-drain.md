@@ -18,7 +18,7 @@ The decision to leave deep tech is rarely emotional. It is rational.
 
 Consider the options facing a postdoc who has spent four years building a novel optical metrology instrument. The prototype works. The science is validated. The publication is submitted. Now what?
 
-**Option A: The Spin-off.** The university's Technology Transfer Office encourages the postdoc to incorporate a startup, license the IP, raise venture capital, and become a CEO. This means abandoning a secure academic position, entering a fundraising environment that is structurally hostile to niche hardware (VCs want software-scale returns), and personally shouldering the risk of building a company from zero—hiring, accounting, regulatory compliance, sales—all while attempting to simultaneously engineer a commercial product.
+**Option A: The Spin-off.** The university's Technology Transfer Office encourages the postdoc to incorporate a startup, license the IP, raise venture capital, and become a CEO. This means abandoning a secure academic position, entering a fundraising environment that is structurally hostile to niche hardware (VCs want software-scale returns), and personally shouldering the risk of building a company from zero—hiring, accounting, regulatory compliance, sales—all while attempting to simultaneously engineer a commercial product. (We explore the full personal toll of this path in [The Hidden Career Cost of the Academic Spin-off]({filename}/career-cost.md). For TTOs, there is a [structurally better alternative: the asset carve-out]({filename}/asset-carveout-vs-spinoff.md).)
 
 **Option B: The Industry Job.** A large industrial R&D lab offers a position, but these roles are scarce, highly competitive, and typically located in a handful of European cities. The work often involves optimizing existing product lines rather than pioneering new instruments.
 
@@ -26,7 +26,7 @@ Consider the options facing a postdoc who has spent four years building a novel 
 
 For most rational actors, Option C wins. The structural risk of Option A is asymmetric—the downside (years of personal financial stress, potential career damage) vastly outweighs the realistic upside of a niche hardware startup. The stability and compensation of Option C are immediate and guaranteed.
 
-Europe does not have a talent problem. It has a pathway problem.
+Europe does not have a talent problem. It has a pathway problem. (For a detailed look at this dynamic from the researcher's perspective, see [The "Scipreneur" Gap]({filename}/scipreneur-gap.md).)
 
 ### The Ecosystem Cost
 
@@ -48,7 +48,7 @@ Instead of forcing postdocs to become founders, regional ecosystems should suppo
 
 1. **The postdoc is hired** by the productization studio at a competitive, industry-benchmarked salary. They receive financial stability from Day 1. There is no fundraising, no equity risk, no CEO hat.
 
-2. **Their academic invention enters a productization sprint.** The engineer leads the translation of their bench prototype into a commercial instrument, utilizing the studio's existing hardware and software infrastructure. The "Platform Tax" is already solved—the enclosure, the power backplane, the Python/PyQt software framework, the HAL. The engineer focuses exclusively on integrating their "Novel 20%."
+2. **Their academic invention enters a productization sprint.** The engineer leads the translation of their bench prototype into a commercial instrument, utilizing the studio's existing hardware and software infrastructure. The "Platform Tax" is already solved—the enclosure, the power backplane, the [Python/PyQt software framework]({filename}/labview-to-python.md), the [HAL]({filename}/hardware-abstraction-layer.md). The engineer focuses exclusively on integrating their "Novel 20%." (For the full anatomy of this sprint, see [The 1-Year Productization Sprint]({filename}/1-year-sprint.md).)
 
 3. **The engineer builds commercial skills.** Over the course of the sprint, the postdoc masters industrial supply chain management, CE-marking compliance, manufacturing documentation, and customer deployment. They transform from an academic researcher into a commercially hardened deep tech systems engineer.
 
@@ -62,4 +62,4 @@ The economics are compelling. The cost of funding a productization sprint for a 
 
 At scale, a regional productization hub anchors an entire cluster of deep tech talent. Engineers who complete sprints become the nucleus of a specialized workforce. They attract peers. They build institutional knowledge. They create the density of expertise that makes a region globally competitive in niche hardware—the same way that Eindhoven's concentration of optics talent feeds ASML's supply chain, or that Jena's photonics cluster sustains Zeiss and Jenoptik.
 
-Europe does not need more startup incubators for hardware. It needs execution engines that give its best engineers a reason to stay.
+Europe does not need more startup incubators for hardware. It needs execution engines that give its best engineers a reason to stay. For an analysis of how rethinking public R&D deployment supports this model at the policy level, read [Maximizing Public R&D ROI]({filename}/public-rnd.md).

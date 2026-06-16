@@ -29,7 +29,7 @@ For bench prototypes, **EMI shielding for scientific instruments** is almost alw
 
 When you submit this to a test house for radiated emissions testing (EN 61326-1 for laboratory equipment), it will fail. The remediation process—retrofitting shielding, adding ferrite chokes, redesigning cable routing—is unpredictable in both cost and timeline.
 
-The architectural solution is to start with a shielded enclosure system. A standardized extrusion-based chassis with continuous EMI gaskets on all seams, filtered power entry modules, and properly grounded cable pass-throughs eliminates the majority of radiated emissions issues before your specific scientific payload is even installed.
+The architectural solution is to start with a shielded enclosure system. A standardized extrusion-based chassis with continuous EMI gaskets on all seams, filtered power entry modules, and properly grounded cable pass-throughs eliminates the majority of radiated emissions issues before your specific scientific payload is even installed. This is a core principle of [the science breadboard architecture]({filename}/breadboard.md)—separating the standardized infrastructure from the novel science.
 
 ### The Modular Compliance Checklist
 
@@ -50,6 +50,8 @@ Here is a practical checklist for academic teams approaching CE marking. Each it
 * [ ] High-frequency digital signals (USB, Ethernet, SPI) are routed away from sensitive analog measurement paths
 * [ ] Ferrite cores or filtered connectors are applied to all cables exiting the enclosure
 * [ ] The internal power distribution uses a dedicated backplane with decoupling capacitors at each load point
+
+On the software side, the instrument's control stack must also be architected for maintainability. Migrating from LabVIEW to a [Python/PyQt software architecture]({filename}/labview-to-python.md) with a proper [Hardware Abstraction Layer]({filename}/hardware-abstraction-layer.md) ensures that software updates do not introduce regressions that affect EMC compliance.
 
 **Thermal and Mechanical Safety**
 
@@ -74,4 +76,4 @@ When you adopt a standardized chassis system—heavy extrusion framing, universa
 
 Your CE-marking effort shrinks to testing only the unique scientific payload: the specific optical path, the custom PCB, or the novel sensor array. Instead of a six-month compliance odyssey, you are looking at a focused testing cycle measured in weeks.
 
-Stop treating CE marking as an afterthought that consumes the last of your grant budget. Design for compliance from the start, and let standardized infrastructure carry the regulatory weight.
+Stop treating CE marking as an afterthought that consumes the last of your grant budget. Design for compliance from the start, and let standardized infrastructure carry the regulatory weight. For a tactical guide on allocating grant funding to cover these compliance costs, see [How to Budget an NWO Take-off Grant for Physical Hardware]({filename}/nwo-takeoff-budget.md). And for a deeper look at how standardized infrastructure feeds into [low-volume manufacturing]({filename}/low-volume-manufacturing.md) economics, see our dedicated breakdown.

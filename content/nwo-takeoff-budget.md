@@ -16,7 +16,7 @@ Here is how to strategically allocate an **NWO Take-off Phase 1 budget** to maxi
 
 The most common mistake PIs make with **deep tech prototyping grants** is treating them as extensions of their research budgets. The science is already proven—that is why you received the grant. The Take-off budget must be ruthlessly directed toward commercial de-risking, not further scientific exploration.
 
-Yet, the instinctive first move for most academic teams is to hire a generalist postdoc or research engineer and task them with rebuilding the bench prototype into something that looks more "commercial." This postdoc spends three months redesigning the enclosure, two months attempting a LabVIEW-to-Python migration, and the remaining budget on a handful of machined parts. The result is a slightly better-looking prototype that is still fundamentally unscalable.
+Yet, the instinctive first move for most academic teams is to hire a generalist postdoc or research engineer and task them with rebuilding the bench prototype into something that looks more "commercial." This postdoc spends three months redesigning the enclosure, two months attempting a [LabVIEW-to-Python migration]({filename}/labview-to-python.md), and the remaining budget on a handful of machined parts. The result is a slightly better-looking prototype that is still fundamentally unscalable.
 
 The budget has been spent on redundant R&D—engineering that has already been solved by established productization frameworks.
 
@@ -44,7 +44,7 @@ This is the single most capital-efficient decision a hardware PI can make. Inste
 
 **Regulatory Pre-Assessment (10–15%: €5k–€9k)**
 
-Allocate a specific line item for an initial CE-marking gap analysis. This does not mean full compliance testing—that comes in Phase 2 or subsequent funding rounds. But a pre-assessment by a qualified test house identifies the specific standards applicable to your instrument class and flags any design issues that would require expensive remediation later.
+Allocate a specific line item for an initial [CE-marking gap analysis]({filename}/ce-marking-checklist.md). This does not mean full compliance testing—that comes in Phase 2 or subsequent funding rounds. But a pre-assessment by a qualified test house identifies the specific standards applicable to your instrument class and flags any design issues that would require expensive remediation later.
 
 If you are using standardized enclosure infrastructure with pre-validated EMC shielding, this assessment will largely confirm existing compliance. If you are building bespoke, it will generate a list of expensive problems.
 
@@ -53,7 +53,7 @@ If you are using standardized enclosure infrastructure with pre-validated EMC sh
 Engage early with your university's TTO and, if necessary, an external IP advisor to define the licensing structure. Key decisions at this stage include:
 
 * Whether to pursue an exclusive or non-exclusive license for the specific application domain
-* Whether an asset carve-out or a traditional spin-off license is more appropriate
+* Whether an [asset carve-out]({filename}/asset-carveout-vs-spinoff.md) or a traditional spin-off license is more appropriate
 * Defining royalty structures that align with low-volume manufacturing economics
 
 Getting the IP framework right during Phase 1 prevents costly renegotiations when Phase 2 capital arrives.
@@ -64,6 +64,6 @@ NWO reviewers are looking for evidence that you understand the gap between acade
 
 Frame the centralized productization partnership as a de-risking strategy, not an outsourcing decision. Reviewers respond positively to language that demonstrates capital efficiency: shared infrastructure, architectural reuse, reduced time-to-market.
 
-Include a concrete commercialization letter of support from your execution partner. This letter should outline the specific technical deliverables, the timeline, and the cost basis—demonstrating to the review committee that your budget allocation maps to tangible, executable milestones.
+Include a concrete [commercialization letter of support]({filename}/letters_support.md) from your execution partner. This letter should outline the specific technical deliverables, the timeline, and the cost basis—demonstrating to the review committee that your budget allocation maps to tangible, executable milestones.
 
-Stop treating Take-off grants as research extensions. Budget for execution, and give your hardware a real path to the market.
+Stop treating Take-off grants as research extensions. Budget for execution, and give your hardware a real path to the market. For a broader perspective on hardware grant strategy, see our guide to [budgeting for hardware valorisation]({filename}/budgeting.md).
