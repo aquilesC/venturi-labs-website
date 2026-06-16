@@ -1,0 +1,71 @@
+{
+  "content_strategy": {
+    "last_updated": "2026-06-16",
+    "cta_targets": {
+      "PI": "Principal Investigators — researchers with prototypes seeking commercialization pathways",
+      "TTO": "Technology Transfer Offices — institutional bodies managing IP licensing and valorisation",
+      "Engineering": "Engineers and postdocs — technical audience seeking implementation guidance",
+      "Ecosystem": "Regional development boards, policymakers, and ecosystem builders"
+    },
+    "funnel_stages": [
+      {
+        "stage": "bottom_of_funnel",
+        "label": "High-Intent / Bottom of Funnel",
+        "description": "The 'I have a problem' searches",
+        "keywords": [
+          "commercializing scientific instruments",
+          "alternatives to university spin-offs",
+          "hardware valorisation partner",
+          "deep tech venture studio europe"
+        ],
+        "intent": "A TTO or PI has a working prototype, realizes the VC route won't work, and is actively looking for an execution partner.",
+        "strategy": "Map these to core service pages.",
+        "target_audience": ["TTOs", "PIs with working prototypes"],
+        "content_type": "service_pages",
+        "mapped_content": [
+          "asset-carveout-vs-spinoff.md"
+        ]
+      },
+      {
+        "stage": "middle_of_funnel",
+        "label": "Middle of Funnel / Educational",
+        "description": "The 'How do I scale this' searches",
+        "keywords": [
+          "bridging TRL 4 to TRL 8",
+          "CE marking lab equipment",
+          "labview to python hardware",
+          "science breadboard architecture",
+          "niche hardware manufacturing"
+        ],
+        "intent": "An engineer or postdoc is trying to figure out how to scale their bench prototype and is running into the 'Platform Tax.'",
+        "strategy": "Map these to deep-dive engineering articles and technical case studies.",
+        "target_audience": ["engineers", "postdocs"],
+        "content_type": "engineering_articles",
+        "mapped_content": [
+          "labview-to-python.md",
+          "ce-marking-checklist.md",
+          "hardware-abstraction-layer.md",
+          "nwo-takeoff-budget.md"
+        ]
+      },
+      {
+        "stage": "top_of_funnel",
+        "label": "Top of Funnel / Ecosystem",
+        "description": "The 'Funding and Policy' searches",
+        "keywords": [
+          "HTSM innovation funding",
+          "NWO take-off phase 1 hardware",
+          "horizon europe deep tech impact",
+          "deep tech valley of death"
+        ],
+        "intent": "Ecosystem builders, grant writers, and TTOs looking for structural models and funding strategies.",
+        "strategy": "Map these to thought-leadership articles and whitepapers.",
+        "target_audience": ["ecosystem builders", "grant writers", "TTOs"],
+        "content_type": "thought_leadership",
+        "mapped_content": [
+          "deep-tech-brain-drain.md"
+        ]
+      }
+    ]
+  }
+}
