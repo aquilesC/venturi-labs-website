@@ -36,10 +36,11 @@
     <!-- Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚙️</text></svg>">
     
-    <!-- Google Fonts -->
+    <!-- Google Fonts — preconnect + preload for LCP optimization -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:wght@100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     
     <!-- Tailwind CSS -->
     <link rel="stylesheet" href="/theme/css/main.css" />
@@ -59,6 +60,54 @@
     {% if CATEGORY_FEED_ATOM %}
     <link href="{{ CATEGORY_FEED_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Categories Atom Feed" />
     {% endif %}
+    
+    <!-- Organization JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Venturi Labs",
+        "url": "https://venturi-labs.eu",
+        "logo": "https://venturi-labs.eu/theme/venturi_logo.jpg",
+        "description": "Venturi Labs transforms niche academic lab inventions into professional, commercially available scientific instruments through centralized productization.",
+        "foundingLocation": {
+            "@type": "Place",
+            "name": "Amsterdam, Netherlands",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "NL",
+                "addressLocality": "Amsterdam"
+            }
+        },
+        "areaServed": {
+            "@type": "Place",
+            "name": "Europe"
+        },
+        "knowsAbout": [
+            "Deep Tech Commercialization",
+            "Scientific Instrumentation",
+            "Hardware Productization",
+            "Technology Transfer",
+            "CE Marking",
+            "Low-Volume Manufacturing",
+            "Hardware Abstraction Layers",
+            "Lab-to-Market Translation"
+        ],
+        "slogan": "Building the Deep Tech Product Engine.",
+        "sameAs": [],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Business Development",
+            "url": "https://venturi-labs.eu/contact/"
+        },
+        "additionalType": [
+            "https://schema.org/ResearchOrganization",
+            "https://schema.org/EngineeringOrganization"
+        ]
+    }
+    </script>
+    
+    {% block structured_data %}{% endblock structured_data %}
 </head>
 
 <body class="flex flex-col min-h-screen">
@@ -69,7 +118,7 @@
                 <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center">
                     <a href="{{ SITEURL }}/" class="flex items-center gap-2">
-                        <svg class="h-8 w-8 text-slate-800 dark:text-slate-100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="h-8 w-8 text-slate-800 dark:text-slate-100" width="32" height="32" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 20 L40 80 L50 90 L60 80 L90 20 L75 20 L50 70 L25 20 Z" fill="currentColor"/>
                             <!-- Venturi Cyan Accent -->
                             <path d="M40 80 L50 90 L60 80 Z" fill="#06B6D4"/>
