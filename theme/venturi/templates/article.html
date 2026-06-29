@@ -17,9 +17,9 @@
     "dateModified": "{{ article.date.isoformat() }}",
     {% endif %}
     "author": {
-        "@type": "Organization",
-        "name": "Venturi Labs",
-        "url": "https://venturi-labs.eu"
+        "@type": "Person",
+        "name": "Aquiles Carattino",
+        "url": "https://linkedin.com/in/aquic"
     },
     "publisher": {
         "@type": "Organization",
@@ -134,33 +134,52 @@
         <article class="venturi-prose max-w-none">
             {{ article.content }}
         </article>
+
+        <!-- Author Bio Card -->
+        {% if article.author|string == 'Aquiles' %}
+        <div class="mt-12 bg-white dark:bg-slate-800 rounded-lg p-6 border border-slate-200 dark:border-slate-700 flex flex-col md:flex-row items-center md:items-start gap-6 shadow-sm">
+            <div class="flex-shrink-0">
+                <img src="{{ SITEURL }}/theme/Aquiles_Carattino.jpg" alt="Aquiles Carattino" class="w-16 h-16 rounded-full object-cover shadow-sm border border-slate-200 dark:border-slate-700" loading="lazy" />
+            </div>
+            <div>
+                <h4 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Aquiles Carattino</h4>
+                <p class="text-slate-600 dark:text-slate-400 mb-4 text-sm leading-relaxed">
+                    Entrepreneurial physicist, passionate about building products, companies and teams. With a decade of deep-tech experience, I strive to bring innovations to market, making sure the path from science to products is not lost in translation.
+                </p>
+                <a href="https://linkedin.com/in/aquic" target="_blank" rel="noopener noreferrer" class="text-venturi-cyan hover:text-cyan-600 font-medium text-sm flex items-center gap-1">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    Connect on LinkedIn
+                </a>
+            </div>
+        </div>
+        {% endif %}
     </main>
 
     <!-- 3. Dynamic Bottom CTA -->
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pb-24">
         {% if article.category|string == 'Researchers' %}
-        <div class="bg-slate-800 rounded-lg p-8 border border-slate-700 text-center shadow-lg">
-            <h3 class="text-2xl font-bold text-white mb-4">Discuss Your Next NWO Grant Proposal</h3>
-            <p class="text-slate-300 mb-6">Need a reliable commercialization partner to strengthen the valorisation section of your proposal? Let's talk.</p>
+        <div class="bg-slate-100 dark:bg-slate-800 rounded-lg p-8 border border-slate-200 dark:border-slate-700 text-center shadow-lg">
+            <h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">Discuss Your Next NWO Grant Proposal</h3>
+            <p class="text-slate-600 dark:text-slate-300 mb-6">Need a reliable commercialization partner to strengthen the valorisation section of your proposal? Let's talk.</p>
             <a href="{{ SITEURL }}/researchers" class="inline-block px-6 py-3 bg-venturi-cyan text-slate-900 font-bold rounded hover:bg-cyan-400 transition-colors">Learn More for PIs</a>
         </div>
         {% elif article.category|string == 'TTOs' %}
-        <div class="bg-emerald-900/20 rounded-lg p-8 border border-emerald-800/50 text-center shadow-lg">
-            <h3 class="text-2xl font-bold text-emerald-100 mb-4">Portfolio Review for Hard-to-Place IP</h3>
-            <p class="text-emerald-200/80 mb-6">Have un-licensed hardware patents gathering dust? We analyze portfolios for viable productization candidates.</p>
-            <a href="{{ SITEURL }}/universities" class="inline-block px-6 py-3 bg-emerald-500 text-white font-bold rounded hover:bg-emerald-400 transition-colors">See TTO Services</a>
+        <div class="bg-emerald-50 dark:bg-emerald-900/20 rounded-lg p-8 border border-emerald-200 dark:border-emerald-800/50 text-center shadow-lg">
+            <h3 class="text-2xl font-bold text-emerald-900 dark:text-emerald-100 mb-4">Portfolio Review for Hard-to-Place IP</h3>
+            <p class="text-emerald-700 dark:text-emerald-200/80 mb-6">Have un-licensed hardware patents gathering dust? We analyze portfolios for viable productization candidates.</p>
+            <a href="{{ SITEURL }}/universities" class="inline-block px-6 py-3 bg-emerald-600 dark:bg-emerald-500 text-white font-bold rounded hover:bg-emerald-500 dark:hover:bg-emerald-400 transition-colors">See TTO Services</a>
         </div>
         {% elif article.category|string == 'Engineering' %}
-        <div class="bg-indigo-900/20 rounded-lg p-8 border border-indigo-800/50 text-center shadow-lg">
-            <h3 class="text-2xl font-bold text-indigo-100 mb-4">Discuss Technical Collaboration</h3>
-            <p class="text-indigo-200/80 mb-6">Are you building custom instrumentation and hitting a scaling wall? Leverage our unified hardware abstraction layers.</p>
-            <a href="{{ SITEURL }}/platform" class="inline-block px-6 py-3 bg-architecture-indigo text-white font-bold rounded hover:bg-indigo-500 transition-colors">Explore Our Platform</a>
+        <div class="bg-indigo-50 dark:bg-indigo-900/20 rounded-lg p-8 border border-indigo-200 dark:border-indigo-800/50 text-center shadow-lg">
+            <h3 class="text-2xl font-bold text-indigo-900 dark:text-indigo-100 mb-4">Discuss Technical Collaboration</h3>
+            <p class="text-indigo-700 dark:text-indigo-200/80 mb-6">Are you building custom instrumentation and hitting a scaling wall? Leverage our unified hardware abstraction layers.</p>
+            <a href="{{ SITEURL }}/platform" class="inline-block px-6 py-3 bg-indigo-600 dark:bg-architecture-indigo text-white font-bold rounded hover:bg-indigo-500 transition-colors">Explore Our Platform</a>
         </div>
         {% else %}
-        <div class="bg-slate-800 rounded-lg p-8 border border-slate-700 text-center shadow-lg">
-            <h3 class="text-2xl font-bold text-white mb-4">Ready to Accelerate Your Deep Tech?</h3>
-            <p class="text-slate-300 mb-6">Get in touch with Venturi Labs to discuss productization, engineering, and bringing your technology to market.</p>
-            <a href="{{ SITEURL }}/contact" class="inline-block px-6 py-3 border border-slate-600 text-white font-bold rounded hover:bg-slate-700 hover:border-slate-500 transition-colors">Contact Us</a>
+        <div class="bg-slate-100 dark:bg-slate-800 rounded-lg p-8 border border-slate-200 dark:border-slate-700 text-center shadow-lg">
+            <h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">Ready to Accelerate Your Deep Tech?</h3>
+            <p class="text-slate-600 dark:text-slate-300 mb-6">Get in touch with Venturi Labs to discuss productization, engineering, and bringing your technology to market.</p>
+            <a href="{{ SITEURL }}/contact" class="inline-block px-6 py-3 border border-slate-400 dark:border-slate-600 text-slate-800 dark:text-white font-bold rounded hover:bg-slate-200 dark:hover:bg-slate-700 hover:border-slate-500 transition-colors">Contact Us</a>
         </div>
         {% endif %}
     </div>

@@ -15,13 +15,13 @@
     <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="{% block description %}{{ article.summary|striptags|e if article else page.summary|striptags|e if page else 'Venturi Labs transforms niche academic lab inventions into professional, commercially available instruments.' }}{% endblock description %}" />
+    <meta name="description" content="{% block description %}{{ article.summary|striptags|e if article else page.summary|striptags|e if page else 'Venturi Labs transforms niche academic lab inventions into professional, commercially available instruments. Accelerate deep tech commercialization without the startup trap.' }}{% endblock description %}" />
     <meta name="keywords" content="{% block keywords %}{{ article.tags|join(', ')|e if article and article.tags else page.tags|e if page and page.tags else 'Deep Tech, Commercialization, TTO, Principal Investigators, Lab Instruments' }}{% endblock keywords %}" />
     <link rel="canonical" href="{{ SITEURL }}/{% block canonical %}{{ article.url if article else page.url if page else '' }}{% endblock canonical %}" />
     
     <!-- Open Graph Tags -->
-    <meta property="og:title" content="{% block og_title %}{{ article.title|striptags|e if article else page.title|striptags|e if page else SITENAME }}{% endblock %}" />
-    <meta property="og:description" content="{% block og_description %}{{ article.summary|striptags|e if article else page.summary|striptags|e if page else 'Venturi Labs transforms niche academic lab inventions into professional, commercially available instruments.' }}{% endblock %}" />
+    <meta property="og:title" content="{% block og_title %}{{ (article.title|striptags|e ~ ' - ' ~ SITENAME) if article else (page.title|striptags|e ~ ' - ' ~ SITENAME) if page else SITENAME }}{% endblock %}" />
+    <meta property="og:description" content="{% block og_description %}{{ article.summary|striptags|e if article else page.summary|striptags|e if page else 'Venturi Labs transforms niche academic lab inventions into professional, commercially available instruments. Accelerate deep tech commercialization without the startup trap.' }}{% endblock %}" />
     <meta property="og:url" content="{{ SITEURL }}/{% block og_url %}{{ article.url if article else page.url if page else '' }}{% endblock %}" />
     <meta property="og:type" content="{% block og_type %}{{ 'article' if article else 'website' }}{% endblock %}" />
     <meta property="og:image" content="{{ SITEURL }}/{% block og_image %}{{ article.image if article and article.image else page.image if page and page.image else 'theme/venturi_logo.jpg' }}{% endblock %}" />
@@ -29,8 +29,8 @@
     
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="{% block tw_title %}{{ article.title|striptags|e if article else page.title|striptags|e if page else SITENAME }}{% endblock %}" />
-    <meta name="twitter:description" content="{% block tw_description %}{{ article.summary|striptags|e if article else page.summary|striptags|e if page else 'Venturi Labs transforms niche academic lab inventions into professional, commercially available instruments.' }}{% endblock %}" />
+    <meta name="twitter:title" content="{% block tw_title %}{{ (article.title|striptags|e ~ ' - ' ~ SITENAME) if article else (page.title|striptags|e ~ ' - ' ~ SITENAME) if page else SITENAME }}{% endblock %}" />
+    <meta name="twitter:description" content="{% block tw_description %}{{ article.summary|striptags|e if article else page.summary|striptags|e if page else 'Venturi Labs transforms niche academic lab inventions into professional, commercially available instruments. Accelerate deep tech commercialization without the startup trap.' }}{% endblock %}" />
     <meta name="twitter:image" content="{{ SITEURL }}/{% block tw_image %}{{ article.image if article and article.image else page.image if page and page.image else 'theme/venturi_logo.jpg' }}{% endblock %}" />
     
     <!-- Favicon -->
@@ -117,7 +117,7 @@
             <div class="flex justify-between items-center h-16">
                 <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center">
-                    <a href="{{ SITEURL }}/" class="flex items-center gap-2">
+                    <a href="{{ SITEURL }}/" class="flex items-center gap-2" aria-label="Venturi Labs Logo">
                         <svg class="h-8 w-8 text-slate-800 dark:text-slate-100" width="32" height="32" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10 20 L40 80 L50 90 L60 80 L90 20 L75 20 L50 70 L25 20 Z" fill="currentColor"/>
                             <!-- Venturi Cyan Accent -->
