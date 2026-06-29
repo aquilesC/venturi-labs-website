@@ -3,12 +3,13 @@ Category: Engineering
 Tags: CE Marking, EMI Shielding, Regulatory Compliance, Lab Equipment, Hardware Scaling
 CTA_Target: Engineering
 Date: 2026-06-16
+slug: ce-marking-checklist
 
 Academic hardware prototypes exist in a regulatory vacuum. Inside a university lab, that custom spectroscopy setup or novel microfluidic controller is classified as research equipment. It is exempt from commercial safety standards, electromagnetic compatibility requirements, and formal risk assessments.
 
 The moment you intend to sell "Serial #001" to an external customer—even another academic lab—that exemption evaporates. Your instrument must carry a CE mark.
 
-For most PIs and postdocs, this is where the commercialization dream collides with a concrete wall. The **CE marking for lab equipment** process is perceived as an impenetrable bureaucratic nightmare, and for good reason: navigating it from scratch, with a bespoke prototype that was never designed for compliance, is genuinely painful.
+For most PIs and postdocs, this is where the commercialization dream collides with a concrete wall. The [**CE marking for lab equipment**]({filename}/ce-marking-requirements.md) process is perceived as an impenetrable bureaucratic nightmare, and for good reason: navigating it from scratch, with a bespoke prototype that was never designed for compliance, is genuinely painful.
 
 But here is the critical insight that most academic teams miss: **80% of CE-marking compliance is an architectural problem, not a scientific one.** If you design your hardware around modular, pre-tested infrastructure, the regulatory burden shrinks dramatically.
 
