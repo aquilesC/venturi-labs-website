@@ -40,3 +40,7 @@ Moving away from defensive metrics like "We will file two patents" or "We will p
 3.  **Ecosystem Job Creation:** Highlighting that the postdoc who develops the prototype will have a direct pathway to transition into industry as the Lead Product Engineer during the productization sprint, keeping highly specialized talent within the regional economy.
 
 By shifting your TTO's strategy from post-award incubation to pre-award matchmaking, you provide your researchers with an undeniable competitive advantage. You transform speculative grant applications into rock-solid execution plans, securing the funding necessary to drive true deep tech innovation.
+
+### Related Reading
+* [Beyond the Initial Grant: How to Fund the Ongoing Maintenance Phase of a Deep Tech Instrument]({filename}funding-maintenance-phase.md)
+* [Securing the First 5 Customers: How to Get Meaningful LOIs for Unfinished Lab Instruments]({filename}securing-first-5-customers.md)

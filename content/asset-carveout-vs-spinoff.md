@@ -63,3 +63,7 @@ The spin-off model asks PIs to assume enormous personal risk. They must leave se
 The carve-out model preserves the PI's academic trajectory. Their invention reaches the market through a professional execution partner. They retain authorship of the underlying science. They can continue to publish, supervise PhD candidates, and pursue their next research breakthrough—all while receiving royalty income from a commercialized product carrying their name.
 
 For TTOs whose mandate is to maximize the impact of academic research, the asset carve-out is not a compromise. It is a structurally superior mechanism for getting niche scientific hardware from the lab bench to the global market. At the ecosystem level, this model is also critical for [retaining deep tech engineering talent]({filename}/deep-tech-brain-drain.md) that would otherwise leave hardware entirely.
+
+### Related Reading
+* [Licensing vs. Spin-offs: A Strategic Flowchart for TTOs Evaluating Physical Instruments]({filename}licensing-vs-spinoffs.md)
+* [Designing Royalty Structures for Hardware Asset Carve-Outs]({filename}royalty-structures-carve-outs.md)

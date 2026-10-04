@@ -51,3 +51,8 @@ Adopting a science breadboard architecture is an upfront investment in systems e
 When a new academic prototype enters the commercialization pipeline, the engineering team no longer starts from zero. They do not design a new box. They do not write a new UI. They simply design the custom mounting brackets and PCB routing required to secure the new scientific payload onto the standard breadboard interface. 
 
 Physical R&D timelines drop from nine months to four months. Support debt is eradicated because field technicians are servicing a unified platform. By standardizing the infrastructure, engineers are finally free to focus entirely on what actually matters: the science.
+
+### Related Reading
+* [Why Every Academic Hardware Project Needs a Systems Engineer from Day One]({filename}systems-engineer-day-one.md)
+* [From 3D Printing to CNC: Scaling Physical Components for Low-Volume Production]({filename}3d-printing-to-cnc.md)
+* [Sustainable Deep Tech: Designing Niche Lab Instruments for the Circular Economy]({filename}sustainable-deep-tech-circular-economy.md)

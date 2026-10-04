@@ -49,3 +49,6 @@ The most capital-efficient strategy is to leverage a centralized software archit
 Your research team specifies the scientific workflow and sensor requirements. The execution engine integrates those specifications into its existing, commercially hardened software stack. The result is a professional instrument application—version-controlled, unit-tested, and remotely updatable—delivered in weeks rather than months.
 
 Stop investing grant money into proprietary, unscalable LabVIEW architectures. The path to commercial hardware runs through Python.
+
+### Related Reading
+* [Designing UX for Scientists: Moving Beyond Cluttered LabVIEW Interfaces]({filename}ux-for-scientists.md)

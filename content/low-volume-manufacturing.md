@@ -39,3 +39,7 @@ Robust low-volume manufacturing requires strategic **opto-mechanical vendor inte
 By decoupling the physical mounting and the software drivers from the specific component, you create supply chain elasticity. If one vendor cannot deliver a specific translation stage or mass flow controller, your engineering team can seamlessly swap to a competitor's component without requiring a total mechanical redesign or a massive software rewrite. 
 
 Low-volume manufacturing is not a stepping stone to mass production; it is a permanent, highly specialized operational state. By mastering it, deep tech engineers can bring transformative scientific tools to the global market without the destructive pressure of venture-scale hardware economics.
+
+### Related Reading
+* [Supply Chain Resilience for Low-Volume Instruments: Sourcing Components When You Only Need 50 Units]({filename}supply-chain-low-volume.md)
+* [The Micro-Cluster Effect: Fostering Regional Deep Tech Manufacturing Networks]({filename}micro-cluster-manufacturing.md)

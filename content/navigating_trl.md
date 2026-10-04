@@ -41,3 +41,8 @@ By partnering with a centralized productization studio, you immediately bypass t
 Your lab’s R&D effort—and your grant budget—is spent entirely on adapting the "novel 20%" of your invention to slot into this pre-existing, commercial-grade infrastructure. 
 
 Stop promising review committees that your lab will magically transform into a hardware manufacturing facility. Prove your pathway to impact by integrating an industrialization partner at the proposal stage, ensuring your scientific breakthrough actually survives the journey from the bench to the global market.
+
+### Related Reading
+* [The TRL 5 Chasm: How TTOs Can Help Researchers Survive the Deadliest Phase of Deep Tech]({filename}surviving-trl5-chasm.md)
+* [Crossing the Divide: Selling Deep Tech to Industrial Fabs vs. Academic Labs]({filename}selling-to-fabs-vs-labs.md)
+* [Managing Horizon Europe Consortia: Aligning Academic Research with Industrial Productization]({filename}managing-horizon-europe-consortia.md)

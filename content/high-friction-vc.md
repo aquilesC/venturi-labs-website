@@ -36,3 +36,6 @@ Every time a new spin-off is launched, it starts from scratch. The newly minted 
 We have to stop treating the venture-backed spin-off as a one-size-fits-all solution. Brilliant scientific hardware does not need a billion-dollar TAM to be impactful, and researchers should not be forced into the high-friction role of a startup CEO just to see their tools deployed.
 
 By shifting toward centralized productization models—where the heavy lifting of software architecture, compliance, and supply chain logistics is already solved and shared across multiple instruments—we can bypass the VC mismatch entirely. It is time to align the commercialization vehicle with the reality of the science.
+
+### Related Reading
+* [Why Software-as-a-Service (SaaS) Playbooks Will Kill Your Hardware Spin-off]({filename}saas-playbooks-kill-hardware.md)

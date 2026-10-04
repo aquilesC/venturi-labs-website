@@ -35,3 +35,7 @@ Navigating EMI shielding, thermal management, and electrical safety interlocks r
 The strategic workaround is architectural standardization. If you partner with an execution engine that uses standardized extrusion/sheet-metal casing systems and universal power routing, a significant portion of the CE-marking requirements is pre-solved. You drastically reduce the testing budget required, allowing your prototyping grants to stretch further and ensuring your hardware reaches the market without regulatory delays.
 
 Budgeting for hardware valorisation requires an honest assessment of industrial costs. Stop funding redundant prototyping, and start funding scalable execution.
+
+### Related Reading
+* [The True Cost of a Hardware MVP: A Financial Breakdown for Principal Investigators]({filename}true-cost-hardware-mvp.md)
+* [Pricing Niche Hardware: How to Value Instruments When You Only Sell 30 Units a Year]({filename}pricing-niche-hardware.md)

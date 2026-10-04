@@ -42,3 +42,7 @@ To break the status quo and rescue abandoned IP, universities and TTOs must adop
 By licensing these stranded assets to centralized productization studios, institutions can bypass the "Patent & Pray" trap. The studio provides the missing engineering infrastructure—the standardized Python/PyQt architecture, the CE-compliant modular enclosures, and the supply chain. 
 
 More importantly, it provides a structured career pathway to hire the graduating researcher, preserving the tacit knowledge and actively transforming a dormant patent into a globally deployable scientific instrument.
+
+### Related Reading
+* [Open Source Hardware in Academia: A Stepping Stone to Commercialization or a Dead End?]({filename}open-source-hardware-academia.md)
+* [Navigating Background IP: How TTOs Can Untangle the Patents Behind Bench Prototypes]({filename}navigating-background-ip.md)

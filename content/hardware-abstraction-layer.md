@@ -61,3 +61,7 @@ The first instrument required building the foundational abstraction layer. The s
 This compounding effect is the core economic engine of scalable deep tech hardware. It is what transforms niche instrument development from a bespoke, artisanal exercise into a repeatable, profitable process.
 
 We built the HAL because the alternative—rewriting the same infrastructure software for every new instrument, forever—is not engineering. It is waste.
+
+### Related Reading
+* [The Role of Automated Telemetry in Iterating Early-Stage Scientific Instruments]({filename}automated-telemetry-early-stage.md)
+* [Standardizing I/O: Why Bespoke Connectors Kill Hardware Margins]({filename}standardizing-io.md)

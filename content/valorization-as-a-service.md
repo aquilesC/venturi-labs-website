@@ -37,3 +37,6 @@ To successfully implement this framework, a TTO needs a dedicated **tech transfe
 An effective execution partner is not an incubator or an advisory board. It is a team of optical, mechanical, and software engineers who actually build the hardware. It is a partner willing to step in at the pre-award grant stage to provide concrete commercialization letters of support, utilize standard frameworks (like the 4TU deal terms) for rapid licensing, and commit to deploying "Serial #001" back into the academic ecosystem.
 
 By embracing the Valorisation-as-a-Service framework, TTOs can eliminate the friction of forced entrepreneurship. You protect your researchers' academic focus, monetize the long tail of your IP portfolio, and guarantee that the deep tech innovations funded by public money actually make it to the global market.
+
+### Related Reading
+* [Hardware is Hard, But Niche Hardware is Harder: Why We Need Centralized Product Studios]({filename}niche-hardware-centralized-studios.md)
