@@ -14,3 +14,9 @@ Effective governance is the bedrock of a successful consortium. A strong managem
 Bridging the academic-industrial divide also necessitates a focus on Technology Readiness Levels (TRLs). Horizon Europe projects often span multiple TRLs, requiring a carefully orchestrated transition from laboratory validation (TRL 4) to operational demonstration (TRL 7). Understanding this progression is crucial for both academic and industrial partners; you can refer to our comprehensive [TRL guide]({filename}navigating_trl.md) for more details. The consortium must implement processes for continuous validation and feedback, ensuring that the research remains aligned with industrial requirements and market realities.
 
 In conclusion, managing a Horizon Europe consortium is a sophisticated exercise in strategic alignment and cross-sector collaboration. By acknowledging the differing priorities of academic and industrial partners, establishing robust governance structures, and focusing on the seamless transition across Technology Readiness Levels, consortia can successfully navigate the complexities of European funding. This disciplined approach ensures that groundbreaking research is effectively translated into scalable, commercially viable deep tech products, ultimately fulfilling the core objectives of the Horizon Europe programme.
+
+### Related Reading
+* [Funding Deep Tech: A Guide to Non-Dilutive Grants for Startups in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md)
+* [How to Write the Horizon Europe Impact Pathway Section for Hardware Projects]({filename}/write-horizon-impact.md)
+* [Navigating the EIC Accelerator: Adapting Deep Tech Hardware for European Scaling Funds]({filename}/eic-accelerator-deep-tech.md)
+

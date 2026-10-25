@@ -57,3 +57,10 @@ This section details your dissemination, communication, and exploitation measure
 When an evaluator reads this impact pathway, they see a de-risked roadmap. You have eliminated the fantasy that a university lab will magically transform into a CE-compliant manufacturing facility. 
 
 By strategically inserting a specialized execution partner into your Horizon Europe proposal, you demonstrate a profound understanding of hardware economics, proving to the Commission that their funding will result in tangible, deployable technology rather than abandoned patents.
+
+## Related Reading
+
+* [Outsourcing Your Deep Tech Grant: The Risks, Rewards, and Why You Must Own the Process]({filename}/outsourcing-deep-tech-grants.md)
+* [Funding Deep Tech: A Guide to Non-Dilutive Grants for Startups in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md)
+* [Managing Horizon Europe Consortia: Aligning Academic Research with Industrial Productization]({filename}/managing-horizon-europe-consortia.md)
+* [Navigating the EIC Accelerator: Adapting Deep Tech Hardware for European Scaling Funds]({filename}/eic-accelerator-deep-tech.md)

@@ -66,4 +66,11 @@ Frame the centralized productization partnership as a de-risking strategy, not a
 
 Include a concrete [commercialization letter of support]({filename}/letters_support.md) from your execution partner. This letter should outline the specific technical deliverables, the timeline, and the cost basis—demonstrating to the review committee that your budget allocation maps to tangible, executable milestones.
 
-Stop treating Take-off grants as research extensions. Budget for execution, and give your hardware a real path to the market. For a broader perspective on hardware grant strategy, see our guide to [budgeting for hardware valorisation]({filename}/budgeting.md).
+Stop treating Take-off grants as research extensions. Budget for execution, and give your hardware a real path to the market. For a broader perspective on hardware grant strategy, see our guide to [budgeting for hardware valorisation]({filename}/budgeting.md) and our curated overview of [non-dilutive deep tech grants in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md).
+
+### Related Reading
+* [Outsourcing Your Deep Tech Grant: The Risks, Rewards, and Why You Must Own the Process]({filename}/outsourcing-deep-tech-grants.md)
+* [Funding Deep Tech: A Guide to Non-Dilutive Grants for Startups in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md)
+* [NWO Take-off Phase 1 Budget Template and Feasibility Study Guide]({filename}/nwo-phase-1-budget.md)
+* [Securing Industry Letters of Support Early: The Key to Winning NWO Grants]({filename}/letters_support.md)
+

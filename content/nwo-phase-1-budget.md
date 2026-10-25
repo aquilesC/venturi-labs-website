@@ -8,7 +8,7 @@ Summary: A regionalized, highly practical walkthrough of the NWO Take-off grant 
 
 ## Maximizing the Impact of Your Feasibility Study
 
-The NWO Take-off Phase 1 grant is a critical lifeline in the Dutch deep-tech ecosystem. Designed to fund feasibility studies, it provides up to €60,000 for a maximum period of six months to help researchers determine the commercial viability of their academic prototypes.
+The NWO Take-off Phase 1 grant is a critical lifeline in the Dutch deep-tech ecosystem. Designed to fund feasibility studies, it provides up to €60,000 for a maximum period of six months to help researchers determine the commercial viability of their academic prototypes. (For a comparative overview of instruments beyond the Netherlands, consult our comprehensive guide to [non-dilutive deep tech grants across Europe]({filename}/funding-deep-tech-non-dilutive-grants.md).)
 
 However, many Principal Investigators (PIs) and postdocs make a fundamental mistake when drafting their **nwo grant commercialization proposal**. They treat the feasibility study as an extension of their academic research, allocating the budget entirely to more lab time and bench testing. Reviewers at the NWO are not looking to fund another academic paper; they are looking for a rigorous, de-risked pathway to market.
 
@@ -67,3 +67,10 @@ The overarching goal of the Dutch Research Council is to ensure that publicly fu
 When structuring the **dutch research council knowledge utilization** section of your Phase 1 application, tie every line item in your budget directly to a commercial milestone. Do not promise an improved scientific prototype; promise a comprehensive report detailing the exact manufacturing cost, the regulatory roadmap, and the verified market demand for your instrument.
 
 By treating your Phase 1 budget as an industrial feasibility audit rather than an academic research grant, you drastically increase your chances of securing the funding and successfully commercializing your deep tech hardware.
+
+## Related Guides
+
+* [Outsourcing Your Deep Tech Grant: The Risks, Rewards, and Why You Must Own the Process]({filename}/outsourcing-deep-tech-grants.md)
+* [Funding Deep Tech: A Guide to Non-Dilutive Grants for Startups in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md)
+* [How to Budget an NWO Take-off Grant for Physical Hardware]({filename}/nwo-takeoff-budget.md)
+* [Securing Industry Letters of Support Early: The Key to Winning NWO Grants]({filename}/letters_support.md)

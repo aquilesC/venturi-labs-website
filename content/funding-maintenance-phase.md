@@ -27,7 +27,7 @@ Industry partners are often eager to access state-of-the-art academic instrument
 Many funding bodies are beginning to recognize the importance of maintenance and commercialization in realizing the true value of their initial investments. By aligning the instrument's ongoing development with an [impact pathway]({filename}impact-pathway.md), teams can position themselves for follow-on translational grants specifically designed for de-risking and scaling. You can learn more about strategic alignment in our guide on [de-risking NWO applications]({filename}de-risking-NWO.md).
 
 4. **Spin-offs and Licensing**
-For highly scalable instruments, spinning out a startup or licensing the technology to an established manufacturer may be the most viable path to long-term sustainability. A dedicated commercial entity can attract venture capital or non-dilutive funding tailored for hardware startups, ensuring the instrument receives the resources necessary for commercial-grade manufacturing, customer support, and continuous improvement.
+For highly scalable instruments, spinning out a startup or licensing the technology to an established manufacturer may be the most viable path to long-term sustainability. A dedicated commercial entity can attract venture capital or [non-dilutive funding tailored for hardware startups]({filename}/funding-deep-tech-non-dilutive-grants.md), ensuring the instrument receives the resources necessary for commercial-grade manufacturing, customer support, and continuous improvement.
 
 ### Structuring the Maintenance Phase
 
@@ -36,4 +36,5 @@ Successfully navigating the maintenance phase requires a shift in mindset from p
 By proactively addressing the financial realities of deep tech hardware, TTOs and PIs can ensure that their groundbreaking innovations continue to deliver value long after the initial research phase has concluded. Ultimately, sustainable funding for maintenance is not just about keeping the lights on; it's about maximizing the societal and economic impact of academic research and translating lab breakthroughs into real-world solutions.
 
 ### Related Reading
+* [Funding Deep Tech: A Guide to Non-Dilutive Grants for Startups in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md)
 * [Navigating the EIC Accelerator: Adapting Deep Tech Hardware for European Scaling Funds]({filename}eic-accelerator-deep-tech.md)

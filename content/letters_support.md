@@ -41,3 +41,9 @@ An ideal **NWO grant commercialization partner** acts as a centralized productiz
 By partnering with a dedicated product studio, you secure more than just a signature on a PDF. You secure a dedicated engineering team, a compounded hardware supply chain, and a guaranteed pathway to impact—all without ever having to leave academia to become a startup CEO. 
 
 Do not leave your societal impact score to chance. Secure your commercialization engine during the drafting phase, and make your grant proposal undeniably competitive.
+
+### Related Reading
+* [Outsourcing Your Deep Tech Grant: The Risks, Rewards, and Why You Must Own the Process]({filename}/outsourcing-deep-tech-grants.md)
+* [Funding Deep Tech: A Guide to Non-Dilutive Grants for Startups in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md)
+* [How to Budget an NWO Take-off Grant for Physical Hardware]({filename}/nwo-takeoff-budget.md)
+* [De-Risking NWO & Horizon Europe Grants: A Strategic Approach for TTOs]({filename}/de-risking-NWO.md)

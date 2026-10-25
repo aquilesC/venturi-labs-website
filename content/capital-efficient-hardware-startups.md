@@ -38,10 +38,15 @@ Transitioning to a studio-backed commercialization model provides profound macro
 
 For regional development agencies seeking to optimize their impact, updating the htsm ecosystem strategy requires a shift in how grants and early-stage capital are deployed. We recommend three strategic implementations:
 
-* **Mandate Pre-Award Execution Partnerships:** When evaluating commercialization grants (such as the [NWO Take-off]({filename}/nwo-takeoff-budget.md) Phase 1 or 2), require academic applicants to partner with an established productization studio. This guarantees that grant funds are spent on market validation and systems integration, rather than redundant prototype tinkering.
+* **Mandate Pre-Award Execution Partnerships:** When evaluating commercialization grants (such as the [NWO Take-off]({filename}/nwo-takeoff-budget.md) Phase 1 or 2, or broader [European non-dilutive funding programs]({filename}/funding-deep-tech-non-dilutive-grants.md)), require academic applicants to partner with an established productization studio. This guarantees that grant funds are spent on market validation and systems integration, rather than redundant prototype tinkering.
 * **Subsidize the Studio, Not Just the Spin-off:** Shift a portion of early-stage venture funding away from direct startup equity and toward the operational capacity of centralized execution hubs. Funding the shared infrastructure directly lowers the barrier to entry for every subsequent academic invention in the region.
 * **Promote Asset Carve-Outs:** Work with university Tech Transfer Offices (TTOs) to establish clear legal frameworks for licensing IP directly to execution partners ([carve-outs]({filename}/asset-carveout-vs-spinoff.md)) rather than forcing the incorporation of a new spin-off. This ensures a clean, non-dilutive royalty stream back to the university and the region.
 
 ### The Macro-Economic Yield
 
 The goal of regional development is not to maximize the number of startups incorporated; it is to maximize the deployment of impactful technology and the retention of high-skill engineering jobs. By moving away from the venture-backed [spin-off trap]({filename}/startup_trap.md) and embracing capital efficiency, European ecosystems can transform dormant academic patents into a thriving, globally competitive hardware manufacturing sector.
+
+### Related Reading
+* [Funding Deep Tech: A Guide to Non-Dilutive Grants for Startups in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md)
+* [The VC Funding Mismatch for Deep Tech: Why Niche Hardware Needs a New Model]({filename}/vc-funding-mismatch.md)
+* [Asset Carve-Outs vs. Spin-offs: A Better Way to License Lab Instruments]({filename}/asset-carveout-vs-spinoff.md)
