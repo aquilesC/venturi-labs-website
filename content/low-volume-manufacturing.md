@@ -43,3 +43,4 @@ Low-volume manufacturing is not a stepping stone to mass production; it is a per
 ### Related Reading
 * [Supply Chain Resilience for Low-Volume Instruments: Sourcing Components When You Only Need 50 Units]({filename}supply-chain-low-volume.md)
 * [The Micro-Cluster Effect: Fostering Regional Deep Tech Manufacturing Networks]({filename}micro-cluster-manufacturing.md)
+* [Supply Chain Resilience for Niche Scientific Instrument Manufacturing]({filename}/supply-chain-resilience-niche-scientific-instrument.md)

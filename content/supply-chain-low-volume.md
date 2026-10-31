@@ -27,3 +27,6 @@ In low-volume manufacturing, the cost of a stockout—halting production of a hi
 
 Conclusion
 Supply chain resilience for low-volume instruments is not achieved through aggressive negotiation, but through strategic design, proactive relationship management, and intelligent inventory practices. By acknowledging the unique constraints of low-volume production and adapting procurement strategies accordingly, teams can ensure the reliable delivery of their specialized instruments, regardless of global market fluctuations.
+
+### Related Reading
+* [Supply Chain Resilience for Niche Scientific Instrument Manufacturing]({filename}/supply-chain-resilience-niche-scientific-instrument.md)
