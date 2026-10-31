@@ -18,3 +18,6 @@ Furthermore, thermal management strategies must often align with rigorous regula
 Addressing these complex thermal challenges requires extensive use of Computational Fluid Dynamics (CFD) and thermal simulation software early in the design phase. Relying on rule-of-thumb estimates or physical prototyping alone is excessively costly and time-consuming. Simulation allows engineers to iterate rapidly, optimizing fin geometries, evaluating different TIMs, and verifying performance across a wide range of operational scenarios before metal is ever cut. 
 
 In conclusion, thermal management for deep tech payloads is a highly specialized discipline requiring an intimate understanding of thermodynamics, material science, and system-level architecture. By integrating thermal considerations from the very inception of a project, and leveraging advanced materials and simulation tools, engineering teams can unlock the full performance potential of their innovations while ensuring long-term reliability and compliance.
+
+### Related Reading
+* [The Ultimate Guide to CE Marking for Measuring Instruments]({filename}/ultimate-guide-ce-marking-measuring-instruments.md)

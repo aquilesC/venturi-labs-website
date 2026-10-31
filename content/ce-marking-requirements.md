@@ -72,3 +72,4 @@ Treat compliance not as a final hurdle, but as a foundational design parameter. 
 
 ### Related Reading
 * [Thermal Management for Deep Tech: Cooling Niche Optical and Electronic Payloads]({filename}thermal-management-deep-tech.md)
+* [The Ultimate Guide to CE Marking for Measuring Instruments]({filename}/ultimate-guide-ce-marking-measuring-instruments.md)

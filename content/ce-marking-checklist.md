@@ -78,3 +78,6 @@ When you adopt a standardized chassis system—heavy extrusion framing, universa
 Your CE-marking effort shrinks to testing only the unique scientific payload: the specific optical path, the custom PCB, or the novel sensor array. Instead of a six-month compliance odyssey, you are looking at a focused testing cycle measured in weeks.
 
 Stop treating CE marking as an afterthought that consumes the last of your grant budget. Design for compliance from the start, and let standardized infrastructure carry the regulatory weight. For a tactical guide on allocating grant funding to cover these compliance costs, see [How to Budget an NWO Take-off Grant for Physical Hardware]({filename}/nwo-takeoff-budget.md). And for a deeper look at how standardized infrastructure feeds into [low-volume manufacturing]({filename}/low-volume-manufacturing.md) economics, see our dedicated breakdown.
+
+### Related Reading
+* [The Ultimate Guide to CE Marking for Measuring Instruments]({filename}/ultimate-guide-ce-marking-measuring-instruments.md)
