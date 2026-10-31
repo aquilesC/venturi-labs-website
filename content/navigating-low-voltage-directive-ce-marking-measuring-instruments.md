@@ -50,3 +50,4 @@ The fastest way to reduce the cost and scope of LVD testing—a major factor whe
 * [CE Marking Requirements for Custom Laboratory Equipment and Prototypes]({filename}/ce-marking-requirements.md)
 * [The CE-Marking Checklist for Academic Hardware]({filename}/ce-marking-checklist.md)
 * [Thermal Management for Deep Tech: Cooling Niche Optical and Electronic Payloads]({filename}/thermal-management-deep-tech.md)
+* [Creating the Technical File for CE Marking for Measuring Instruments]({filename}/creating-technical-file-ce-marking-measuring-instruments.md)

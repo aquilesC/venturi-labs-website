@@ -82,3 +82,4 @@ Stop treating CE marking as an afterthought that consumes the last of your grant
 ### Related Reading
 * [The Ultimate Guide to CE Marking for Measuring Instruments]({filename}/ultimate-guide-ce-marking-measuring-instruments.md)
 * [Demystifying EMI Shielding in CE Marking for Measuring Instruments]({filename}/demystifying-emi-shielding-ce-marking-measuring-instruments.md)
+* [Creating the Technical File for CE Marking for Measuring Instruments]({filename}/creating-technical-file-ce-marking-measuring-instruments.md)

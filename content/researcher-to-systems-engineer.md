@@ -17,3 +17,6 @@ Phase 3: Days 61-90 - Commercial Alignment
 The final 30 days focus on aligning the engineering effort with commercial realities. A systems engineer must deeply understand the customer's needs and ensure the product architecture directly addresses those requirements. This involves refining the product requirements document (PRD) based on continuous market feedback and balancing technical tradeoffs against business objectives. The founder must now operate as the bridge between technical execution and commercial strategy, ensuring that every engineering decision adds tangible value to the end product.
 
 The transition to a systems engineering mindset is not about abandoning academic rigor, but rather channeling it into a structured framework designed for real-world impact. By embracing this 90-day plan, academic founders can cultivate the discipline, strategic foresight, and operational excellence required to transform their groundbreaking research into scalable, commercially successful deep tech solutions. This evolution is essential for navigating the complexities of hardware development and ultimately delivering on the promise of their innovation.
+
+### Related Reading
+* [Creating the Technical File for CE Marking for Measuring Instruments]({filename}/creating-technical-file-ce-marking-measuring-instruments.md)
