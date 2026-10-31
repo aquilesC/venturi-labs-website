@@ -81,4 +81,4 @@ When you align your proposal around these four universal pillars—defending you
 * [Proving "Additionality": How to Justify Public Deep Tech Funding to Reviewers]({filename}/proving-additionality-deep-tech-grants.md)
 * [Outsourcing Your Deep Tech Grant: The Risks, Rewards, and Why You Must Own the Process]({filename}/outsourcing-deep-tech-grants.md)
 * [Funding Deep Tech: A Guide to Non-Dilutive Grants for Startups in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md)
-
+* [Grant Funding and the Tech Trap: Building for Reviewers vs. Customers]({filename}/grant-funding-tech-trap-building-for-reviewers-vs-customers.md)

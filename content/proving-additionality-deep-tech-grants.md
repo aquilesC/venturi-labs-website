@@ -58,4 +58,4 @@ Your technology is high-risk, capital-intensive, and unbankable—and that is ex
 * [The VC Funding Mismatch for Deep Tech: Why Niche Hardware Needs a New Model]({filename}/vc-funding-mismatch.md)
 * [The Market Analysis Trap: Why Generic TAM Destroys Deep Tech Grants]({filename}/market-analysis-trap-generic-tam.md)
 * [The TRL 5 Chasm: How TTOs Can Help Researchers Survive the Deadliest Phase of Deep Tech]({filename}/surviving-trl5-chasm.md)
-
+* [Grant Funding and the Tech Trap: Building for Reviewers vs. Customers]({filename}/grant-funding-tech-trap-building-for-reviewers-vs-customers.md)

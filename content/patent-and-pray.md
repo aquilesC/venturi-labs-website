@@ -54,3 +54,4 @@ Stop praying for a spin-off. Start planning for Serial #001.
 * [Mapping the Non-Dilutive Landscape: Which Grant Should Your Deep Tech Startup Apply For?]({filename}/mapping-non-dilutive-landscape-deep-tech.md)
 * [Demystifying the Execution Plan: Writing Work Packages That Survive Jury Scrutiny]({filename}/writing-grant-work-packages-execution-plan.md)
 * [Securing Industry Letters of Support Early: The Key to Winning NWO Grants]({filename}/letters_support.md)
+* [Grant Funding and the Tech Trap: Building for Reviewers vs. Customers]({filename}/grant-funding-tech-trap-building-for-reviewers-vs-customers.md)
