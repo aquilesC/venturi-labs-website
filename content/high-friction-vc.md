@@ -39,3 +39,5 @@ By shifting toward centralized productization models—where the heavy lifting o
 
 ### Related Reading
 * [Why Software-as-a-Service (SaaS) Playbooks Will Kill Your Hardware Spin-off]({filename}saas-playbooks-kill-hardware.md)
+* [The Market Analysis Trap: Why Generic TAM Destroys Deep Tech Grants]({filename}/market-analysis-trap-generic-tam.md)
+* [Proving "Additionality": How to Justify Public Deep Tech Funding to Reviewers]({filename}/proving-additionality-deep-tech-grants.md)

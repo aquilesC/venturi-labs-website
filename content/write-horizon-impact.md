@@ -46,7 +46,7 @@ This section details your dissemination, communication, and exploitation measure
 
 **Text Template (Adapt for your specific technology):**
 > **Exploitation Strategy (Asset Carve-Out vs. Spin-off):**
-> Niche scientific instruments frequently fail to secure the venture capital required for traditional spin-offs due to limited early-stage Total Addressable Markets (TAM). To guarantee the exploitation of the [Instrument Name], our consortium will execute an [asset carve-out strategy]({filename}/asset-carveout-vs-spinoff.md).
+> Niche scientific instruments frequently fail to secure the venture capital required for traditional spin-offs due to [limited early-stage Total Addressable Markets (TAM)]({filename}/market-analysis-trap-generic-tam.md). To guarantee the exploitation of the [Instrument Name], our consortium will execute an [asset carve-out strategy]({filename}/asset-carveout-vs-spinoff.md).
 >
 > 1. **IP Management:** The foreground IP generated (the novel sensor architecture) will be licensed directly to the productization execution partner.
 > 2. **Capital Efficiency:** Because the execution partner utilizes a compounding hardware architecture (shared power backplanes, standard EMI shielding, and unified UI frameworks), the cost of commercializing the instrument is reduced by an estimated 60%. This allows the technology to achieve operational profitability at low manufacturing volumes (20-50 units/year).
@@ -60,6 +60,10 @@ By strategically inserting a specialized execution partner into your Horizon Eur
 
 ## Related Reading
 
+* [The Anatomy of a Winning Deep Tech Grant: The Four Universal Pillars]({filename}/anatomy-of-a-winning-deep-tech-grant.md)
+* [Demystifying the Execution Plan: Writing Work Packages That Survive Jury Scrutiny]({filename}/writing-grant-work-packages-execution-plan.md)
+* [The Market Analysis Trap: Why Generic TAM Destroys Deep Tech Grants]({filename}/market-analysis-trap-generic-tam.md)
+* [Proving "Additionality": How to Justify Public Deep Tech Funding to Reviewers]({filename}/proving-additionality-deep-tech-grants.md)
 * [Outsourcing Your Deep Tech Grant: The Risks, Rewards, and Why You Must Own the Process]({filename}/outsourcing-deep-tech-grants.md)
 * [Funding Deep Tech: A Guide to Non-Dilutive Grants for Startups in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md)
 * [Managing Horizon Europe Consortia: Aligning Academic Research with Industrial Productization]({filename}/managing-horizon-europe-consortia.md)

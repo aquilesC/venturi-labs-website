@@ -43,6 +43,8 @@ Your lab’s R&D effort—and your grant budget—is spent entirely on adapting 
 Stop promising review committees that your lab will magically transform into a hardware manufacturing facility. Prove your pathway to impact by integrating an industrialization partner at the proposal stage, ensuring your scientific breakthrough actually survives the journey from the bench to the global market.
 
 ### Related Reading
+* [Mapping the Non-Dilutive Landscape: Which Grant Should Your Deep Tech Startup Apply For?]({filename}/mapping-non-dilutive-landscape-deep-tech.md)
+* [Demystifying the Execution Plan: Writing Work Packages That Survive Jury Scrutiny]({filename}/writing-grant-work-packages-execution-plan.md)
 * [The TRL 5 Chasm: How TTOs Can Help Researchers Survive the Deadliest Phase of Deep Tech]({filename}surviving-trl5-chasm.md)
 * [Crossing the Divide: Selling Deep Tech to Industrial Fabs vs. Academic Labs]({filename}selling-to-fabs-vs-labs.md)
 * [Managing Horizon Europe Consortia: Aligning Academic Research with Industrial Productization]({filename}managing-horizon-europe-consortia.md)

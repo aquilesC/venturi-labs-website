@@ -43,6 +43,9 @@ By partnering with a dedicated product studio, you secure more than just a signa
 Do not leave your societal impact score to chance. Secure your commercialization engine during the drafting phase, and make your grant proposal undeniably competitive.
 
 ### Related Reading
+* [The Anatomy of a Winning Deep Tech Grant: The Four Universal Pillars]({filename}/anatomy-of-a-winning-deep-tech-grant.md)
+* [Proving "Additionality": How to Justify Public Deep Tech Funding to Reviewers]({filename}/proving-additionality-deep-tech-grants.md)
+* [The Market Analysis Trap: Why Generic TAM Destroys Deep Tech Grants]({filename}/market-analysis-trap-generic-tam.md)
 * [Outsourcing Your Deep Tech Grant: The Risks, Rewards, and Why You Must Own the Process]({filename}/outsourcing-deep-tech-grants.md)
 * [Funding Deep Tech: A Guide to Non-Dilutive Grants for Startups in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md)
 * [How to Budget an NWO Take-off Grant for Physical Hardware]({filename}/nwo-takeoff-budget.md)

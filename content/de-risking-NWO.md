@@ -42,6 +42,9 @@ Moving away from defensive metrics like "We will file two patents" or "We will p
 By shifting your TTO's strategy from post-award incubation to pre-award matchmaking, you provide your researchers with an undeniable competitive advantage. You transform speculative grant applications into rock-solid execution plans, securing the funding necessary to drive true deep tech innovation.
 
 ### Related Reading
+* [The Anatomy of a Winning Deep Tech Grant: The Four Universal Pillars]({filename}/anatomy-of-a-winning-deep-tech-grant.md)
+* [Demystifying the Execution Plan: Writing Work Packages That Survive Jury Scrutiny]({filename}/writing-grant-work-packages-execution-plan.md)
+* [Proving "Additionality": How to Justify Public Deep Tech Funding to Reviewers]({filename}/proving-additionality-deep-tech-grants.md)
 * [Outsourcing Your Deep Tech Grant: The Risks, Rewards, and Why You Must Own the Process]({filename}/outsourcing-deep-tech-grants.md)
 * [Funding Deep Tech: A Guide to Non-Dilutive Grants for Startups in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md)
 * [Beyond the Initial Grant: How to Fund the Ongoing Maintenance Phase of a Deep Tech Instrument]({filename}funding-maintenance-phase.md)

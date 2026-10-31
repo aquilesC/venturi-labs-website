@@ -10,7 +10,7 @@ Securing capital for a deep tech startup—especially hardware—can be a daunti
 
 For founders seeking a [capital-efficient hardware strategy]({filename}/capital-efficient-hardware-startups.md), non-dilutive grants provide the runway needed to de-risk core technical risks, build compliance-ready prototypes, and establish early customer traction without suffering premature equity dilution.
 
-Below is a curated list of non-dilutive funding opportunities across Europe that support entrepreneurs through grants, subsidized salaries, and feasibility studies.
+Below is a curated list of non-dilutive funding opportunities across Europe that support entrepreneurs through grants, subsidized salaries, and feasibility studies. For a phase-by-phase strategic roadmap on how to stack these programs sequentially from TRL 3 to TRL 8, read [Mapping the Non-Dilutive Landscape: Which Grant Should Your Deep Tech Startup Apply For?]({filename}/mapping-non-dilutive-landscape-deep-tech.md) and [The Anatomy of a Winning Deep Tech Grant: The Four Universal Pillars]({filename}/anatomy-of-a-winning-deep-tech-grant.md).
 
 ## 🇪🇺 European Union & International
 
@@ -21,7 +21,7 @@ The European Innovation Council (EIC) Accelerator is one of the most prestigious
 *   **Target:** Single start-ups and SMEs (including spin-outs) from EU Member States and Horizon Europe associated countries.
 *   **Funding:** The program offers a non-dilutive lump sum grant component below €2.5 million specifically for innovation activities spanning [Technology Readiness Levels (TRL)]({filename}/navigating_trl.md) 6 through 8. For startups capable of scaling up without immediate equity requirements, a "Grant only" option is available.
 *   **Structure:** Funded projects must be completed within 24 months. The rigorous application process includes a short proposal, a full technical assessment, and ultimately an interview with an EIC Jury.
-*   **Strategic Fit:** For deep tech hardware ventures, moving from laboratory prototypes to market readiness requires tight alignment between commercial and technical roadmaps. For an in-depth breakdown of positioning hardware proposals for European evaluators, see our guide on [Navigating the EIC Accelerator for Deep Tech Hardware]({filename}/eic-accelerator-deep-tech.md).
+*   **Strategic Fit:** For deep tech hardware ventures, moving from laboratory prototypes to market readiness requires tight alignment between commercial and technical roadmaps—including [building a bottom-up TAM]({filename}/market-analysis-trap-generic-tam.md), [structuring bulletproof Work Packages]({filename}/writing-grant-work-packages-execution-plan.md), and [proving Additionality (Non-Bankability)]({filename}/proving-additionality-deep-tech-grants.md). For an in-depth breakdown of positioning hardware proposals for European evaluators, see our guide on [Navigating the EIC Accelerator for Deep Tech Hardware]({filename}/eic-accelerator-deep-tech.md).
 *   **More Info:** [EIC Accelerator Official Page](https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en)
 
 ### Eurostars
@@ -102,6 +102,11 @@ Additionally, if you are considering hiring an agency to navigate this complex a
 
 ## Related Guides & Resources
 
+* [Mapping the Non-Dilutive Landscape: Which Grant Should Your Deep Tech Startup Apply For?]({filename}/mapping-non-dilutive-landscape-deep-tech.md)
+* [The Anatomy of a Winning Deep Tech Grant: The Four Universal Pillars]({filename}/anatomy-of-a-winning-deep-tech-grant.md)
+* [Proving "Additionality": How to Justify Public Deep Tech Funding to Reviewers]({filename}/proving-additionality-deep-tech-grants.md)
+* [The Market Analysis Trap: Why Generic TAM Destroys Deep Tech Grants]({filename}/market-analysis-trap-generic-tam.md)
+* [Demystifying the Execution Plan: Writing Work Packages That Survive Jury Scrutiny]({filename}/writing-grant-work-packages-execution-plan.md)
 * [Outsourcing Your Deep Tech Grant: The Risks, Rewards, and Why You Must Own the Process]({filename}/outsourcing-deep-tech-grants.md)
 * [Navigating the EIC Accelerator: Adapting Deep Tech Hardware for European Scaling Funds]({filename}/eic-accelerator-deep-tech.md)
 * [NWO Take-off Phase 1 Budget Template and Feasibility Study Guide]({filename}/nwo-phase-1-budget.md)

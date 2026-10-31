@@ -16,7 +16,7 @@ Venture capital relies on the "power law." Because the vast majority of startups
 
 This is exactly **why VC funding fails niche hardware**. A transformative scientific instrument might be universally desired by Key Opinion Leaders (KOLs) in a specific field, but the total global market might only demand 30 to 50 units a year. At a €50,000 price point, this results in a highly profitable, sustainable €2.5M per year business. 
 
-To a traditional VC, a €2.5M per year business is a failure. If a PI accepts venture funding, they are immediately placed under immense pressure to artificially inflate their TAM. Instead of focusing on engineering a robust, reliable instrument for the researchers who actually need it, the spin-off is forced to pivot toward unproven, adjacent mass markets just to satisfy the investors' growth thesis.
+To a traditional VC, a €2.5M per year business is a failure. If a PI accepts venture funding, they are immediately placed under immense pressure to [artificially inflate their TAM]({filename}/market-analysis-trap-generic-tam.md). Instead of focusing on engineering a robust, reliable instrument for the researchers who actually need it, the spin-off is forced to pivot toward unproven, adjacent mass markets just to satisfy the investors' growth thesis. (Ironically, when applying for public grants like the EIC Accelerator, this exact VC mismatch is your greatest asset in [proving Additionality and Non-Bankability]({filename}/proving-additionality-deep-tech-grants.md).)
 
 ### The Deep Tech Valley of Death
 
@@ -43,6 +43,9 @@ This model does not require venture capital to survive. It achieves operational 
 Your lab’s breakthroughs do not need a billion-dollar TAM to be highly impactful and commercially successful. They just need an execution model that respects the reality of deep tech hardware.
 
 ### Related Reading
+* [Proving "Additionality": How to Justify Public Deep Tech Funding to Reviewers]({filename}/proving-additionality-deep-tech-grants.md)
+* [The Market Analysis Trap: Why Generic TAM Destroys Deep Tech Grants]({filename}/market-analysis-trap-generic-tam.md)
+* [Mapping the Non-Dilutive Landscape: Which Grant Should Your Deep Tech Startup Apply For?]({filename}/mapping-non-dilutive-landscape-deep-tech.md)
 * [Funding Deep Tech: A Guide to Non-Dilutive Grants for Startups in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md)
 * [Capital Efficient Hardware Startups: Building High-Tech Clusters Without Venture Capital]({filename}/capital-efficient-hardware-startups.md)
 * [Asset Carve-Outs vs. Spin-offs: A Better Way to License Lab Instruments]({filename}/asset-carveout-vs-spinoff.md)

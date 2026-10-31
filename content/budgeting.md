@@ -37,5 +37,7 @@ The strategic workaround is architectural standardization. If you partner with a
 Budgeting for hardware valorisation requires an honest assessment of industrial costs. Stop funding redundant prototyping, and start funding scalable execution.
 
 ### Related Reading
+* [Mapping the Non-Dilutive Landscape: Which Grant Should Your Deep Tech Startup Apply For?]({filename}/mapping-non-dilutive-landscape-deep-tech.md)
+* [Proving "Additionality": How to Justify Public Deep Tech Funding to Reviewers]({filename}/proving-additionality-deep-tech-grants.md)
 * [The True Cost of a Hardware MVP: A Financial Breakdown for Principal Investigators]({filename}true-cost-hardware-mvp.md)
 * [Pricing Niche Hardware: How to Value Instruments When You Only Sell 30 Units a Year]({filename}pricing-niche-hardware.md)

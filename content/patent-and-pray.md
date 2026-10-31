@@ -48,3 +48,9 @@ This is where the Pre-Award phase becomes critical. To make these deployed hardw
 The narrative shifts from "we hope to commercialize this" to "we have the industrial partner, the standardized DAQ infrastructure, and the specific deployment metrics ready for execution." 
 
 Stop praying for a spin-off. Start planning for Serial #001.
+
+### Related Reading
+* [The Anatomy of a Winning Deep Tech Grant: The Four Universal Pillars]({filename}/anatomy-of-a-winning-deep-tech-grant.md)
+* [Mapping the Non-Dilutive Landscape: Which Grant Should Your Deep Tech Startup Apply For?]({filename}/mapping-non-dilutive-landscape-deep-tech.md)
+* [Demystifying the Execution Plan: Writing Work Packages That Survive Jury Scrutiny]({filename}/writing-grant-work-packages-execution-plan.md)
+* [Securing Industry Letters of Support Early: The Key to Winning NWO Grants]({filename}/letters_support.md)

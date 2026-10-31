@@ -48,3 +48,9 @@ The most critical element of a successful Horizon Europe hardware proposal is pr
 To make your Impact pathway credible, you must integrate a dedicated productization engine at the proposal stage. By bringing in an industrialization partner who already possesses the compounding hardware architecture, the PyQt UI component libraries, and the supply chain networks, you instantly de-risk the medium-term exploitation phase. 
 
 You provide the scientific breakthrough. Your commercialization partner provides the execution engine. Together, you deliver the exact societal impact the European Union is looking to fund.
+
+### Related Reading
+* [How to Write the Horizon Europe Impact Pathway Section for Hardware Projects]({filename}/write-horizon-impact.md)
+* [The Anatomy of a Winning Deep Tech Grant: The Four Universal Pillars]({filename}/anatomy-of-a-winning-deep-tech-grant.md)
+* [Demystifying the Execution Plan: Writing Work Packages That Survive Jury Scrutiny]({filename}/writing-grant-work-packages-execution-plan.md)
+* [The Market Analysis Trap: Why Generic TAM Destroys Deep Tech Grants]({filename}/market-analysis-trap-generic-tam.md)

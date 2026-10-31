@@ -5,7 +5,7 @@ CTA_Target: PI, TTO
 slug: pricing-niche-hardware
 Date: 2026-10-04
 
-For deep tech founders and Principal Investigators commercializing scientific instruments, pricing is often approached with a mix of cost-plus logic and guesswork. When your Total Addressable Market (TAM) is tiny—perhaps you only expect to sell 30 to 50 units a year globally—traditional SaaS or consumer hardware pricing frameworks break down entirely. 
+For deep tech founders and Principal Investigators commercializing scientific instruments, pricing is often approached with a mix of cost-plus logic and guesswork. When your [Total Addressable Market (TAM) is tiny]({filename}/market-analysis-trap-generic-tam.md)—perhaps you only expect to sell 30 to 50 units a year globally—traditional SaaS or consumer hardware pricing frameworks break down entirely. 
 
 How do you price an instrument that costs $40,000 to build but delivers $500,000 in annual value to a core facility? If you price it too low, you’ll never recover your R&D costs or achieve a sustainable margin. If you price it too high, you might paralyze the academic purchasing cycle. Navigating this tightrope requires a strategic shift from cost-based pricing to value-based pricing, while intimately understanding the customer's [budgeting]({filename}budgeting.md) realities.
 
@@ -42,3 +42,9 @@ Service contracts (typically priced at 10-15% of the instrument cost annually af
 ### Conclusion
 
 Pricing a niche scientific instrument is an exercise in applied economics and psychological anchoring. Abandon cost-plus models. Understand the immense, specific value your tool brings to a narrow set of users, align your price with their operational budgeting realities, and ensure your business model captures value over the entire lifecycle of the instrument. In low-volume deep tech, margin is your only defense against the inherent fragility of the market.
+
+### Related Reading
+* [The Market Analysis Trap: Why Generic TAM Destroys Deep Tech Grants]({filename}/market-analysis-trap-generic-tam.md)
+* [Budgeting for Hardware Valorisation: Navigating the "Platform Tax"]({filename}/budgeting.md)
+* [Beyond the Box: Creating Recurring Revenue Streams for Scientific Instruments]({filename}/recurring-revenue-hardware.md)
+* [The VC Funding Mismatch for Deep Tech: Why Niche Hardware Needs a New Model]({filename}/vc-funding-mismatch.md)

@@ -69,6 +69,8 @@ Include a concrete [commercialization letter of support]({filename}/letters_supp
 Stop treating Take-off grants as research extensions. Budget for execution, and give your hardware a real path to the market. For a broader perspective on hardware grant strategy, see our guide to [budgeting for hardware valorisation]({filename}/budgeting.md) and our curated overview of [non-dilutive deep tech grants in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md).
 
 ### Related Reading
+* [Mapping the Non-Dilutive Landscape: Which Grant Should Your Deep Tech Startup Apply For?]({filename}/mapping-non-dilutive-landscape-deep-tech.md)
+* [The Anatomy of a Winning Deep Tech Grant: The Four Universal Pillars]({filename}/anatomy-of-a-winning-deep-tech-grant.md)
 * [Outsourcing Your Deep Tech Grant: The Risks, Rewards, and Why You Must Own the Process]({filename}/outsourcing-deep-tech-grants.md)
 * [Funding Deep Tech: A Guide to Non-Dilutive Grants for Startups in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md)
 * [NWO Take-off Phase 1 Budget Template and Feasibility Study Guide]({filename}/nwo-phase-1-budget.md)

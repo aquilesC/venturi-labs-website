@@ -6,7 +6,7 @@ slug: outsourcing-deep-tech-grants
 Date: 2026-10-25
 Summary: Applying for major European non-dilutive grants is grueling. While grant writing consultancies offer administrative polish, completely outsourcing the application creates fatal risks for deep tech hardware. Here is how to balance agencies with founder ownership.
 
-Applying for major European non-dilutive funding—such as the [EIC Accelerator]({filename}/eic-accelerator-deep-tech.md), Eurostars, or the [NWO Take-off]({filename}/nwo-phase-1-budget.md)—is a grueling process. (For a full landscape of mechanisms, see our guide to [non-dilutive grants for deep tech in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md).) For a deep tech founder or an academic transitioning from the bench, the sheer volume of administrative requirements, mandatory financial tables, and specific European Commission jargon can feel like an entirely new language. 
+Applying for major European non-dilutive funding—such as the [EIC Accelerator]({filename}/eic-accelerator-deep-tech.md), Eurostars, or the [NWO Take-off]({filename}/nwo-phase-1-budget.md)—is a grueling process. (For a full overview of mechanisms and sequencing, see our guide to [non-dilutive grants for deep tech in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md) and [mapping the non-dilutive landscape]({filename}/mapping-non-dilutive-landscape-deep-tech.md).) For a deep tech founder or an academic transitioning from the bench, the sheer volume of administrative requirements, mandatory financial tables, and specific European Commission jargon across the [four universal grant pillars]({filename}/anatomy-of-a-winning-deep-tech-grant.md) can feel like an entirely new language. 
 
 Because of this immense friction, a massive industry of grant writing consultancies (such as Catalyze Group, PNO Consultants, Inspiralia, and boutique firms) has emerged. Their pitch is highly appealing: *Hand us your technical paper, and we will write the grant, structure the consortium, and win you millions.*
 
@@ -26,7 +26,7 @@ The fatal mistake researchers make is assuming a consultancy can invent a busine
 
 ### 1. The "Generic TAM" Trap
 
-Major consultancies rely on standard market research databases to write the commercialization sections of your grant. If you are building a highly specialized piece of [low-volume scientific hardware]({filename}/low-volume-monetization.md)—like a bespoke nanoparticle deposition system—they will often struggle to define your true market. To make the grant look attractive, they might inflate your Total Addressable Market (TAM), claiming you are targeting the entire €50B semiconductor industry rather than the specific 50 R&D labs that actually need your tool. If your market narrative is generic, expert reviewers will spot the disconnect immediately. (We break down this market reality in [Pricing Niche Hardware]({filename}/pricing-niche-hardware.md) and [The Startup Trap]({filename}/startup_trap.md)).
+Major consultancies rely on standard market research databases to write the commercialization sections of your grant. If you are building a highly specialized piece of [low-volume scientific hardware]({filename}/low-volume-monetization.md)—like a bespoke nanoparticle deposition system—they will often struggle to define your true market. To make the grant look attractive, they might inflate your Total Addressable Market (TAM), claiming you are targeting the entire €50B semiconductor industry rather than the specific 50 R&D labs that actually need your tool. If your market narrative is generic, expert reviewers will spot the disconnect immediately. (We break down this exact failure mode in [The Market Analysis Trap: Why Generic TAM Destroys Deep Tech Grants]({filename}/market-analysis-trap-generic-tam.md), alongside [Pricing Niche Hardware]({filename}/pricing-niche-hardware.md) and [The Startup Trap]({filename}/startup_trap.md)).
 
 ### 2. Bypassing Customer Discovery
 
@@ -36,7 +36,7 @@ If an external consultant answers these questions for you, you lose the crucial 
 
 ### 3. Failing the EIC Jury Defense
 
-For high-stakes grants like the EIC Accelerator, winning the written phase is only half the battle. You must then defend your proposal in front of a live jury of seasoned venture capitalists and industry veterans. The jury will not interrogate your consultant; they will interrogate *you*. If you did not intimately craft the pricing strategy, the supply chain mapping, and the competitive analysis, your defense will collapse under pressure. (Learn how to prepare your proposal in our guide on [Navigating the EIC Accelerator for Deep Tech Hardware]({filename}/eic-accelerator-deep-tech.md)).
+For high-stakes grants like the EIC Accelerator, winning the written phase is only half the battle. You must then defend your proposal in front of a live jury of seasoned venture capitalists and industry veterans. The jury will not interrogate your consultant; they will interrogate *you*. If you did not intimately craft the pricing strategy, the [Work Packages and execution plan]({filename}/writing-grant-work-packages-execution-plan.md), the [Additionality (Non-Bankability) argument]({filename}/proving-additionality-deep-tech-grants.md), and the competitive analysis, your defense will collapse under pressure. (Learn how to prepare your proposal in our guide on [Navigating the EIC Accelerator for Deep Tech Hardware]({filename}/eic-accelerator-deep-tech.md)).
 
 ## The Venturi Labs Principle: Own the Core, Outsource the Polish
 
@@ -56,6 +56,11 @@ Grants are a mechanism to finance your transition from the bench to the market�
 
 ## Related Guides & Resources
 
+* [The Anatomy of a Winning Deep Tech Grant: The Four Universal Pillars]({filename}/anatomy-of-a-winning-deep-tech-grant.md)
+* [Mapping the Non-Dilutive Landscape: Which Grant Should Your Deep Tech Startup Apply For?]({filename}/mapping-non-dilutive-landscape-deep-tech.md)
+* [The Market Analysis Trap: Why Generic TAM Destroys Deep Tech Grants]({filename}/market-analysis-trap-generic-tam.md)
+* [Demystifying the Execution Plan: Writing Work Packages That Survive Jury Scrutiny]({filename}/writing-grant-work-packages-execution-plan.md)
+* [Proving "Additionality": How to Justify Public Deep Tech Funding to Reviewers]({filename}/proving-additionality-deep-tech-grants.md)
 * [Funding Deep Tech: A Guide to Non-Dilutive Grants for Startups in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md)
 * [Navigating the EIC Accelerator: Adapting Deep Tech Hardware for European Scaling Funds]({filename}/eic-accelerator-deep-tech.md)
 * [How to Write the Horizon Europe Impact Pathway Section for Hardware Projects]({filename}/write-horizon-impact.md)
