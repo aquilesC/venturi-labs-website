@@ -49,3 +49,4 @@ Engineering custom Faraday cages, calculating gasket compression tolerances, and
 * [CE Marking for Measuring Instruments: When to Start Compliance Testing]({filename}/when-to-start-compliance-testing-ce-marking-measuring-instruments.md)
 * [From 3D Printing to CNC: Scaling Hardware Enclosures]({filename}/3d-printing-to-cnc.md)
 * [Standardizing I/O in Scientific Instrumentation]({filename}/standardizing-io.md)
+* [The Role of Modular Chassis Design in CE Marking for Measuring Instruments]({filename}/modular-chassis-design-ce-marking-measuring-instruments.md)

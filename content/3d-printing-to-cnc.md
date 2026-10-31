@@ -18,3 +18,6 @@ Furthermore, the economic equation fundamentally changes when shifting to low-vo
 Successfully navigating this transition also requires a strategic approach to the supply chain. Finding reliable CNC manufacturing partners, understanding lead times for specific materials, and managing quality control are entirely different challenges compared to running a fleet of in-house 3D printers. Establishing a strong relationship with a local or specialized machine shop can provide invaluable feedback during the DFM phase, ensuring that parts are not only manufacturable but also cost-effective. 
 
 In conclusion, scaling physical components for low-volume production is more than just a change in manufacturing technique; it is a holistic evolution of the engineering process. It requires a disciplined application of DFM, a deep understanding of material science, and a proactive approach to supply chain management. Just as one might carefully plan a [breadboard transition]({filename}breadboard.md) strategy for electronics, the mechanical transition from additive to subtractive manufacturing requires meticulous planning and execution to ensure the success of advanced hardware deployments.
+
+### Related Reading
+* [The Role of Modular Chassis Design in CE Marking for Measuring Instruments]({filename}/modular-chassis-design-ce-marking-measuring-instruments.md)
