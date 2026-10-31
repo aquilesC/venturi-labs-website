@@ -66,4 +66,4 @@ When you submit an execution plan that features tightly scoped Work Packages, ve
 * [Managing Horizon Europe Consortia: Aligning Academic Research with Industrial Productization]({filename}/managing-horizon-europe-consortia.md)
 * [De-Risking NWO & Horizon Europe Grants: A Strategic Approach for TTOs]({filename}/de-risking-NWO.md)
 * [Why Every Academic Hardware Project Needs a Systems Engineer from Day One]({filename}/systems-engineer-day-one.md)
-
+* [CE Marking for Measuring Instruments: When to Start Compliance Testing]({filename}/when-to-start-compliance-testing-ce-marking-measuring-instruments.md)
