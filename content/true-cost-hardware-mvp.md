@@ -32,3 +32,4 @@ For a deeper dive into structuring these early-stage finances, reviewing the pri
 ### Related Reading
 * [The Economics of Commercializing a Niche Scientific Instrument]({filename}/economics-commercializing-niche-scientific-instrument.md)
 * [Budgeting the Hidden Costs of CE Marking for Measuring Instruments]({filename}/budgeting-hidden-costs-ce-marking-measuring-instruments.md)
+* [The Deep Tech Trap: Over-Engineering Before Customer Validation]({filename}/deep-tech-trap-over-engineering-before-validation.md)

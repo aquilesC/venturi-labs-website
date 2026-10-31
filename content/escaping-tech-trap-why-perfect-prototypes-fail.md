@@ -51,3 +51,4 @@ By enforcing strict mechanical, electrical, and software interfaces from day one
 * [The Science Breadboard: Standardizing the 80% Infrastructure]({filename}/breadboard.md)
 * [Selling to Fabs vs. Labs: Bridging the Industrial Reliability Gap]({filename}/selling-to-fabs-vs-labs.md)
 * [The Economics of Commercializing a Niche Scientific Instrument]({filename}/economics-commercializing-niche-scientific-instrument.md)
+* [The Deep Tech Trap: Over-Engineering Before Customer Validation]({filename}/deep-tech-trap-over-engineering-before-validation.md)
