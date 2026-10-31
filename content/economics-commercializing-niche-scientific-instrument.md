@@ -48,3 +48,4 @@ When you align your engineering architecture and corporate overhead with the nat
 * [The True Cost of a Hardware MVP: Why Lab Prototypes Deceive Founders]({filename}/true-cost-hardware-mvp.md)
 * [The Science Breadboard: Compounding Engineering for Scientific Hardware]({filename}/breadboard.md)
 * [Asset Carve-Out vs. Spin-Off: A Smarter Path for Niche University IP]({filename}/asset-carveout-vs-spinoff.md)
+* [How to Price a Niche Scientific Instrument for Low-Volume Markets]({filename}/how-to-price-niche-scientific-instrument.md)

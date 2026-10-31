@@ -48,3 +48,4 @@ Pricing a niche scientific instrument is an exercise in applied economics and ps
 * [Budgeting for Hardware Valorisation: Navigating the "Platform Tax"]({filename}/budgeting.md)
 * [Beyond the Box: Creating Recurring Revenue Streams for Scientific Instruments]({filename}/recurring-revenue-hardware.md)
 * [The VC Funding Mismatch for Deep Tech: Why Niche Hardware Needs a New Model]({filename}/vc-funding-mismatch.md)
+* [How to Price a Niche Scientific Instrument for Low-Volume Markets]({filename}/how-to-price-niche-scientific-instrument.md)
