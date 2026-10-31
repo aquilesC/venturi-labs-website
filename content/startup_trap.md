@@ -62,3 +62,4 @@ You don't need a CEO, and you don't need venture capital. You just need an execu
 * [Distributors vs. Direct Sales: Go-to-Market Strategies for Low-Volume Lab Tools]({filename}distributors-vs-direct-sales.md)
 * [Why Venture Capital Misunderstands the Niche Scientific Instrument Market]({filename}/why-vc-misunderstands-niche-scientific-instrument-market.md)
 * [Why Academic Spin-Offs Fail at CE Marking for Measuring Instruments]({filename}/why-academic-spin-offs-fail-ce-marking-measuring-instruments.md)
+* [How the "Startup Trap" Feeds the Tech Trap in Scientific Hardware]({filename}/how-startup-trap-feeds-tech-trap-scientific-hardware.md)
