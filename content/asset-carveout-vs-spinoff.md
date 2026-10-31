@@ -69,3 +69,4 @@ For TTOs whose mandate is to maximize the impact of academic research, the asset
 * [Designing Royalty Structures for Hardware Asset Carve-Outs]({filename}royalty-structures-carve-outs.md)
 * [The Asset Carve-Out Model for Niche Scientific Instrument IP]({filename}/asset-carve-out-model-niche-scientific-instrument-ip.md)
 * [Identifying the Tech Trap in University Spin-offs]({filename}/identifying-tech-trap-university-spin-offs.md)
+* [From Custom Instrument Prototyping for Big Science to Standardized Products]({filename}/custom-instrument-prototyping-big-science-to-standardized-products.md)

@@ -43,3 +43,4 @@ By leveraging custom instrument prototyping for big science as a structured [one
 * [The Economics of Commercializing a Niche Scientific Instrument]({filename}/economics-commercializing-niche-scientific-instrument.md)
 * [Systems Engineering Solutions to Break Free from the Tech Trap]({filename}/systems-engineering-solutions-break-free-tech-trap.md)
 * [Standardizing I/O: Why Bespoke Connectors Kill Hardware Margins]({filename}/standardizing-io.md)
+* [From Custom Instrument Prototyping for Big Science to Standardized Products]({filename}/custom-instrument-prototyping-big-science-to-standardized-products.md)

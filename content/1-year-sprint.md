@@ -47,3 +47,4 @@ True valorisation does not just build products; it builds the engineers capable 
 
 ### Related Reading
 * [Escaping the Tech Trap: Why Perfect Prototypes Fail in the Market]({filename}/escaping-tech-trap-why-perfect-prototypes-fail.md)
+* [From Custom Instrument Prototyping for Big Science to Standardized Products]({filename}/custom-instrument-prototyping-big-science-to-standardized-products.md)

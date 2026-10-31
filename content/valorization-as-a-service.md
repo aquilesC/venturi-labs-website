@@ -40,3 +40,4 @@ By embracing the Valorisation-as-a-Service framework, TTOs can eliminate the fri
 
 ### Related Reading
 * [Hardware is Hard, But Niche Hardware is Harder: Why We Need Centralized Product Studios]({filename}niche-hardware-centralized-studios.md)
+* [From Custom Instrument Prototyping for Big Science to Standardized Products]({filename}/custom-instrument-prototyping-big-science-to-standardized-products.md)
