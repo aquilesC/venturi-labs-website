@@ -75,4 +75,4 @@ Stop treating Take-off grants as research extensions. Budget for execution, and 
 * [Funding Deep Tech: A Guide to Non-Dilutive Grants for Startups in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md)
 * [NWO Take-off Phase 1 Budget Template and Feasibility Study Guide]({filename}/nwo-phase-1-budget.md)
 * [Securing Industry Letters of Support Early: The Key to Winning NWO Grants]({filename}/letters_support.md)
-
+* [Budgeting the Hidden Costs of CE Marking for Measuring Instruments]({filename}/budgeting-hidden-costs-ce-marking-measuring-instruments.md)

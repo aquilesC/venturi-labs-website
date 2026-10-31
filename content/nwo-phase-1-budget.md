@@ -77,3 +77,4 @@ By treating your Phase 1 budget as an industrial feasibility audit rather than a
 * [Funding Deep Tech: A Guide to Non-Dilutive Grants for Startups in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md)
 * [How to Budget an NWO Take-off Grant for Physical Hardware]({filename}/nwo-takeoff-budget.md)
 * [Securing Industry Letters of Support Early: The Key to Winning NWO Grants]({filename}/letters_support.md)
+* [Budgeting the Hidden Costs of CE Marking for Measuring Instruments]({filename}/budgeting-hidden-costs-ce-marking-measuring-instruments.md)

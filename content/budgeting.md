@@ -42,3 +42,4 @@ Budgeting for hardware valorisation requires an honest assessment of industrial 
 * [The True Cost of a Hardware MVP: A Financial Breakdown for Principal Investigators]({filename}true-cost-hardware-mvp.md)
 * [Pricing Niche Hardware: How to Value Instruments When You Only Sell 30 Units a Year]({filename}pricing-niche-hardware.md)
 * [How to Price a Niche Scientific Instrument for Low-Volume Markets]({filename}/how-to-price-niche-scientific-instrument.md)
+* [Budgeting the Hidden Costs of CE Marking for Measuring Instruments]({filename}/budgeting-hidden-costs-ce-marking-measuring-instruments.md)

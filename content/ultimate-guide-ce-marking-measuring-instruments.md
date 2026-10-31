@@ -43,3 +43,4 @@ Designing power entry filters, protective earth topologies, and RF-tight enclosu
 * [The Science Breadboard: A Modular Architecture for Deep Tech]({filename}/breadboard.md)
 * [From 3D Printing to CNC: Scaling Hardware Enclosures]({filename}/3d-printing-to-cnc.md)
 * [The True Cost of a Hardware MVP]({filename}/true-cost-hardware-mvp.md)
+* [Budgeting the Hidden Costs of CE Marking for Measuring Instruments]({filename}/budgeting-hidden-costs-ce-marking-measuring-instruments.md)
