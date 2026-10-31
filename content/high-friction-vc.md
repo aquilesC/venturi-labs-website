@@ -41,3 +41,4 @@ By shifting toward centralized productization models—where the heavy lifting o
 * [Why Software-as-a-Service (SaaS) Playbooks Will Kill Your Hardware Spin-off]({filename}saas-playbooks-kill-hardware.md)
 * [The Market Analysis Trap: Why Generic TAM Destroys Deep Tech Grants]({filename}/market-analysis-trap-generic-tam.md)
 * [Proving "Additionality": How to Justify Public Deep Tech Funding to Reviewers]({filename}/proving-additionality-deep-tech-grants.md)
+* [Why Venture Capital Misunderstands the Niche Scientific Instrument Market]({filename}/why-vc-misunderstands-niche-scientific-instrument-market.md)

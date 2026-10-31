@@ -49,3 +49,4 @@ Your lab’s breakthroughs do not need a billion-dollar TAM to be highly impactf
 * [Funding Deep Tech: A Guide to Non-Dilutive Grants for Startups in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md)
 * [Capital Efficient Hardware Startups: Building High-Tech Clusters Without Venture Capital]({filename}/capital-efficient-hardware-startups.md)
 * [Asset Carve-Outs vs. Spin-offs: A Better Way to License Lab Instruments]({filename}/asset-carveout-vs-spinoff.md)
+* [Why Venture Capital Misunderstands the Niche Scientific Instrument Market]({filename}/why-vc-misunderstands-niche-scientific-instrument-market.md)

@@ -60,3 +60,4 @@ You don't need a CEO, and you don't need venture capital. You just need an execu
 ### Related Reading
 * [The "Need for a Commercial Co-Founder" Myth: Why Deep Tech Founders do not Need Commercial Co-Founders]({filename}commercial-co-founder-myth.md)
 * [Distributors vs. Direct Sales: Go-to-Market Strategies for Low-Volume Lab Tools]({filename}distributors-vs-direct-sales.md)
+* [Why Venture Capital Misunderstands the Niche Scientific Instrument Market]({filename}/why-vc-misunderstands-niche-scientific-instrument-market.md)
