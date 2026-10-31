@@ -30,3 +30,4 @@ The transition from an academic prototype to a commercial product is fraught wit
 ### Related Reading
 * [From Researcher to Systems Engineer: The 90-Day Transition Plan for Academic Founders]({filename}researcher-to-systems-engineer.md)
 * [CE Marking for Measuring Instruments: When to Start Compliance Testing]({filename}/when-to-start-compliance-testing-ce-marking-measuring-instruments.md)
+* [Systems Engineering Solutions to Break Free from the Tech Trap]({filename}/systems-engineering-solutions-break-free-tech-trap.md)

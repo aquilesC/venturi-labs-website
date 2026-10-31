@@ -46,3 +46,4 @@ Guided by a dedicated systems engineer, the postdoc spends twelve months integra
 * [The TRL 4 Audit: How TTOs Can Evaluate Hardware Readiness]({filename}/trl-4-audit-tto.md)
 * [Identifying the Tech Trap in University Spin-offs]({filename}/identifying-tech-trap-university-spin-offs.md)
 * [The 1-Year Productization Sprint: Bridging the Bench-to-Market Gap]({filename}/1-year-sprint.md)
+* [Systems Engineering Solutions to Break Free from the Tech Trap]({filename}/systems-engineering-solutions-break-free-tech-trap.md)

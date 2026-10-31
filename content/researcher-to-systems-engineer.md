@@ -20,3 +20,4 @@ The transition to a systems engineering mindset is not about abandoning academic
 
 ### Related Reading
 * [Creating the Technical File for CE Marking for Measuring Instruments]({filename}/creating-technical-file-ce-marking-measuring-instruments.md)
+* [Systems Engineering Solutions to Break Free from the Tech Trap]({filename}/systems-engineering-solutions-break-free-tech-trap.md)

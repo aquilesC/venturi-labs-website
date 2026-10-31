@@ -65,3 +65,4 @@ We built the HAL because the alternative—rewriting the same infrastructure sof
 ### Related Reading
 * [The Role of Automated Telemetry in Iterating Early-Stage Scientific Instruments]({filename}automated-telemetry-early-stage.md)
 * [Standardizing I/O: Why Bespoke Connectors Kill Hardware Margins]({filename}standardizing-io.md)
+* [Systems Engineering Solutions to Break Free from the Tech Trap]({filename}/systems-engineering-solutions-break-free-tech-trap.md)
