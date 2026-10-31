@@ -47,3 +47,4 @@ By choosing an [asset carve-out vs. a traditional spin-off]({filename}/asset-car
 * [Asset Carve-Out vs. Spin-Off: Matching the Vehicle to the Technology]({filename}/asset-carveout-vs-spinoff.md)
 * [Escaping the Tech Trap: Why Perfect Prototypes Fail in the Market]({filename}/escaping-tech-trap-why-perfect-prototypes-fail.md)
 * [The Deep Tech Trap: Over-Engineering Before Customer Validation]({filename}/deep-tech-trap-over-engineering-before-validation.md)
+* [Identifying the Tech Trap in University Spin-offs]({filename}/identifying-tech-trap-university-spin-offs.md)

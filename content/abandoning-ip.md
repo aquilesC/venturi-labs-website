@@ -46,3 +46,4 @@ More importantly, it provides a structured career pathway to hire the graduating
 ### Related Reading
 * [Open Source Hardware in Academia: A Stepping Stone to Commercialization or a Dead End?]({filename}open-source-hardware-academia.md)
 * [Navigating Background IP: How TTOs Can Untangle the Patents Behind Bench Prototypes]({filename}navigating-background-ip.md)
+* [Identifying the Tech Trap in University Spin-offs]({filename}/identifying-tech-trap-university-spin-offs.md)

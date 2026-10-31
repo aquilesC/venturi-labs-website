@@ -35,3 +35,4 @@ The TRL 4 Audit is a disciplined, multi-disciplinary evaluation designed to sepa
 
 ### Related Reading
 * [Why Academic Spin-Offs Fail at CE Marking for Measuring Instruments]({filename}/why-academic-spin-offs-fail-ce-marking-measuring-instruments.md)
+* [Identifying the Tech Trap in University Spin-offs]({filename}/identifying-tech-trap-university-spin-offs.md)
