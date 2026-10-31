@@ -20,3 +20,4 @@ Strategic I/O standardization requires discipline. It means resisting the tempta
 ### Related Reading
 * [Demystifying EMI Shielding in CE Marking for Measuring Instruments]({filename}/demystifying-emi-shielding-ce-marking-measuring-instruments.md)
 * [CE Marking for Measuring Instruments: Navigating the Low Voltage Directive]({filename}/navigating-low-voltage-directive-ce-marking-measuring-instruments.md)
+* [Best Practices for Custom Instrument Prototyping for Big Science Facilities]({filename}/best-practices-custom-instrument-prototyping-big-science.md)
