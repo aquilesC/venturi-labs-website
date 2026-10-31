@@ -48,3 +48,4 @@ Stop promising review committees that your lab will magically transform into a h
 * [The TRL 5 Chasm: How TTOs Can Help Researchers Survive the Deadliest Phase of Deep Tech]({filename}surviving-trl5-chasm.md)
 * [Crossing the Divide: Selling Deep Tech to Industrial Fabs vs. Academic Labs]({filename}selling-to-fabs-vs-labs.md)
 * [Managing Horizon Europe Consortia: Aligning Academic Research with Industrial Productization]({filename}managing-horizon-europe-consortia.md)
+* [The TRL 4 Tech Trap: Why Academic Hardware Dies on the Bench]({filename}/trl-4-tech-trap-academic-hardware-dies-on-bench.md)

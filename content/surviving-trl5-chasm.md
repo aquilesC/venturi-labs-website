@@ -36,3 +36,4 @@ Surviving the TRL 5 chasm requires a shift in mindset from scientific exploratio
 * [Proving "Additionality": How to Justify Public Deep Tech Funding to Reviewers]({filename}/proving-additionality-deep-tech-grants.md)
 * [Mapping the Non-Dilutive Landscape: Which Grant Should Your Deep Tech Startup Apply For?]({filename}/mapping-non-dilutive-landscape-deep-tech.md)
 * [CE Marking for Measuring Instruments: When to Start Compliance Testing]({filename}/when-to-start-compliance-testing-ce-marking-measuring-instruments.md)
+* [The TRL 4 Tech Trap: Why Academic Hardware Dies on the Bench]({filename}/trl-4-tech-trap-academic-hardware-dies-on-bench.md)

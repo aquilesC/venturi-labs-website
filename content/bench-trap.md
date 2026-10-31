@@ -53,3 +53,4 @@ By eliminating the forced entrepreneurship of the spin-off route, we can dismant
 
 ### Related Reading
 * [Escaping the Tech Trap: Why Perfect Prototypes Fail in the Market]({filename}/escaping-tech-trap-why-perfect-prototypes-fail.md)
+* [The TRL 4 Tech Trap: Why Academic Hardware Dies on the Bench]({filename}/trl-4-tech-trap-academic-hardware-dies-on-bench.md)
