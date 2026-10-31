@@ -48,3 +48,4 @@ For low-volume, high-complexity lab tools, you cannot outsource the burden of ma
 
 ### Related Reading
 * [Direct Sales Strategies for Your First Niche Scientific Instrument]({filename}/direct-sales-strategies-niche-scientific-instrument.md)
+* [Navigating Procurement Cycles in Custom Instrument Prototyping for Big Science]({filename}/navigating-procurement-cycles-custom-instrument-prototyping-big-science.md)

@@ -49,3 +49,4 @@ By treating custom instrument prototyping for big science as a disciplined syste
 * [The Role of Automated Telemetry in Iterating Early-Stage Scientific Instruments]({filename}/automated-telemetry-early-stage.md)
 * [From Researcher to Systems Engineer: The Mindset Shift Required for Hardware Commercialization]({filename}/researcher-to-systems-engineer.md)
 * [Custom Instrument Prototyping for Big Science: Bridging Academia and Fabs]({filename}/custom-instrument-prototyping-big-science-bridging-academia-fabs.md)
+* [Navigating Procurement Cycles in Custom Instrument Prototyping for Big Science]({filename}/navigating-procurement-cycles-custom-instrument-prototyping-big-science.md)
