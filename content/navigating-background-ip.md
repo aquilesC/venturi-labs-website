@@ -36,3 +36,6 @@ Hardware innovations often involve collaboration between multiple institutions o
 ### Conclusion
 
 Untangling background IP is a meticulous, forensic process that requires a deep understanding of both technology and contract law. By implementing comprehensive IP audits and proactively managing MTAs and sponsor obligations, TTOs can clear the path to commercialization. Ensuring that a hardware spin-out possesses clean, unencumbered rights to its core technology is the most critical service a TTO can provide to maximize its chances of success in the venture market.
+
+### Related Reading
+* [Managing IP in Custom Instrument Prototyping for Big Science Collaborations]({filename}/managing-ip-custom-instrument-prototyping-big-science.md)

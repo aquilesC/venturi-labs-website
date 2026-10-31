@@ -38,3 +38,4 @@ Designing royalty structures for hardware asset carve-outs requires TTOs to thin
 
 ### Related Reading
 * [The Asset Carve-Out Model for Niche Scientific Instrument IP]({filename}/asset-carve-out-model-niche-scientific-instrument-ip.md)
+* [Managing IP in Custom Instrument Prototyping for Big Science Collaborations]({filename}/managing-ip-custom-instrument-prototyping-big-science.md)
