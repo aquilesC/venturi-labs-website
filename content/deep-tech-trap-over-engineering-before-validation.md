@@ -50,3 +50,4 @@ By separating *industrial reliability* from *feature bloat*, you escape the tech
 * [The Hardware Abstraction Layer: Decoupling Physics from Software]({filename}/hardware-abstraction-layer.md)
 * [From LabVIEW to Python: Modernizing Scientific Instrument Control]({filename}/labview-to-python.md)
 * [Grant Funding and the Tech Trap: Building for Reviewers vs. Customers]({filename}/grant-funding-tech-trap-building-for-reviewers-vs-customers.md)
+* [Avoiding the Tech Trap: A Customer Discovery Guide for Hardware Founders]({filename}/avoiding-tech-trap-customer-discovery-guide-hardware.md)

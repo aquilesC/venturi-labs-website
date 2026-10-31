@@ -44,3 +44,4 @@ Selling to labs builds your initial technology validation; selling to fabs build
 
 ### Related Reading
 * [Direct Sales Strategies for Your First Niche Scientific Instrument]({filename}/direct-sales-strategies-niche-scientific-instrument.md)
+* [Avoiding the Tech Trap: A Customer Discovery Guide for Hardware Founders]({filename}/avoiding-tech-trap-customer-discovery-guide-hardware.md)

@@ -47,3 +47,4 @@ Before committing capital to manufacture a five-unit batch, convert verbal enthu
 * [How to Price a Niche Scientific Instrument for Low-Volume Markets]({filename}/how-to-price-niche-scientific-instrument.md)
 * [Market Sizing for a Niche Scientific Instrument: Forget the Generic TAM]({filename}/market-sizing-niche-scientific-instrument-tam.md)
 * [The Economics of Commercializing a Niche Scientific Instrument]({filename}/economics-commercializing-niche-scientific-instrument.md)
+* [Avoiding the Tech Trap: A Customer Discovery Guide for Hardware Founders]({filename}/avoiding-tech-trap-customer-discovery-guide-hardware.md)

@@ -39,3 +39,4 @@ Securing the first five customers for an unfinished scientific instrument is an 
 ### Related Reading
 * [Direct Sales Strategies for Your First Niche Scientific Instrument]({filename}/direct-sales-strategies-niche-scientific-instrument.md)
 * [The Deep Tech Trap: Over-Engineering Before Customer Validation]({filename}/deep-tech-trap-over-engineering-before-validation.md)
+* [Avoiding the Tech Trap: A Customer Discovery Guide for Hardware Founders]({filename}/avoiding-tech-trap-customer-discovery-guide-hardware.md)
