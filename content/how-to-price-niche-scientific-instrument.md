@@ -45,3 +45,4 @@ Never apologize for the price of a niche scientific instrument that solves an ot
 * [Securing Your First 5 Customers in Deep Tech Hardware]({filename}/securing-first-5-customers.md)
 * [Selling to Fabs vs. Labs: Navigating Industrial vs. Academic Procurement]({filename}/selling-to-fabs-vs-labs.md)
 * [Beyond the Box: Creating Recurring Revenue Streams for Scientific Instruments]({filename}/recurring-revenue-hardware.md)
+* [Market Sizing for a Niche Scientific Instrument: Forget the Generic TAM]({filename}/market-sizing-niche-scientific-instrument-tam.md)

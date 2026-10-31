@@ -67,3 +67,4 @@ Grants are a mechanism to finance your transition from the bench to the marketâ€
 * [How to Budget an NWO Take-off Grant for Physical Hardware]({filename}/nwo-takeoff-budget.md)
 * [Securing Industry Letters of Support Early: The Key to Winning NWO Grants]({filename}/letters_support.md)
 * [De-Risking NWO & Horizon Europe Grants: A Strategic Approach for TTOs]({filename}/de-risking-NWO.md)
+* [Market Sizing for a Niche Scientific Instrument: Forget the Generic TAM]({filename}/market-sizing-niche-scientific-instrument-tam.md)

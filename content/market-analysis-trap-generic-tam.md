@@ -54,4 +54,4 @@ By embracing a bottom-up market analysis, you are telling the evaluators the tru
 * [Proving "Additionality": How to Justify Public Deep Tech Funding to Reviewers]({filename}/proving-additionality-deep-tech-grants.md)
 * [Securing the First 5 Customers: How to Get Meaningful LOIs for Unfinished Lab Instruments]({filename}/securing-first-5-customers.md)
 * [The VC Funding Mismatch for Deep Tech: Why Niche Hardware Needs a New Model]({filename}/vc-funding-mismatch.md)
-
+* [Market Sizing for a Niche Scientific Instrument: Forget the Generic TAM]({filename}/market-sizing-niche-scientific-instrument-tam.md)
