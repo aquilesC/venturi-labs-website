@@ -41,3 +41,6 @@ To successfully cross the divide, companies must aggressively harden their techn
 4.  **Changing the Sales Narrative:** Shift your pitch from "Look at this amazing new data you can generate" to "Here is how this tool reduces your scrap rate by 2% and pays for itself in four months."
 
 Selling to labs builds your initial technology validation; selling to fabs builds a massive, scalable business. However, they are two entirely distinct markets requiring completely different product iterations and go-to-market motions.
+
+### Related Reading
+* [Direct Sales Strategies for Your First Niche Scientific Instrument]({filename}/direct-sales-strategies-niche-scientific-instrument.md)

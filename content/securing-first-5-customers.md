@@ -35,3 +35,6 @@ If your alpha prototype is held together with zip-ties and requires a PhD to ope
 ### Conclusion
 
 Securing the first five customers for an unfinished scientific instrument is an exercise in relationship building and strategic de-risking. Treat the pursuit of meaningful LOIs with the same rigor you apply to product development. A robust set of specific, milestone-driven LOIs transforms your startup from a risky science project into a validated commercial enterprise, ready for the capital required to cross the finish line.
+
+### Related Reading
+* [Direct Sales Strategies for Your First Niche Scientific Instrument]({filename}/direct-sales-strategies-niche-scientific-instrument.md)

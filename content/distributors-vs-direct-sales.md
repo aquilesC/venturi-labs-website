@@ -45,3 +45,6 @@ Only when you have a proven, repeatable sales playbook, robust marketing collate
 ### Conclusion
 
 For low-volume, high-complexity lab tools, you cannot outsource the burden of market creation. Startups must embrace the difficult work of direct sales to establish a foothold and understand their customers. Distributors are a powerful tool for scaling an established product, but relying on them to launch a novel technology is a recipe for commercial failure.
+
+### Related Reading
+* [Direct Sales Strategies for Your First Niche Scientific Instrument]({filename}/direct-sales-strategies-niche-scientific-instrument.md)
