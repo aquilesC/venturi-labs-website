@@ -79,4 +79,4 @@ By mapping your capital needs against the strict TRL requirements of these instr
 * [Proving "Additionality": How to Justify Public Deep Tech Funding to Reviewers]({filename}/proving-additionality-deep-tech-grants.md)
 * [Demystifying the Execution Plan: Writing Work Packages That Survive Jury Scrutiny]({filename}/writing-grant-work-packages-execution-plan.md)
 * [NWO Take-off Phase 1 Budget Template and Feasibility Study Guide]({filename}/nwo-phase-1-budget.md)
-
+* [Scaling a Niche Scientific Instrument Without Diluting Founder Equity]({filename}/scaling-niche-scientific-instrument-without-equity-dilution.md)

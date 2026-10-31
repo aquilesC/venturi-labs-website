@@ -114,3 +114,4 @@ Additionally, if you are considering hiring an agency to navigate this complex a
 * [The VC Funding Mismatch for Deep Tech: Why Niche Hardware Needs a New Model]({filename}/vc-funding-mismatch.md)
 * [De-Risking NWO & Horizon Europe Grants: A Strategic Approach for TTOs]({filename}/de-risking-NWO.md)
 * [Asset Carve-Outs vs. Spin-offs: A Better Way to License Lab Instruments]({filename}/asset-carveout-vs-spinoff.md)
+* [Scaling a Niche Scientific Instrument Without Diluting Founder Equity]({filename}/scaling-niche-scientific-instrument-without-equity-dilution.md)

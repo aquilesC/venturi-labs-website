@@ -50,3 +50,4 @@ The goal of regional development is not to maximize the number of startups incor
 * [Funding Deep Tech: A Guide to Non-Dilutive Grants for Startups in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md)
 * [The VC Funding Mismatch for Deep Tech: Why Niche Hardware Needs a New Model]({filename}/vc-funding-mismatch.md)
 * [Asset Carve-Outs vs. Spin-offs: A Better Way to License Lab Instruments]({filename}/asset-carveout-vs-spinoff.md)
+* [Scaling a Niche Scientific Instrument Without Diluting Founder Equity]({filename}/scaling-niche-scientific-instrument-without-equity-dilution.md)
