@@ -52,3 +52,4 @@ Stop investing grant money into proprietary, unscalable LabVIEW architectures. T
 
 ### Related Reading
 * [Designing UX for Scientists: Moving Beyond Cluttered LabVIEW Interfaces]({filename}ux-for-scientists.md)
+* [The Engineering Rigor Required in Custom Instrument Prototyping for Big Science]({filename}/engineering-rigor-custom-instrument-prototyping-big-science.md)

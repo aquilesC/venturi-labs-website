@@ -22,3 +22,4 @@ In conclusion, thermal management for deep tech payloads is a highly specialized
 ### Related Reading
 * [The Ultimate Guide to CE Marking for Measuring Instruments]({filename}/ultimate-guide-ce-marking-measuring-instruments.md)
 * [The Role of Modular Chassis Design in CE Marking for Measuring Instruments]({filename}/modular-chassis-design-ce-marking-measuring-instruments.md)
+* [The Engineering Rigor Required in Custom Instrument Prototyping for Big Science]({filename}/engineering-rigor-custom-instrument-prototyping-big-science.md)

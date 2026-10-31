@@ -50,3 +50,4 @@ By treating custom instrument prototyping for big science as a disciplined syste
 * [From Researcher to Systems Engineer: The Mindset Shift Required for Hardware Commercialization]({filename}/researcher-to-systems-engineer.md)
 * [Custom Instrument Prototyping for Big Science: Bridging Academia and Fabs]({filename}/custom-instrument-prototyping-big-science-bridging-academia-fabs.md)
 * [Navigating Procurement Cycles in Custom Instrument Prototyping for Big Science]({filename}/navigating-procurement-cycles-custom-instrument-prototyping-big-science.md)
+* [The Engineering Rigor Required in Custom Instrument Prototyping for Big Science]({filename}/engineering-rigor-custom-instrument-prototyping-big-science.md)
