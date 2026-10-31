@@ -45,3 +45,4 @@ Designing power entry filters, protective earth topologies, and RF-tight enclosu
 * [The True Cost of a Hardware MVP]({filename}/true-cost-hardware-mvp.md)
 * [Budgeting the Hidden Costs of CE Marking for Measuring Instruments]({filename}/budgeting-hidden-costs-ce-marking-measuring-instruments.md)
 * [CE Marking for Measuring Instruments: When to Start Compliance Testing]({filename}/when-to-start-compliance-testing-ce-marking-measuring-instruments.md)
+* [Demystifying EMI Shielding in CE Marking for Measuring Instruments]({filename}/demystifying-emi-shielding-ce-marking-measuring-instruments.md)
