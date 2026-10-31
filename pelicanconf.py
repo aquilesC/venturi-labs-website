@@ -12,6 +12,15 @@ MENUITEMS = (
 
 PATH = 'content'
 
+STATIC_PATHS = [
+    'images',
+    'extra/robots.txt',
+]
+
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
+}
+
 # Serve pages at /slug/ instead of /pages/slug.html
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
