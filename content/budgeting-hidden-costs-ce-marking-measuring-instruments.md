@@ -53,3 +53,4 @@ For niche instruments with modest annual unit volumes, spending €80,000+ on cu
 * [How to Budget an NWO Take-off Grant for Physical Hardware]({filename}/nwo-takeoff-budget.md)
 * [Budgeting for Deep Tech Hardware Development]({filename}/budgeting.md)
 * [Economics of Commercializing a Niche Scientific Instrument]({filename}/economics-commercializing-niche-scientific-instrument.md)
+* [Why Academic Spin-Offs Fail at CE Marking for Measuring Instruments]({filename}/why-academic-spin-offs-fail-ce-marking-measuring-instruments.md)

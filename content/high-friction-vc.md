@@ -42,3 +42,4 @@ By shifting toward centralized productization models—where the heavy lifting o
 * [The Market Analysis Trap: Why Generic TAM Destroys Deep Tech Grants]({filename}/market-analysis-trap-generic-tam.md)
 * [Proving "Additionality": How to Justify Public Deep Tech Funding to Reviewers]({filename}/proving-additionality-deep-tech-grants.md)
 * [Why Venture Capital Misunderstands the Niche Scientific Instrument Market]({filename}/why-vc-misunderstands-niche-scientific-instrument-market.md)
+* [Why Academic Spin-Offs Fail at CE Marking for Measuring Instruments]({filename}/why-academic-spin-offs-fail-ce-marking-measuring-instruments.md)
