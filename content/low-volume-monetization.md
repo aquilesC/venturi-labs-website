@@ -49,3 +49,6 @@ For TTOs, this centralized model transforms the commercialization landscape. You
 By leveraging a productization partner, you can systematically monetize the long tail of your hardware portfolio. You generate immediate licensing revenue, fulfill your institutional impact mandates, and ensure that the brilliant physical tools developed in your labs actually make it into the hands of the researchers and industries that need them most. 
 
 The deep tech missing middle is not a graveyard for niche IP; with the right execution engine, it is your most untapped commercial asset.
+
+### Related Reading
+* [The Economics of Commercializing a Niche Scientific Instrument]({filename}/economics-commercializing-niche-scientific-instrument.md)

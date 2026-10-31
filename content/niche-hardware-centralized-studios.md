@@ -33,3 +33,6 @@ Centralized studios are uniquely positioned to partner effectively with universi
 The future of niche deep tech hardware depends on adopting new structural models that honestly recognize the unique, capital-intensive challenges of the sector. The traditional VC "swing for the fences" approach leaves too many viable, highly impactful technologies stranded in the lab. Centralized product studios provide the necessary scale, expertise, and capital efficiency to transform fragile academic prototypes into robust, market-ready instruments. 
 
 By embracing this collaborative, centralized model, the innovation ecosystem can finally unlock the full potential of specialized deep tech hardware, ensuring that critical scientific advancements reach the researchers and industries that need them most.
+
+### Related Reading
+* [The Economics of Commercializing a Niche Scientific Instrument]({filename}/economics-commercializing-niche-scientific-instrument.md)

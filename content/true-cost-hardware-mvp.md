@@ -28,3 +28,6 @@ When building an MVP, you do not have the purchasing power of a major manufactur
 To avoid running out of cash halfway through an MVP build, PIs must adopt a pessimistic financial modeling approach. You must budget for multiple complete redesigns. A good rule of thumb is to calculate what you think the MVP will cost, and then triple it to account for delays, broken tooling, and inevitable engineering roadblocks.
 
 For a deeper dive into structuring these early-stage finances, reviewing the principles in [Budgeting for Hardware Valorisation]({filename}budgeting.md) is essential. It provides a framework for communicating these unique capital requirements to specialized deep tech investors who understand that hardware takes more time and more money to get right. By presenting a realistic, mathematically sound budget, you distinguish yourself from founders who are naïvely applying software metrics to a hardware reality.
+
+### Related Reading
+* [The Economics of Commercializing a Niche Scientific Instrument]({filename}/economics-commercializing-niche-scientific-instrument.md)
