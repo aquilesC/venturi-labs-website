@@ -36,3 +36,4 @@ By embracing this collaborative, centralized model, the innovation ecosystem can
 
 ### Related Reading
 * [The Economics of Commercializing a Niche Scientific Instrument]({filename}/economics-commercializing-niche-scientific-instrument.md)
+* [How the Science Breadboard Accelerates CE Marking for Measuring Instruments]({filename}/science-breadboard-accelerates-ce-marking-measuring-instruments.md)

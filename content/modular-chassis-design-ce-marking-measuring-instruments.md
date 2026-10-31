@@ -47,3 +47,4 @@ Designing, tolerancing, and testing a modular compliance enclosure takes months 
 * [Why Academic Spin-Offs Fail at CE Marking for Measuring Instruments]({filename}/why-academic-spin-offs-fail-ce-marking-measuring-instruments.md)
 * [From 3D Printing to CNC: Scaling Hardware Enclosures]({filename}/3d-printing-to-cnc.md)
 * [The Science Breadboard: A Modular Architecture for Deep Tech]({filename}/breadboard.md)
+* [How the Science Breadboard Accelerates CE Marking for Measuring Instruments]({filename}/science-breadboard-accelerates-ce-marking-measuring-instruments.md)

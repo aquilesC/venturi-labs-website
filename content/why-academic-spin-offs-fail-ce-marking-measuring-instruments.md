@@ -42,3 +42,4 @@ Because the Science Breadboard provides a pre-engineered, EMI-shielded chassis, 
 * [Demystifying EMI Shielding in CE Marking for Measuring Instruments]({filename}/demystifying-emi-shielding-ce-marking-measuring-instruments.md)
 * [The TRL 4 Audit: A TTO's Guide to Hardware Commercialization]({filename}/trl-4-audit-tto.md)
 * [From Researcher to Systems Engineer: Bridging the Mindset Gap]({filename}/researcher-to-systems-engineer.md)
+* [How the Science Breadboard Accelerates CE Marking for Measuring Instruments]({filename}/science-breadboard-accelerates-ce-marking-measuring-instruments.md)

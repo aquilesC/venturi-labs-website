@@ -57,3 +57,4 @@ Physical R&D timelines drop from nine months to four months. Support debt is era
 * [From 3D Printing to CNC: Scaling Physical Components for Low-Volume Production]({filename}3d-printing-to-cnc.md)
 * [Sustainable Deep Tech: Designing Niche Lab Instruments for the Circular Economy]({filename}sustainable-deep-tech-circular-economy.md)
 * [The Role of Modular Chassis Design in CE Marking for Measuring Instruments]({filename}/modular-chassis-design-ce-marking-measuring-instruments.md)
+* [How the Science Breadboard Accelerates CE Marking for Measuring Instruments]({filename}/science-breadboard-accelerates-ce-marking-measuring-instruments.md)
