@@ -37,3 +37,4 @@ Hardware is hard, but it is also highly defensible once established. By discardi
 
 ### Related Reading
 * [Beyond the Box: Creating Recurring Revenue Streams for Scientific Instruments]({filename}recurring-revenue-hardware.md)
+* [Recurring Revenue Models for Niche Scientific Instrument Providers]({filename}/recurring-revenue-models-niche-scientific-instrument.md)

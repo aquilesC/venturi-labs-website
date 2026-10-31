@@ -45,3 +45,6 @@ For early-stage deep tech companies, full EaaS is often too risky. However, offe
 ### Conclusion
 
 Hardware is hard, but it doesn't have to be financially fragile. By architecting your instrument—from day one—to incorporate consumables, premium software tiers, and robust service contracts, you can build a resilient, high-margin business that commands software-like valuations while delivering undeniable physical value to the lab.
+
+### Related Reading
+* [Recurring Revenue Models for Niche Scientific Instrument Providers]({filename}/recurring-revenue-models-niche-scientific-instrument.md)
