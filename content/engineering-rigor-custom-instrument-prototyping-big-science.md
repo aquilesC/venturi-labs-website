@@ -43,3 +43,4 @@ This level of engineering rigor is why custom instrument prototyping for big sci
 * [The Science Breadboard: A Modular Architecture for Deep Tech Prototypes]({filename}/breadboard.md)
 * [Thermal Management in Deep Tech Hardware: Why Passive Cooling Fails at Scale]({filename}/thermal-management-deep-tech.md)
 * [Navigating Procurement Cycles in Big Science Hardware]({filename}/navigating-procurement-cycles-custom-instrument-prototyping-big-science.md)
+* [Remote Telemetry and Custom Instrument Prototyping for Big Science]({filename}/remote-telemetry-custom-instrument-prototyping-big-science.md)

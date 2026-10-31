@@ -39,3 +39,4 @@ By proactively addressing the financial realities of deep tech hardware, TTOs an
 * [Funding Deep Tech: A Guide to Non-Dilutive Grants for Startups in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md)
 * [Navigating the EIC Accelerator: Adapting Deep Tech Hardware for European Scaling Funds]({filename}eic-accelerator-deep-tech.md)
 * [Recurring Revenue Models for Niche Scientific Instrument Providers]({filename}/recurring-revenue-models-niche-scientific-instrument.md)
+* [Remote Telemetry and Custom Instrument Prototyping for Big Science]({filename}/remote-telemetry-custom-instrument-prototyping-big-science.md)

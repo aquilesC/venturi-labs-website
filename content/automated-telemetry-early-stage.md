@@ -24,3 +24,6 @@ Furthermore, the telemetry system itself must be resilient. It needs to reliably
 
 Conclusion
 In the complex and resource-constrained environment of early-stage hardware development, automated telemetry is a powerful force multiplier. By providing continuous, granular visibility into system performance, it transforms the iteration process from guesswork into a precise, data-driven science. Instruments designed with comprehensive telemetry from the ground up iterate faster, achieve higher reliability, and ultimately reach the market with a stronger competitive advantage.
+
+### Related Reading
+* [Remote Telemetry and Custom Instrument Prototyping for Big Science]({filename}/remote-telemetry-custom-instrument-prototyping-big-science.md)

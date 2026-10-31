@@ -39,3 +39,4 @@ Once your venture has converted **custom instrument prototyping for big science*
 * [Low-Volume Manufacturing for Scientific Hardware: Bridging the Gap]({filename}/low-volume-manufacturing.md)
 * [Managing IP in Big Science Hardware Collaborations]({filename}/managing-ip-custom-instrument-prototyping-big-science.md)
 * [Bridging Academia and Fabs via Big Science Hardware]({filename}/custom-instrument-prototyping-big-science-bridging-academia-fabs.md)
+* [Remote Telemetry and Custom Instrument Prototyping for Big Science]({filename}/remote-telemetry-custom-instrument-prototyping-big-science.md)
