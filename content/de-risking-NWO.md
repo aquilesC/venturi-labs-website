@@ -49,3 +49,4 @@ By shifting your TTO's strategy from post-award incubation to pre-award matchmak
 * [Funding Deep Tech: A Guide to Non-Dilutive Grants for Startups in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md)
 * [Beyond the Initial Grant: How to Fund the Ongoing Maintenance Phase of a Deep Tech Instrument]({filename}funding-maintenance-phase.md)
 * [Securing the First 5 Customers: How to Get Meaningful LOIs for Unfinished Lab Instruments]({filename}securing-first-5-customers.md)
+* [Grant Consortiums and Custom Instrument Prototyping for Big Science]({filename}/grant-consortiums-custom-instrument-prototyping-big-science.md)

@@ -21,4 +21,4 @@ In conclusion, managing a Horizon Europe consortium is a sophisticated exercise 
 * [Funding Deep Tech: A Guide to Non-Dilutive Grants for Startups in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md)
 * [How to Write the Horizon Europe Impact Pathway Section for Hardware Projects]({filename}/write-horizon-impact.md)
 * [Navigating the EIC Accelerator: Adapting Deep Tech Hardware for European Scaling Funds]({filename}/eic-accelerator-deep-tech.md)
-
+* [Grant Consortiums and Custom Instrument Prototyping for Big Science]({filename}/grant-consortiums-custom-instrument-prototyping-big-science.md)

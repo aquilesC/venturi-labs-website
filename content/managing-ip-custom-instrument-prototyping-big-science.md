@@ -41,3 +41,4 @@ By aligning modular systems engineering with proactive IP ring-fencing, custom i
 * [Structuring Royalties in Deep Tech Hardware Carve-Outs]({filename}/royalty-structures-carve-outs.md)
 * [Licensing vs. Spin-Offs: When Not to Incorporate a Hardware Startup]({filename}/licensing-vs-spinoffs.md)
 * [Navigating Procurement Cycles in Custom Instrument Prototyping for Big Science]({filename}/navigating-procurement-cycles-custom-instrument-prototyping-big-science.md)
+* [Grant Consortiums and Custom Instrument Prototyping for Big Science]({filename}/grant-consortiums-custom-instrument-prototyping-big-science.md)

@@ -68,3 +68,4 @@ By strategically inserting a specialized execution partner into your Horizon Eur
 * [Funding Deep Tech: A Guide to Non-Dilutive Grants for Startups in Europe]({filename}/funding-deep-tech-non-dilutive-grants.md)
 * [Managing Horizon Europe Consortia: Aligning Academic Research with Industrial Productization]({filename}/managing-horizon-europe-consortia.md)
 * [Navigating the EIC Accelerator: Adapting Deep Tech Hardware for European Scaling Funds]({filename}/eic-accelerator-deep-tech.md)
+* [Grant Consortiums and Custom Instrument Prototyping for Big Science]({filename}/grant-consortiums-custom-instrument-prototyping-big-science.md)
