@@ -35,3 +35,6 @@ In hardware, the spin-out may eventually sublicense the core technology to large
 ### Conclusion
 
 Designing royalty structures for hardware asset carve-outs requires TTOs to think like venture investors rather than pure licensors. By employing tiered, margin-based, or equity-weighted structures, TTOs can provide the financial flexibility these deep-tech spin-outs desperately need. This strategic foresight not only increases the probability of the startup's survival but ultimately maximizes the long-term financial return for the research institution.
+
+### Related Reading
+* [The Asset Carve-Out Model for Niche Scientific Instrument IP]({filename}/asset-carve-out-model-niche-scientific-instrument-ip.md)

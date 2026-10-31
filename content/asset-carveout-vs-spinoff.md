@@ -67,3 +67,4 @@ For TTOs whose mandate is to maximize the impact of academic research, the asset
 ### Related Reading
 * [Licensing vs. Spin-offs: A Strategic Flowchart for TTOs Evaluating Physical Instruments]({filename}licensing-vs-spinoffs.md)
 * [Designing Royalty Structures for Hardware Asset Carve-Outs]({filename}royalty-structures-carve-outs.md)
+* [The Asset Carve-Out Model for Niche Scientific Instrument IP]({filename}/asset-carve-out-model-niche-scientific-instrument-ip.md)

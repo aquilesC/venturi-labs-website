@@ -30,3 +30,6 @@ To systematize this decision, TTOs should employ a strategic flowchart that eval
 If a spin-off is the chosen path, TTOs must prepare the founders for the funding landscape they are about to enter. Finding the right investors is crucial; TTOs should guide teams away from [high-friction VC funding]({filename}high-friction-vc.md) that applies software metrics to hardware realities.
 
 Ultimately, the goal is to ensure the technology reaches its highest commercial potential. By rigorously applying this strategic framework, TTOs can navigate the complex choice between licensing and spin-offs, maximizing both financial returns and societal impact.
+
+### Related Reading
+* [The Asset Carve-Out Model for Niche Scientific Instrument IP]({filename}/asset-carve-out-model-niche-scientific-instrument-ip.md)

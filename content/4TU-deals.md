@@ -42,3 +42,6 @@ In a standard spin-off, the university and the academic founders are constantly 
 In the carve-out model, there is no dilution because there is no external venture capital. The execution partner funds the industrialization sprint by aggregating the engineering costs across multiple university instruments. The university receives a clean, predictable royalty stream based on gross sales, while the academic inventors are often hired by the partner as "valorising agents" to oversee the transition without taking on personal financial risk.
 
 By looking beyond the standard 4TU deal terms and embracing asset carve-outs, TTOs can rescue "un-fundable" niche hardware from the academic bench. It ensures that public R&D investment translates into globally deployable technology, generating steady returns without the friction of the [startup trap]({filename}/startup_trap.md).
+
+### Related Reading
+* [The Asset Carve-Out Model for Niche Scientific Instrument IP]({filename}/asset-carve-out-model-niche-scientific-instrument-ip.md)
