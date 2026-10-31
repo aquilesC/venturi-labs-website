@@ -48,3 +48,4 @@ By treating custom instrument prototyping for big science as a disciplined syste
 * [From 3D Printing to CNC: When to Upgrade Your Prototype's Mechanical Housing]({filename}/3d-printing-to-cnc.md)
 * [The Role of Automated Telemetry in Iterating Early-Stage Scientific Instruments]({filename}/automated-telemetry-early-stage.md)
 * [From Researcher to Systems Engineer: The Mindset Shift Required for Hardware Commercialization]({filename}/researcher-to-systems-engineer.md)
+* [Custom Instrument Prototyping for Big Science: Bridging Academia and Fabs]({filename}/custom-instrument-prototyping-big-science-bridging-academia-fabs.md)

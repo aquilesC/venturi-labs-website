@@ -21,3 +21,4 @@ In conclusion, scaling physical components for low-volume production is more tha
 
 ### Related Reading
 * [The Role of Modular Chassis Design in CE Marking for Measuring Instruments]({filename}/modular-chassis-design-ce-marking-measuring-instruments.md)
+* [Custom Instrument Prototyping for Big Science: Bridging Academia and Fabs]({filename}/custom-instrument-prototyping-big-science-bridging-academia-fabs.md)
